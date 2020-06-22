@@ -1,7 +1,7 @@
 import socket
 from time import sleep
 
-host = '172.17.0.1'
+host = 'localhost'
 port = 9090
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

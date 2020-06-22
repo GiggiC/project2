@@ -9,7 +9,6 @@ import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
-import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 import scala.Tuple2;
 
 import static it.uniroma2.utils.Utils.*;
