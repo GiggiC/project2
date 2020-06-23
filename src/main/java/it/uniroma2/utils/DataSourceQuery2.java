@@ -23,7 +23,7 @@ public class DataSourceQuery2 {
         SimpleDateFormat output = new SimpleDateFormat("HH:mm:ss");
 
         Date firstIntervalStart = output.parse("5:00:00");
-        Date firstIntervalEnd = output.parse("11:59:00");
+        Date firstIntervalEnd = output.parse("12:00:00");
 
         Date secondIntervalStart = output.parse("12:00:00");
         Date secondIntervalEnd = output.parse("19:00:00");
@@ -39,15 +39,19 @@ public class DataSourceQuery2 {
                 String str = output.format(d);
                 Date d2 = output.parse(str);
 
-                String result = "";
+                String result;
 
-                if (d2.compareTo(firstIntervalStart) > 0 && d2.compareTo(firstIntervalEnd) < 0)
+                if (d2.compareTo(firstIntervalStart) > 0 && d2.compareTo(firstIntervalEnd) < 0) {
+
                     result = splittedLine[5] + "," + formattedTime + "," + 1;
+                    arrayList.add(result);
+                }
 
-                if (d2.compareTo(secondIntervalStart) > 0 && d2.compareTo(secondIntervalEnd) < 0)
+                if (d2.compareTo(secondIntervalStart) > 0 && d2.compareTo(secondIntervalEnd) < 0) {
+
                     result = splittedLine[5] + "," + formattedTime + "," + 2;
-
-                arrayList.add(result);
+                    arrayList.add(result);
+                }
             }
 
         } catch (IOException | ParseException e) {

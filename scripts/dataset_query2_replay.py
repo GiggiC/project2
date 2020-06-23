@@ -2,7 +2,7 @@ import socket
 from time import sleep
 
 host = 'localhost'
-port = 9001
+port = 9003
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))

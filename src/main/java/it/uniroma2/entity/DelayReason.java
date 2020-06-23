@@ -1,23 +1,16 @@
 package it.uniroma2.entity;
 
+import scala.Tuple2;
+import java.util.ArrayList;
+
 public class DelayReason {
 
     public String outputDate;
     public long eventTime;
-    public String delayReason;
-    public int delayReasonCount;
+    public ArrayList<Tuple2<String, Integer>> rankedList;
     public int interval;
 
-    public DelayReason() {
-    }
-
-    public DelayReason(String outputDate, long eventTime, String delayReason, int delayReasonCount, int interval) {
-        this.outputDate = outputDate;
-        this.eventTime = eventTime;
-        this.delayReason = delayReason;
-        this.delayReasonCount = delayReasonCount;
-        this.interval = interval;
-    }
+    public DelayReason() {}
 
     public long getEventTime() {
         return eventTime;
@@ -25,22 +18,6 @@ public class DelayReason {
 
     public void setEventTime(long eventTime) {
         this.eventTime = eventTime;
-    }
-
-    public String getDelayReason() {
-        return delayReason;
-    }
-
-    public void setDelayReason(String delayReason) {
-        this.delayReason = delayReason;
-    }
-
-    public int getDelayReasonCount() {
-        return delayReasonCount;
-    }
-
-    public void setDelayReasonCount(int delayReasonCount) {
-        this.delayReasonCount = delayReasonCount;
     }
 
     public String getOutputDate() {
@@ -59,8 +36,17 @@ public class DelayReason {
         this.interval = interval;
     }
 
+    public ArrayList<Tuple2<String, Integer>> getRankedList() {
+        return rankedList;
+    }
+
+    public void setRankedList(ArrayList<Tuple2<String, Integer>> rankedList) {
+        this.rankedList = rankedList;
+    }
+
     @Override
     public String toString() {
-        return outputDate + "," + delayReason + "," + delayReasonCount + "," + interval;
+
+        return outputDate + "," + rankedList + "," + interval;
     }
 }

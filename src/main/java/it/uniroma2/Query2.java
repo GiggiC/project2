@@ -39,8 +39,6 @@ public class Query2 {
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
-        //StreamTableEnvironment tEnv = StreamTableEnvironment.create(env);
-
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, port, "\n");
 
@@ -55,14 +53,27 @@ public class Query2 {
                     }
                 })
 
+                .keyBy(new KeySelector<DelayReason, Object>() {
+                    @Override
+                    public Object getKey(DelayReason delayReason) throws Exception {
+                        String delayReasonKey = delayReason.rankedList.get(0)._1;
+                        Integer intervalKey = delayReason.interval;
+
+                        return new Tuple2<>(delayReasonKey, intervalKey);                    }
+                })
+
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                .reduce((a, b) -> delayReasonCount(a, b))
+
                 .keyBy(new KeySelector<DelayReason, Tuple2<String, Integer>>() {
                     @Override
-                    public Tuple2<String, Integer> getKey(DelayReason delayReason) {
-                        return new Tuple2<>(delayReason.delayReason, delayReason.interval);
+                    public Tuple2<String, Integer> getKey(DelayReason delayReason) throws Exception {
+                        return new Tuple2<>(delayReason.outputDate, delayReason.interval);
                     }
                 })
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> new DelayReason(a.outputDate, a.eventTime, a.delayReason,a.delayReasonCount + b.delayReasonCount, a.interval));
+
+                .reduce((a, b) -> intervalReducer(a, b));
 
         boroWithAverage.print();
 
