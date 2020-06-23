@@ -73,7 +73,7 @@ public class Query2 {
                     }
                 })
 
-                .reduce((a, b) -> intervalReducer(a, b));
+                .reduce((a, b) -> multipleIntervalReducer(a, b));
 
         boroWithAverage.print();
 

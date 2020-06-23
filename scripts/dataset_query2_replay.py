@@ -2,7 +2,7 @@ import socket
 from time import sleep
 
 host = 'localhost'
-port = 9003
+port = 9091
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
@@ -19,7 +19,7 @@ while True:
                 out = line.encode('utf-8')
                 print('Sending line', line)
                 conn.send(out)
-                sleep(0.5)
+                #sleep(0.005)
             print('End Of Stream.')
     except socket.error:
         print('Error Occured.\n\nClient disconnected.\n')

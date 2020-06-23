@@ -20,13 +20,14 @@ public class DataSourceQuery2 {
 
         ArrayList<String> arrayList = new ArrayList<>();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
-        SimpleDateFormat output = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat output1 = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat output2 = new SimpleDateFormat("HH:mm:ss");
 
-        Date firstIntervalStart = output.parse("5:00:00");
-        Date firstIntervalEnd = output.parse("12:00:00");
+        Date firstIntervalStart = output1.parse("5:00:00");
+        Date firstIntervalEnd = output1.parse("12:00:00");
 
-        Date secondIntervalStart = output.parse("12:00:00");
-        Date secondIntervalEnd = output.parse("19:00:00");
+        Date secondIntervalStart = output1.parse("12:00:00");
+        Date secondIntervalEnd = output1.parse("19:00:00");
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
@@ -36,20 +37,20 @@ public class DataSourceQuery2 {
                 Date d = sdf.parse(splittedLine[7]);
                 long formattedTime = d.getTime();
 
-                String str = output.format(d);
-                Date d2 = output.parse(str);
+                String str = output1.format(d);
+                Date d2 = output1.parse(str);
 
                 String result;
 
                 if (d2.compareTo(firstIntervalStart) > 0 && d2.compareTo(firstIntervalEnd) < 0) {
 
-                    result = splittedLine[5] + "," + formattedTime + "," + 1;
+                    result = splittedLine[5] + "," + formattedTime + "," + splittedLine[7].substring(0, 10) + "," + 1;
                     arrayList.add(result);
                 }
 
                 if (d2.compareTo(secondIntervalStart) > 0 && d2.compareTo(secondIntervalEnd) < 0) {
 
-                    result = splittedLine[5] + "," + formattedTime + "," + 2;
+                    result = splittedLine[5] + "," + formattedTime + "," + splittedLine[7].substring(0, 10) + "," + 2;
                     arrayList.add(result);
                 }
             }

@@ -3,24 +3,21 @@ package it.uniroma2.utils;
 import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
 import scala.Tuple2;
-import scala.collection.immutable.Stream;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 
 public class Utils {
 
-    static SimpleDateFormat sdf = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzz yyyy");
+    static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
     static SimpleDateFormat outputQuery1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     static SimpleDateFormat outputQuery2 = new SimpleDateFormat("yyyy-MM-dd");
 
-    public static BoroWithDelay csvParsingQuery1(String line) throws ParseException {
+    public static BoroWithDelay csvParsingQuery1(String line) {
 
         String[] splittedLine = line.split(",");
-        Date d = sdf.parse(String.valueOf(new Date(Long.parseLong(splittedLine[0]))));
+        Date d = new Date(Long.parseLong(splittedLine[0]));
         String formattedTime = outputQuery1.format(d);
 
         BoroWithDelay result = new BoroWithDelay();
@@ -36,11 +33,10 @@ public class Utils {
 
     public static BoroWithDelay computeAverage(BoroWithDelay a, BoroWithDelay b) throws ParseException {
 
-        Date d = sdf.parse(String.valueOf(new Date(b.getEventTime())));
-        String formattedTime = outputQuery1.format(d);
+        Date formattedTime = outputQuery1.parse(String.valueOf(a.getEventTime()));
 
         BoroWithDelay result = new BoroWithDelay();
-        result.setOutputDate(formattedTime);
+        result.setOutputDate(String.valueOf(formattedTime));
         result.setEventTime(a.getEventTime());
         result.setBoro(a.getBoro());
         result.setCount(a.getCount() + b.getCount());
@@ -59,20 +55,18 @@ public class Utils {
         return result;
     }
 
-    public static DelayReason csvParsingQuery2(String line) throws ParseException {
+    public static DelayReason csvParsingQuery2(String line) {
 
         String[] splittedLine = line.split(",");
-        Date d = sdf.parse(String.valueOf(new Date(Long.parseLong(splittedLine[1]))));
-        String formattedTime = outputQuery2.format(d);
 
         ArrayList<Tuple2<String, Integer>> list = new ArrayList<>();
         list.add(new Tuple2<>(splittedLine[0], 1));
 
         DelayReason result = new DelayReason();
-        result.setOutputDate(formattedTime);
         result.setEventTime(Long.parseLong(splittedLine[1]));
+        result.setOutputDate(splittedLine[2]);
+        result.setInterval(Integer.parseInt(splittedLine[3]));
         result.setRankedList(list);
-        result.setInterval(Integer.parseInt(splittedLine[2]));
 
         return result;
     }
@@ -87,7 +81,7 @@ public class Utils {
         return a;
     }
 
-    public static DelayReason intervalReducer(DelayReason a, DelayReason b) {
+    public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b) {
 
         a.getRankedList().addAll(b.getRankedList());
         TupleComparator comparator = new TupleComparator();
