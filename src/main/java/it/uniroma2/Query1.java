@@ -56,6 +56,7 @@ public class Query1 {
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> computeAverage(a, b))
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)
+                .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> inlineDate(a, b));
 
         boroWithAverage.print();

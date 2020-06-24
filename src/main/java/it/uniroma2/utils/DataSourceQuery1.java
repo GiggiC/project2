@@ -51,7 +51,7 @@ public class DataSourceQuery1 {
                                     if (value > max)
                                         max = value;
 
-                                    line = formattedTime + "," + boro + "," + max;
+                                    line = formattedTime + "," + splittedLine[7].substring(0, 10)+ "," + boro + "," + max;
 
                                 }
 
@@ -71,7 +71,7 @@ public class DataSourceQuery1 {
                                     if (value > max)
                                         max = value;
 
-                                    line = formattedTime + "," + boro + "," + max;
+                                    line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + boro + "," + max;
 
                                 }
 
@@ -79,7 +79,7 @@ public class DataSourceQuery1 {
 
                         } else {
 
-                            line = formattedTime + "," + boro + "," + delay.replaceAll("[^0-9]", "");
+                            line = formattedTime+ "," + splittedLine[7].substring(0, 10) + "," + boro + "," + delay.replaceAll("[^0-9]", "");
                         }
 
                         arrayList.add(line);
@@ -92,18 +92,18 @@ public class DataSourceQuery1 {
                                 || splittedLine[11].equals("45 min-1hr") || splittedLine[11].equals("45mini/1hr") || splittedLine[11].equals("45min -1hr") || splittedLine[11].equals("45min - 1h")
                                 || splittedLine[11].equals("45/1hour") || splittedLine[11].equals("45 -1 hour") || splittedLine[11].equals("45 min-1 h") || splittedLine[11].equals("45-1hour")) {
 
-                            line = formattedTime + "," + boro + "," + "60";
+                            line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + boro + "," + "60";
                             arrayList.add(line);
 
                         } else {
 
-                            line = formattedTime + "," + splittedLine[9] + "," + splittedLine[11];
+                            line = formattedTime + "," + splittedLine[7].substring(0, 10)+ "," + splittedLine[9] + "," + splittedLine[11];
                             other.add(line);
                         }
 
                     } else {
 
-                        line = formattedTime + "," + splittedLine[9] + "," + splittedLine[11];
+                        line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + splittedLine[9] + "," + splittedLine[11];
                         other.add(line);
                     }
 

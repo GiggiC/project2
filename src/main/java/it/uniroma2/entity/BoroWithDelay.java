@@ -11,15 +11,7 @@ public class BoroWithDelay implements Serializable {
     public long delay;
     public double average;
 
-    public BoroWithDelay() {
-    }
-
-    public BoroWithDelay(long eventTime, String boro, long delay, long count) {
-        this.eventTime = eventTime;
-        this.boro = boro;
-        this.delay = delay;
-        this.count = count;
-    }
+    public BoroWithDelay() {}
 
     public long getEventTime() {
         return eventTime;
@@ -71,6 +63,6 @@ public class BoroWithDelay implements Serializable {
 
     @Override
     public String toString() {
-        return outputDate + "," + boro + "," + average;
+        return outputDate + "," + boro;
     }
 }

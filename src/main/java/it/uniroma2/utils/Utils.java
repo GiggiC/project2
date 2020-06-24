@@ -2,41 +2,33 @@ package it.uniroma2.utils;
 
 import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
+import org.apache.commons.lang3.StringUtils;
 import scala.Tuple2;
+
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Utils {
-
-    static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
-    static SimpleDateFormat outputQuery1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-    static SimpleDateFormat outputQuery2 = new SimpleDateFormat("yyyy-MM-dd");
 
     public static BoroWithDelay csvParsingQuery1(String line) {
 
         String[] splittedLine = line.split(",");
-        Date d = new Date(Long.parseLong(splittedLine[0]));
-        String formattedTime = outputQuery1.format(d);
 
         BoroWithDelay result = new BoroWithDelay();
-        result.setOutputDate(formattedTime);
+        result.setOutputDate(splittedLine[1]);
         result.setEventTime(Long.parseLong(splittedLine[0]));
-        result.setBoro(splittedLine[1]);
+        result.setBoro(splittedLine[2]);
         result.setCount(1);
-        result.setDelay(Long.parseLong(splittedLine[2]));
-        result.setAverage(Double.parseDouble(splittedLine[2]));
+        result.setDelay(Long.parseLong(splittedLine[3]));
+        result.setAverage(Double.parseDouble(splittedLine[3]));
 
         return result;
     }
 
-    public static BoroWithDelay computeAverage(BoroWithDelay a, BoroWithDelay b) throws ParseException {
-
-        Date formattedTime = outputQuery1.parse(String.valueOf(a.getEventTime()));
+    public static BoroWithDelay computeAverage(BoroWithDelay a, BoroWithDelay b) {
 
         BoroWithDelay result = new BoroWithDelay();
-        result.setOutputDate(String.valueOf(formattedTime));
+        result.setOutputDate(a.getOutputDate());
         result.setEventTime(a.getEventTime());
         result.setBoro(a.getBoro());
         result.setCount(a.getCount() + b.getCount());
@@ -50,7 +42,7 @@ public class Utils {
 
         BoroWithDelay result = new BoroWithDelay();
         result.setOutputDate(a.getOutputDate());
-        result.setBoro(a.getBoro() + ":" + a.getDelay() + "," + b.getBoro() + ":" + b.getDelay());
+        result.setBoro(a.getBoro() + ":" + a.getAverage() + "," + b.getBoro() + ":" + b.getAverage());
 
         return result;
     }
@@ -84,6 +76,20 @@ public class Utils {
     public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b) {
 
         a.getRankedList().addAll(b.getRankedList());
+
+        for (int i = 0; i < a.getRankedList().size(); i++) {
+
+            for (int j = 0; j < a.getRankedList().size(); j++) {
+
+                if (a.getRankedList().get(i)._1.equals(a.getRankedList().get(j)._1) && i != j) {
+
+                    a.getRankedList().set(i, new Tuple2<>(a.getRankedList().get(i)._1, a.getRankedList().get(i)._2 + a.getRankedList().get(j)._2));
+                    a.getRankedList().remove(j);
+                }
+            }
+        }
+
+
         TupleComparator comparator = new TupleComparator();
 
         a.getRankedList().sort(comparator);
@@ -92,5 +98,38 @@ public class Utils {
             a.getRankedList().subList(3, a.getRankedList().size()).clear();
 
         return a;
+    }
+
+    public static DelayReason outputIntervalReducer(DelayReason a, DelayReason b) {
+
+        a.getRankedList().addAll(b.getRankedList());
+
+        return a;
+    }
+
+    public static DelayReason stremsUnion(DelayReason a, DelayReason b) {
+
+        String resultA = "";
+        String resultB = "";
+        String result1 = "";
+
+        if (a.getRankedList() != null) {
+
+            for (int i = 0; i < a.getRankedList().size(); i++)
+                resultA = resultA + a.getRankedList().get(i)._1 + ":" + a.getRankedList().get(i)._2 + ",";
+        }
+
+        if (b.getRankedList() != null) {
+
+            for (int i = 0; i < b.getRankedList().size(); i++)
+                resultB = resultB + "," + b.getRankedList().get(i)._1 + ":" + b.getRankedList().get(i)._2;
+        }
+
+        result1 = a.outputDate + ",5:00-11:59," + resultA + "12:00-19:00" + resultB;
+
+        DelayReason delayReason = new DelayReason();
+        delayReason.setOutputString(result1);
+
+        return delayReason;
     }
 }

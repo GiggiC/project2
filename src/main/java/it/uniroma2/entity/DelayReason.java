@@ -9,6 +9,7 @@ public class DelayReason {
     public long eventTime;
     public ArrayList<Tuple2<String, Integer>> rankedList;
     public int interval;
+    public String outputString;
 
     public DelayReason() {}
 
@@ -44,9 +45,23 @@ public class DelayReason {
         this.rankedList = rankedList;
     }
 
+    public String getOutputString() {
+        return outputString;
+    }
+
+    public void setOutputString(String outputString) {
+        this.outputString = outputString;
+    }
+
     @Override
     public String toString() {
 
-        return outputDate + "," + rankedList + "," + interval;
+        return outputString;
     }
+
+    /*@Override
+    public String toString() {
+
+        return outputDate + "," + rankedList + "," + interval;
+    }*/
 }
