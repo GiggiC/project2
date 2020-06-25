@@ -12,10 +12,12 @@ public class DelayReason {
     public String outputDate;
     public long eventTime;
     public ArrayList<Tuple2<String, Integer>> rankedList;
+    public ArrayList<Tuple2<String, Integer>> rankedListAM;
+    public ArrayList<Tuple2<String, Integer>> rankedListPM;
     public int interval;
-    public String outputString;
 
-    public DelayReason() {}
+    public DelayReason() {
+    }
 
     public long getEventTime() {
         return eventTime;
@@ -49,38 +51,58 @@ public class DelayReason {
         this.rankedList = rankedList;
     }
 
-    public String getOutputString() {
-        return outputString;
+    public ArrayList<Tuple2<String, Integer>> getRankedListAM() {
+        return rankedListAM;
     }
 
-    public void setOutputString(String outputString) {
-        this.outputString = outputString;
+    public void setRankedListAM(ArrayList<Tuple2<String, Integer>> rankedListAM) {
+        this.rankedListAM = rankedListAM;
+    }
+
+    public ArrayList<Tuple2<String, Integer>> getRankedListPM() {
+        return rankedListPM;
+    }
+
+    public void setRankedListPM(ArrayList<Tuple2<String, Integer>> rankedListPM) {
+        this.rankedListPM = rankedListPM;
     }
 
     @Override
     public String toString() {
 
-        return outputString;
-    }
-
-    /*@Override
-    public String toString() {
-
-        Date expiry = new Date(Long.parseLong(outputDate));
+        Date outDate = new Date(Long.parseLong(outputDate));
 
         SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
-        SimpleDateFormat formatneeded=new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-        Date date1 = null;
+        Date outDateString = null;
 
         try {
-            date1 = formatnow.parse(String.valueOf(expiry));
+
+            outDateString = formatnow.parse(String.valueOf(outDate));
+
         } catch (ParseException e) {
+
             e.printStackTrace();
         }
 
-        String date2 = formatneeded.format(date1);
+        String formattedDate = outFormat.format(outDateString);
 
-        return date2 + "," + rankedList + "," + interval;
-    }*/
+        String resultAM = "";
+        String resultPM = "";
+
+        if (rankedListAM != null) {
+
+            for (Tuple2<String, Integer> item : rankedListAM)
+                resultAM = resultAM + item._1 + ":" + item._2 + ",";
+        }
+
+        if (rankedListPM != null) {
+
+            for (Tuple2<String, Integer> item : rankedListPM)
+                resultPM = resultPM + "," + item._1 + ":" + item._2;
+        }
+
+        return formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM;
+    }
 }

@@ -56,23 +56,31 @@ public class Utils {
 
         DelayReason result = new DelayReason();
         result.setEventTime(Long.parseLong(splittedLine[1]));
-        result.setInterval(Integer.parseInt(splittedLine[3]));
+        result.setInterval(Integer.parseInt(splittedLine[2]));
         result.setRankedList(list);
 
+        if (result.getInterval() == 1) {
+
+            result.setRankedListAM(result.getRankedList());
+            return result;
+        }
+
+        result.setRankedListPM(result.getRankedList());
+
         return result;
+
     }
 
     public static DelayReason delayReasonCount(DelayReason a, DelayReason b) {
 
         ArrayList<Tuple2<String, Integer>> result = new ArrayList<>();
         result.add(new Tuple2<>(a.getRankedList().get(0)._1, a.getRankedList().get(0)._2 + b.getRankedList().get(0)._2));
-
         a.setRankedList(result);
 
         return a;
     }
 
-    public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b) {
+    public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b, int interval) {
 
         a.getRankedList().addAll(b.getRankedList());
 
@@ -88,7 +96,6 @@ public class Utils {
             }
         }
 
-
         TupleComparator comparator = new TupleComparator();
 
         a.getRankedList().sort(comparator);
@@ -96,42 +103,31 @@ public class Utils {
         if (a.getRankedList().size() > 2)
             a.getRankedList().subList(3, a.getRankedList().size()).clear();
 
+        if (interval == 1) {
+
+            a.setRankedListAM(a.getRankedList());
+            return a;
+        }
+
+        a.setRankedListPM(a.getRankedList());
+
         return a;
     }
 
-    public static DelayReason outputIntervalReducer(DelayReason a, DelayReason b) {
+    public static DelayReason streamsUnion(DelayReason a, DelayReason b) {
 
-        a.getRankedList().addAll(b.getRankedList());
-
-        return a;
-    }
-
-    public static DelayReason stremsUnion(DelayReason a, DelayReason b) throws ParseException {
-
-        /*String resultA = "";
-        String resultB = "";
-        String result1 = "";
-
-        if (a.getRankedList() != null) {
-
-            for (int i = 0; i < a.getRankedList().size(); i++)
-                resultA = resultA + a.getRankedList().get(i)._1 + ":" + a.getRankedList().get(i)._2 + ",";
-        }
-
-        if (b.getRankedList() != null) {
-
-            for (int i = 0; i < b.getRankedList().size(); i++)
-                resultB = resultB + "," + b.getRankedList().get(i)._1 + ":" + b.getRankedList().get(i)._2;
-        }
-
-        SimpleDateFormat parserSDF = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzzz yyyy");
-        SimpleDateFormat output = new SimpleDateFormat("yyyy-MM-dd");
-        Date date = parserSDF.parse(String.valueOf(new Date(Long.parseLong(a.getOutputDate()))));
-
-        result1 = output.format(date) + ",5:00-11:59," + resultA + "12:00-19:00" + resultB;
-        */
         DelayReason delayReason = new DelayReason();
-        delayReason.setOutputString(a.outputDate + " " + b.outputDate);
+        delayReason.setOutputDate(a.getOutputDate());
+
+        if (a.getInterval() == 1) {
+
+            delayReason.setRankedListAM(a.getRankedList());
+            delayReason.setRankedListPM(b.getRankedList());
+            return delayReason;
+        }
+
+        delayReason.setRankedListAM(b.getRankedList());
+        delayReason.setRankedListPM(a.getRankedList());
 
         return delayReason;
     }

@@ -21,7 +21,6 @@ public class DataSourceQuery2 {
         ArrayList<String> arrayList = new ArrayList<>();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         SimpleDateFormat output1 = new SimpleDateFormat("HH:mm:ss");
-        SimpleDateFormat output2 = new SimpleDateFormat("HH:mm:ss");
 
         Date firstIntervalStart = output1.parse("5:00:00");
         Date firstIntervalEnd = output1.parse("12:00:00");
@@ -44,13 +43,13 @@ public class DataSourceQuery2 {
 
                 if (d2.compareTo(firstIntervalStart) > 0 && d2.compareTo(firstIntervalEnd) < 0) {
 
-                    result = splittedLine[5] + "," + formattedTime + "," + splittedLine[7].substring(0, 10) + "," + 1;
+                    result = splittedLine[5] + "," + formattedTime + "," + 1;
                     arrayList.add(result);
                 }
 
                 if (d2.compareTo(secondIntervalStart) > 0 && d2.compareTo(secondIntervalEnd) < 0) {
 
-                    result = splittedLine[5] + "," + formattedTime + "," + splittedLine[7].substring(0, 10) + "," + 2;
+                    result = splittedLine[5] + "," + formattedTime + "," + 2;
                     arrayList.add(result);
                 }
             }

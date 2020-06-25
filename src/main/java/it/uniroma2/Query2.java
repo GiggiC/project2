@@ -1,20 +1,16 @@
 package it.uniroma2;
 
 import it.uniroma2.entity.DelayReason;
-import org.apache.flink.api.common.functions.CoGroupFunction;
+import it.uniroma2.utils.ProcessingWindowQuery2;
+import it.uniroma2.utils.Utils;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
-import org.apache.flink.streaming.api.functions.windowing.ProcessAllWindowFunction;
-import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
 import org.apache.flink.streaming.api.windowing.assigners.TumblingEventTimeWindows;
 import org.apache.flink.streaming.api.windowing.time.Time;
-import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
-import org.apache.flink.util.Collector;
-import scala.Tuple2;
 
 import static it.uniroma2.utils.Utils.*;
 
@@ -54,54 +50,37 @@ public class Query2 {
 
         DataStream<DelayReason> outputStreamOperator = text
 
-                .map(line -> csvParsingQuery2(line))
+                .map(Utils::csvParsingQuery2)
                 .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<DelayReason>() {
                     @Override
                     public long extractAscendingTimestamp(DelayReason delayReason) {
                         return delayReason.getEventTime();
-                    }
-                })
-                .keyBy((KeySelector<DelayReason, Object>) delayReason -> {
-                    String delayReasonKey = delayReason.rankedList.get(0)._1;
-                    Integer intervalKey = delayReason.interval;
-
-                    return new Tuple2<>(delayReasonKey, intervalKey);
-                })
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> delayReasonCount(a, b), new ProcessWindowFunction<DelayReason, DelayReason, Object, TimeWindow>() {
-                    @Override
-                    public void process(Object o, Context context, Iterable<DelayReason> iterable, Collector<DelayReason> collector) {
-
-                        String start = String.valueOf(context.window().getStart());
-                        iterable.iterator().next().setOutputDate(start);
-                        collector.collect(iterable.iterator().next());
                     }
                 });
 
         DataStream<DelayReason> outputStreamOperatorInterval1 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 1)
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedList.get(0)._1)
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+                .reduce(Utils::delayReasonCount, new ProcessingWindowQuery2())
                 .keyBy(delayReason -> delayReason.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> multipleIntervalReducer(a, b))
-                .keyBy(delayReason -> delayReason.outputDate)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> outputIntervalReducer(a, b));
+                .reduce((a, b) -> multipleIntervalReducer(a, b, 1));
 
         DataStream<DelayReason> outputStreamOperatorInterval2 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 2)
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedList.get(0)._1)
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+                .reduce(Utils::delayReasonCount, new ProcessingWindowQuery2())
                 .keyBy(delayReason -> delayReason.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> multipleIntervalReducer(a, b))
-                .keyBy(delayReason -> delayReason.outputDate)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> outputIntervalReducer(a, b));
-
+                .reduce((a, b) -> multipleIntervalReducer(a, b, 2));
 
         DataStream<DelayReason> result = outputStreamOperatorInterval1.union(outputStreamOperatorInterval2)
                 .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> stremsUnion(a, b));
+                .reduce(Utils::streamsUnion);
 
         result.print();
 

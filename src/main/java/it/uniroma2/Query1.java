@@ -2,6 +2,9 @@ package it.uniroma2;
 
 import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
+import it.uniroma2.utils.ProcessingWindowQuery1;
+import it.uniroma2.utils.ProcessingWindowQuery2;
+import it.uniroma2.utils.Utils;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.TimeCharacteristic;
@@ -58,17 +61,9 @@ public class Query1 {
 
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.boro)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> computeAverage(a, b), new ProcessWindowFunction<BoroWithDelay, BoroWithDelay, String, TimeWindow>() {
-                    @Override
-                    public void process(String s, Context context, Iterable<BoroWithDelay> iterable, Collector<BoroWithDelay> collector) throws Exception {
-
-                        String start = String.valueOf(context.window().getStart());
-                        iterable.iterator().next().setOutputDate(start);
-                        collector.collect(iterable.iterator().next());
-                    }
-                })
+                .reduce(Utils::computeAverage, new ProcessingWindowQuery1())
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)
-                .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> inlineDate(a, b));
 
         boroWithAverage.print();
