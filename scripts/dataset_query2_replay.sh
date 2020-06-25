@@ -1,0 +1,1 @@
+java -cp ../target/project2-1.0.jar it.uniroma2.utils.DataSourceQuery2 | nc -l 9092

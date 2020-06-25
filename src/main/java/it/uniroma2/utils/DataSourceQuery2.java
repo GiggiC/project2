@@ -1,9 +1,6 @@
 package it.uniroma2.utils;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -11,7 +8,7 @@ import java.util.Date;
 
 public class DataSourceQuery2 {
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws ParseException, IOException {
 
         String csvFile = "/home/luigi/IdeaProjects/project2/data/dataset.csv";
         String outputCsv = "/home/luigi/IdeaProjects/project2/data/outputCSVQuery2.csv";
@@ -44,36 +41,17 @@ public class DataSourceQuery2 {
                 if (d2.compareTo(firstIntervalStart) > 0 && d2.compareTo(firstIntervalEnd) < 0) {
 
                     result = splittedLine[5] + "," + formattedTime + "," + 1;
-                    arrayList.add(result);
+                    System.out.println(result);
                 }
 
                 if (d2.compareTo(secondIntervalStart) > 0 && d2.compareTo(secondIntervalEnd) < 0) {
 
                     result = splittedLine[5] + "," + formattedTime + "," + 2;
-                    arrayList.add(result);
+                    System.out.println(result);
                 }
             }
 
         } catch (IOException | ParseException e) {
-            e.printStackTrace();
-        }
-
-        FileWriter writer = null;
-
-        try {
-
-            writer = new FileWriter(outputCsv);
-
-            for (String item : arrayList) {
-
-                writer.append(item);
-                writer.append("\n");
-            }
-
-            writer.flush();
-            writer.close();
-
-        } catch (IOException e) {
 
             e.printStackTrace();
         }

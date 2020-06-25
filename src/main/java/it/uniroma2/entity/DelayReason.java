@@ -1,7 +1,8 @@
 package it.uniroma2.entity;
 
 import scala.Tuple2;
-
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -103,6 +104,21 @@ public class DelayReason {
                 resultPM = resultPM + "," + item._1 + ":" + item._2;
         }
 
-        return formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM;
+        String result = formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM;
+
+        try{
+
+            FileWriter fstream = new FileWriter("/home/luigi/IdeaProjects/project2/results/query2_results.csv",true);
+            BufferedWriter out = new BufferedWriter(fstream);
+            out.write(result + "\n");
+            out.close();
+
+        }catch (Exception e){
+
+            System.err.println("Error while writing to file: " + e.getMessage());
+
+        }
+
+        return result;
     }
 }
