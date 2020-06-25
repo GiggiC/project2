@@ -19,7 +19,7 @@ while True:
                 out = line.encode('utf-8')
                 print('Sending line', line)
                 conn.send(out)
-                sleep(0.5)
+                # sleep(0.5)
             print('End Of Stream.')
     except socket.error:
         print('Error Occured.\n\nClient disconnected.\n')

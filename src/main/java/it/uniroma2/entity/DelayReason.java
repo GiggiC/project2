@@ -1,7 +1,11 @@
 package it.uniroma2.entity;
 
 import scala.Tuple2;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class DelayReason {
 
@@ -62,6 +66,21 @@ public class DelayReason {
     /*@Override
     public String toString() {
 
-        return outputDate + "," + rankedList + "," + interval;
+        Date expiry = new Date(Long.parseLong(outputDate));
+
+        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
+        SimpleDateFormat formatneeded=new SimpleDateFormat("yyyy-MM-dd");
+
+        Date date1 = null;
+
+        try {
+            date1 = formatnow.parse(String.valueOf(expiry));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        String date2 = formatneeded.format(date1);
+
+        return date2 + "," + rankedList + "," + interval;
     }*/
 }

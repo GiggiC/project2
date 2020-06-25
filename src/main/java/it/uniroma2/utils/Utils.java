@@ -2,11 +2,12 @@ package it.uniroma2.utils;
 
 import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
-import org.apache.commons.lang3.StringUtils;
 import scala.Tuple2;
 
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Utils {
 
@@ -15,7 +16,6 @@ public class Utils {
         String[] splittedLine = line.split(",");
 
         BoroWithDelay result = new BoroWithDelay();
-        result.setOutputDate(splittedLine[1]);
         result.setEventTime(Long.parseLong(splittedLine[0]));
         result.setBoro(splittedLine[2]);
         result.setCount(1);
@@ -56,7 +56,6 @@ public class Utils {
 
         DelayReason result = new DelayReason();
         result.setEventTime(Long.parseLong(splittedLine[1]));
-        result.setOutputDate(splittedLine[2]);
         result.setInterval(Integer.parseInt(splittedLine[3]));
         result.setRankedList(list);
 
@@ -107,9 +106,9 @@ public class Utils {
         return a;
     }
 
-    public static DelayReason stremsUnion(DelayReason a, DelayReason b) {
+    public static DelayReason stremsUnion(DelayReason a, DelayReason b) throws ParseException {
 
-        String resultA = "";
+        /*String resultA = "";
         String resultB = "";
         String result1 = "";
 
@@ -125,10 +124,14 @@ public class Utils {
                 resultB = resultB + "," + b.getRankedList().get(i)._1 + ":" + b.getRankedList().get(i)._2;
         }
 
-        result1 = a.outputDate + ",5:00-11:59," + resultA + "12:00-19:00" + resultB;
+        SimpleDateFormat parserSDF = new SimpleDateFormat("EEE MMM dd HH:mm:ss zzzz yyyy");
+        SimpleDateFormat output = new SimpleDateFormat("yyyy-MM-dd");
+        Date date = parserSDF.parse(String.valueOf(new Date(Long.parseLong(a.getOutputDate()))));
 
+        result1 = output.format(date) + ",5:00-11:59," + resultA + "12:00-19:00" + resultB;
+        */
         DelayReason delayReason = new DelayReason();
-        delayReason.setOutputString(result1);
+        delayReason.setOutputString(a.outputDate + " " + b.outputDate);
 
         return delayReason;
     }
