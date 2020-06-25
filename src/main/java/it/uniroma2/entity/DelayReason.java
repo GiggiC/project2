@@ -17,8 +17,7 @@ public class DelayReason {
     public ArrayList<Tuple2<String, Integer>> rankedListPM;
     public int interval;
 
-    public DelayReason() {
-    }
+    public DelayReason() {}
 
     public long getEventTime() {
         return eventTime;
@@ -106,17 +105,16 @@ public class DelayReason {
 
         String result = formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM;
 
-        try{
+        try {
 
             FileWriter fstream = new FileWriter("/home/luigi/IdeaProjects/project2/results/query2_results.csv",true);
             BufferedWriter out = new BufferedWriter(fstream);
             out.write(result + "\n");
             out.close();
 
-        }catch (Exception e){
+        } catch (Exception e){
 
             System.err.println("Error while writing to file: " + e.getMessage());
-
         }
 
         return result;

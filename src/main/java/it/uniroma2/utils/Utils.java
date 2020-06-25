@@ -17,10 +17,10 @@ public class Utils {
 
         BoroWithDelay result = new BoroWithDelay();
         result.setEventTime(Long.parseLong(splittedLine[0]));
-        result.setBoro(splittedLine[2]);
+        result.setBoro(splittedLine[1]);
         result.setCount(1);
-        result.setDelay(Long.parseLong(splittedLine[3]));
-        result.setAverage(Double.parseDouble(splittedLine[3]));
+        result.setDelay(Long.parseLong((splittedLine[2])));
+        result.setAverage(splittedLine[2]);
 
         return result;
     }
@@ -33,7 +33,7 @@ public class Utils {
         result.setBoro(a.getBoro());
         result.setCount(a.getCount() + b.getCount());
         result.setDelay(a.getDelay() + b.getDelay());
-        result.setAverage((double) result.getDelay() / result.getCount());
+        result.setAverage(String.valueOf(result.getDelay() / result.getCount()));
 
         return result;
     }
@@ -42,7 +42,8 @@ public class Utils {
 
         BoroWithDelay result = new BoroWithDelay();
         result.setOutputDate(a.getOutputDate());
-        result.setBoro(a.getBoro() + ":" + a.getAverage() + "," + b.getBoro() + ":" + b.getAverage());
+        result.setBoro(a.getBoro() + "," + b.getBoro());
+        result.setAverage(a.getAverage() + "," + b.getAverage());
 
         return result;
     }
@@ -97,7 +98,6 @@ public class Utils {
         }
 
         TupleComparator comparator = new TupleComparator();
-
         a.getRankedList().sort(comparator);
 
         if (a.getRankedList().size() > 2)

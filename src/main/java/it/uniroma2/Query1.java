@@ -27,17 +27,22 @@ public class Query1 {
         // the host and the port to connect to
         final String hostname;
         final int port, numDays;
+
         try {
+
             final ParameterTool params = ParameterTool.fromArgs(args);
             hostname = params.has("hostname") ? params.get("hostname") : "localhost";
             port = params.getInt("port");
             numDays = params.getInt("numDays");
+
         } catch (Exception e) {
+
             System.err.println("No port specified. Please run 'SocketWindowWordCount " +
                     "--hostname <hostname> --port <port> --numDays <numDays>', where hostname (localhost by default) " +
                     "and port is the address of the text server");
             System.err.println("To start a simple text server, run 'netcat -l <port>' and " +
                     "type the input text into the command line");
+
             return;
         }
 
@@ -72,3 +77,4 @@ public class Query1 {
         env.execute("Query1");
     }
 }
+

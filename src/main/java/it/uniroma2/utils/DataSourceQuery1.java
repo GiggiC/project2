@@ -25,99 +25,44 @@ public class DataSourceQuery1 {
             while ((line = br.readLine()) != null) {
 
                 String[] splittedLine = line.split(cvsSplitBy);
+                String result= "";
 
                 if (!splittedLine[9].isEmpty()) {
 
                     Date d = sdf.parse(splittedLine[7]);
                     long formattedTime = d.getTime();
-                    String boro = splittedLine[9].replaceAll(" ", "-");
+                    String boro = splittedLine[9];
 
                     String delay = splittedLine[11].toLowerCase();
 
-                    //field with only minutes
-                    if (!delay.replaceAll("[^0-9]", "").isEmpty() && !delay.contains("h") && !delay.contains("/")) {
+                    if (!delay.isEmpty() && !delay.replaceAll("[^0-9]", "").isEmpty() && !delay.replaceAll("[^0-9]", "").equals("0")) {
 
-                        if (delay.contains("-")) {
+                        //field with only minutes
+                        //if (!delay.replaceAll("[^0-9]", "").isEmpty() && !delay.contains("h") && !delay.contains("/")) {
+                        if (!delay.contains("h")) {
 
-                            String[] splitted = delay.split("-");
-                            int max = 0;
+                            if (!delay.contains("-")) {
 
-                            for (String item : splitted) {
+                                result = formattedTime + "," + boro + "," + delay.replaceAll("[^0-9]", "");
+                                System.out.println(result);
 
-                                if (!item.replaceAll("[^0-9]", "").isEmpty()) {
+                            } else {
 
-                                    int value = Integer.parseInt(item.replaceAll("[^0-9]", ""));
+                                if (!delay.substring(delay.indexOf("-") + 1).replaceAll("[^0-9]", "").isEmpty()) {
 
-                                    if (value > max)
-                                        max = value;
-
-                                    line = formattedTime + "," + splittedLine[7].substring(0, 10)+ "," + boro + "," + max;
-
-                                }
-
-                            }
-
-                        } else if (delay.contains("/")) {
-
-                            String[] splitted = delay.split("/");
-                            int max = 0;
-
-                            for (String item : splitted) {
-
-                                if (!item.replaceAll("[^0-9]", "").isEmpty()) {
-
-                                    int value = Integer.parseInt(item.replaceAll("[^0-9]", ""));
-
-                                    if (value > max)
-                                        max = value;
-
-                                    line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + boro + "," + max;
-
+                                    result = formattedTime + "," + boro + "," + delay.substring(delay.indexOf("-") + 1).replaceAll("[^0-9]", "");
+                                    System.out.println(result);
                                 }
 
                             }
 
                         } else {
 
-                            line = formattedTime+ "," + splittedLine[7].substring(0, 10) + "," + boro + "," + delay.replaceAll("[^0-9]", "");
+                            /*result = formattedTime + "," + boro + "," + delay;
+                            other.add(result);
+                            System.out.println(result);*/
                         }
-
-                        arrayList.add(line);
-
-                    } else if (!delay.replaceAll("[^0-9]", "").isEmpty() && delay.contains("h") && !splittedLine[11].contains("?")) {
-
-                        if (splittedLine[11].equals("1 hour") || splittedLine[11].equals("1hour") || splittedLine[11].equals("1 hourr") || splittedLine[11].equals("1hr") || splittedLine[11].equals("1 hr")
-                                || splittedLine[11].equals("45min/1hr") || splittedLine[11].equals("45min-1hr") || splittedLine[11].equals("45min-1 hr")
-                                || splittedLine[11].equals("45min 1hr") || splittedLine[11].equals("45-1hr") || splittedLine[11].equals("45mins 1hr")
-                                || splittedLine[11].equals("45 min-1hr") || splittedLine[11].equals("45mini/1hr") || splittedLine[11].equals("45min -1hr") || splittedLine[11].equals("45min - 1h")
-                                || splittedLine[11].equals("45/1hour") || splittedLine[11].equals("45 -1 hour") || splittedLine[11].equals("45 min-1 h") || splittedLine[11].equals("45-1hour")) {
-
-                            line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + boro + "," + "60";
-                            arrayList.add(line);
-
-                        } else {
-
-                            line = formattedTime + "," + splittedLine[7].substring(0, 10)+ "," + splittedLine[9] + "," + splittedLine[11];
-                            other.add(line);
-                        }
-
-                    } else {
-
-                        line = formattedTime + "," + splittedLine[7].substring(0, 10) + "," + splittedLine[9] + "," + splittedLine[11];
-                        other.add(line);
                     }
-
-                /*else if (splittedLine[11].isEmpty()) {
-
-                    arrayList.add(line);
-                    empty++;
-
-                } else {
-
-                    line = splittedLine[7] + "," + splittedLine[9] + "," + splittedLine[11];
-                    System.out.println(line);
-                    rest++;
-                }*/
                 }
             }
 
@@ -125,34 +70,7 @@ public class DataSourceQuery1 {
             e.printStackTrace();
         }
 
-        System.out.println(arrayList.size());
-        System.out.println(other.size());
-
-        for (String item : other) {
-
-            //System.out.println(item);
-        }
-
-        FileWriter writer = null;
-
-        try {
-
-            writer = new FileWriter(outputCsv);
-
-            for (String item : arrayList) {
-
-                writer.append(item);
-                writer.append("\n");
-            }
-
-            writer.flush();
-            writer.close();
-
-        } catch (IOException e) {
-
-            e.printStackTrace();
-        }
-
-
+        //System.out.println(arrayList.size());
+        //System.out.println(other.size());
     }
 }
