@@ -54,7 +54,7 @@ public class Query1 {
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, port, "\n");
 
-        DataStream<BoroWithDelay> boroWithAverage = text
+        DataStream<String> boroWithAverage = text
 
                 .map(line -> csvParsingQuery1(line))
 
@@ -70,9 +70,10 @@ public class Query1 {
                 .reduce(Utils::computeAverage, new ProcessingWindowQuery1())
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> inlineDate(a, b));
+                .reduce(Utils::inlineDate)
+                .map(Utils::boroResultMapper);
 
-        boroWithAverage.print();
+        boroWithAverage.writeToSocket(hostname, 9001, String::getBytes);
 
         env.execute("Query1");
     }

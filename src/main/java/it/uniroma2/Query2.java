@@ -79,11 +79,12 @@ public class Query2 {
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> multipleIntervalReducer(a, b, 2));
 
-        DataStream<DelayReason> result = outputStreamOperatorInterval1.union(outputStreamOperatorInterval2)
+        DataStream<String> result = outputStreamOperatorInterval1.union(outputStreamOperatorInterval2)
                 .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce(Utils::streamsUnion);
+                .reduce(Utils::streamsUnion)
+                .map(Utils::delaReasonResultMapper);
 
-        result.print();
+        result.writeToSocket(hostname, 9002, String::getBytes);;
 
         env.execute("Query2");
     }

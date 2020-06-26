@@ -4,6 +4,8 @@ import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
 import scala.Tuple2;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -46,6 +48,37 @@ public class Utils {
         result.setAverage(a.getAverage() + "," + b.getAverage());
 
         return result;
+    }
+
+    public static String boroResultMapper(BoroWithDelay boroWithDelay) {
+
+        Date outDate = new Date(Long.parseLong(boroWithDelay.getOutputDate()));
+
+        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
+        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+        Date outDateString = null;
+
+        try {
+
+            outDateString = formatnow.parse(String.valueOf(outDate));
+
+        } catch (ParseException e) {
+
+            e.printStackTrace();
+        }
+
+        String formattedDate = outFormat.format(outDateString);
+
+        String[] splittedBoro = boroWithDelay.getBoro().split(",");
+        String[] splittedAverage = boroWithDelay.getAverage().split(",");
+
+        String result = formattedDate;
+
+        for (int i = 0; i < splittedBoro.length; i++)
+            result = result + "," + splittedBoro[i] + ":" + splittedAverage[i];
+
+        return result + "\n";
     }
 
     public static DelayReason csvParsingQuery2(String line) {
@@ -130,5 +163,43 @@ public class Utils {
         delayReason.setRankedListPM(a.getRankedList());
 
         return delayReason;
+    }
+
+    public static String delaReasonResultMapper(DelayReason delayReason) {
+
+        Date outDate = new Date(Long.parseLong(delayReason.getOutputDate()));
+
+        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
+        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+        Date outDateString = null;
+
+        try {
+
+            outDateString = formatnow.parse(String.valueOf(outDate));
+
+        } catch (ParseException e) {
+
+            e.printStackTrace();
+        }
+
+        String formattedDate = outFormat.format(outDateString);
+
+        String resultAM = "";
+        String resultPM = "";
+
+        if (delayReason.getRankedListAM() != null) {
+
+            for (Tuple2<String, Integer> item : delayReason.getRankedListAM())
+                resultAM = resultAM + item._1 + ":" + item._2 + ",";
+        }
+
+        if (delayReason.getRankedListPM() != null) {
+
+            for (Tuple2<String, Integer> item : delayReason.getRankedListPM())
+                resultPM = resultPM + "," + item._1 + ":" + item._2;
+        }
+
+        return formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM + "\n";
     }
 }

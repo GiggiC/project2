@@ -65,48 +65,4 @@ public class BoroWithDelay implements Serializable {
     public void setOutputDate(String outputDate) {
         this.outputDate = outputDate;
     }
-
-    @Override
-    public String toString() {
-
-        Date outDate = new Date(Long.parseLong(outputDate));
-
-        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
-        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-        Date outDateString = null;
-
-        try {
-
-            outDateString = formatnow.parse(String.valueOf(outDate));
-
-        } catch (ParseException e) {
-
-            e.printStackTrace();
-        }
-
-        String formattedDate = outFormat.format(outDateString);
-
-        String[] splittedBoro = boro.split(",");
-        String[] splittedAverage = average.split(",");
-
-        String result = formattedDate;
-
-        for (int i = 0; i < splittedBoro.length; i++)
-            result = result + "," + splittedBoro[i] + ":" + splittedAverage[i];
-
-        try {
-
-            FileWriter fstream = new FileWriter("/home/luigi/IdeaProjects/project2/results/query1_results.csv", true);
-            BufferedWriter out = new BufferedWriter(fstream);
-            out.write(result + "\n");
-            out.close();
-
-        } catch (Exception e) {
-
-            System.err.println("Error while writing to file: " + e.getMessage());
-        }
-
-        return formattedDate + result;
-    }
 }
