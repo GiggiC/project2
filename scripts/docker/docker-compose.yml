@@ -22,3 +22,15 @@ services:
       - "jobmanager:jobmanager"
     environment:
       - JOB_MANAGER_RPC_ADDRESS=jobmanager
+
+  influxdb:
+    image: influxdb:latest
+    restart: always
+    container_name: influxdb
+    ports:
+      - 8086:8086
+    environment:
+      INFLUXDB_DB: flink
+      INFLUXDB_ADMIN_USER: flink-metrics
+      INFLUXDB_ADMIN_PASSWORD: qwerty
+      INFLUXDB_HTTP_AUTH_ENABLED: "true"

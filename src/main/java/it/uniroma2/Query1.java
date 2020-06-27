@@ -56,7 +56,6 @@ public class Query1 {
         // get the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-        env.setParallelism(1);
 
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");
@@ -78,52 +77,7 @@ public class Query1 {
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce(Utils::inlineDate)
-                .map(new RichMapFunction<BoroWithDelay, String>() {
-
-                    private transient Meter meter;
-
-                    @Override
-                    public void open(Configuration parameters) throws Exception {
-                        super.open(parameters);
-                        this.meter = getRuntimeContext()
-                                .getMetricGroup()
-                                .meter("myMeter", new DropwizardMeterWrapper(new com.codahale.metrics.Meter()));
-                    }
-
-                    @Override
-                    public String map(BoroWithDelay boroWithDelay) throws Exception {
-                        this.meter.markEvent();
-
-                        Date outDate = new Date(Long.parseLong(boroWithDelay.getOutputDate()));
-
-                        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
-                        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-                        Date outDateString = null;
-
-                        try {
-
-                            outDateString = formatnow.parse(String.valueOf(outDate));
-
-                        } catch (ParseException e) {
-
-                            e.printStackTrace();
-                        }
-
-                        String formattedDate = outFormat.format(outDateString);
-
-                        String[] splittedBoro = boroWithDelay.getBoro().split(",");
-                        String[] splittedAverage = boroWithDelay.getAverage().split(",");
-
-                        String result = formattedDate;
-
-                        for (int i = 0; i < splittedBoro.length; i++)
-                            result = result + "," + splittedBoro[i] + ":" + splittedAverage[i];
-
-                        return result + "\n";
-                    }
-
-                });
+                .map(Utils::boroResultMapper);
 
         result.writeToSocket(hostname, exportPort, String::getBytes);
 
