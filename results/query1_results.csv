@@ -17,92 +17,92 @@
 2015-09-24,Brooklyn:30,Manhattan:17,Nassau County:15,Westchester:42,Bronx:12,All Boroughs:17
 2015-09-25,New Jersey:45,All Boroughs:27,Queens:30,Brooklyn:30,Bronx:16,Manhattan:81,Nassau County:27,Westchester:22,Staten Island:30
 2015-09-28,Queens:226,Manhattan:108,Brooklyn:83,Staten Island:17,Bronx:17,All Boroughs:40,Nassau County:30,Westchester:21
-2015-09-29,Brooklyn:156,Queens:28,Manhattan:1333,Staten Island:17,Bronx:111,Nassau County:26,New Jersey:7531,Westchester:25,Rockland County:29,All Boroughs:40
-2015-09-30,Rockland County:30,Staten Island:15,Brooklyn:122,Manhattan:157,Queens:27,New Jersey:30,Bronx:19,Westchester:21
-2015-10-01,Westchester:157,Brooklyn:30,Manhattan:21,Staten Island:363,Queens:28,Bronx:16,New Jersey:15,Rockland County:15,Nassau County:30,All Boroughs:30
-2015-10-02,Manhattan:70,Nassau County:28,Brooklyn:36,Queens:26,Westchester:25,All Boroughs:30,Staten Island:16,Bronx:18
-2015-10-05,Staten Island:19,Brooklyn:29,Manhattan:25,Bronx:17,Queens:30,Westchester:112,Nassau County:36,All Boroughs:30
-2015-10-06,Brooklyn:63,Queens:28,Manhattan:26,Bronx:17,Rockland County:10,Nassau County:30,All Boroughs:45,Westchester:19,Staten Island:19
-2015-10-07,Manhattan:31,Brooklyn:42,Queens:29,Staten Island:15,Nassau County:34,Connecticut:30,Westchester:300,Bronx:19
-2015-10-08,Manhattan:25,New Jersey:35,Bronx:17,Brooklyn:28,Queens:33,Nassau County:30,Westchester:262,All Boroughs:30,Staten Island:13
-2015-10-09,All Boroughs:40,Queens:34,Staten Island:15,Nassau County:32,Bronx:16,Westchester:738,Brooklyn:92,Manhattan:24,Rockland County:22,New Jersey:25
+2015-09-29,Brooklyn:156,Manhattan:1333,Staten Island:17,Bronx:111,New Jersey:7531,Westchester:25,Rockland County:29,All Boroughs:40,Nassau County:26,Queens:28
+2015-09-30,Brooklyn:122,Manhattan:157,Queens:27,New Jersey:30,Bronx:19,Westchester:21,Rockland County:30,Staten Island:15
+2015-10-01,Brooklyn:30,Manhattan:21,Staten Island:363,Queens:28,Bronx:16,New Jersey:15,Rockland County:15,Nassau County:30,All Boroughs:30,Westchester:157
+2015-10-02,Manhattan:70,Nassau County:28,Brooklyn:36,Queens:26,Westchester:25,All Boroughs:30,Bronx:18,Staten Island:16
+2015-10-05,Queens:30,Staten Island:19,Brooklyn:29,Westchester:112,Manhattan:25,Nassau County:36,Bronx:17,All Boroughs:30
+2015-10-06,Nassau County:30,All Boroughs:45,Brooklyn:63,Queens:28,Rockland County:10,Staten Island:19,Westchester:19,Manhattan:26,Bronx:17
+2015-10-07,Manhattan:31,Westchester:300,Brooklyn:42,Queens:29,Staten Island:15,Nassau County:34,Bronx:19,Connecticut:30
+2015-10-08,Queens:33,Bronx:17,Nassau County:30,Westchester:262,All Boroughs:30,New Jersey:35,Manhattan:25,Staten Island:13,Brooklyn:28
+2015-10-09,Queens:34,Nassau County:32,Rockland County:22,All Boroughs:40,Brooklyn:92,New Jersey:25,Staten Island:15,Westchester:738,Manhattan:24,Bronx:16
 2015-10-12,Queens:30
-2015-10-13,Rockland County:30,Queens:33,New Jersey:26,Brooklyn:74,Bronx:20,Manhattan:128,Westchester:144,Staten Island:11,Nassau County:25
-2015-10-14,Nassau County:20,Bronx:17,Brooklyn:27,Staten Island:13,Manhattan:71,Queens:36,Westchester:109,All Boroughs:29,Rockland County:23
-2015-10-15,Rockland County:20,Manhattan:161,Queens:33,All Boroughs:30,Bronx:16,Brooklyn:25,Nassau County:30,Staten Island:22,Westchester:86
-2015-10-16,Bronx:12,Brooklyn:30,Manhattan:35
-2015-10-19,Westchester:17,Nassau County:27,Brooklyn:26,Rockland County:25,Staten Island:18,New Jersey:25,Manhattan:60,Queens:64,Bronx:17
-2015-10-20,Westchester:235,Queens:31,Manhattan:48,Nassau County:31,Brooklyn:127,Staten Island:10,Bronx:20
-2015-10-21,Westchester:28,All Boroughs:60,Rockland County:10,Nassau County:30,Bronx:22,Queens:31,Brooklyn:130,Manhattan:90,Staten Island:36
-2015-10-22,Bronx:16,New Jersey:15,Westchester:201,Brooklyn:47,Staten Island:15,Queens:34,Manhattan:24,All Boroughs:25,Nassau County:33
-2015-10-23,Rockland County:30,Staten Island:18,Brooklyn:139,Connecticut:30,Bronx:17,Manhattan:75,Westchester:353,Queens:30,Nassau County:27
-2015-10-26,Manhattan:21,Staten Island:22,Queens:30,All Boroughs:30,New Jersey:15,Westchester:373,Rockland County:15,Brooklyn:61,Bronx:19,Nassau County:25
-2015-10-27,All Boroughs:30,Westchester:130,Nassau County:25,Manhattan:61,Brooklyn:122,Staten Island:15,Bronx:19,Queens:33
-2015-10-28,Manhattan:23,Brooklyn:42,Queens:32,Westchester:209,Staten Island:17,Nassau County:25,Bronx:19,All Boroughs:32,Rockland County:28,Connecticut:30
-2015-10-29,Staten Island:12,Manhattan:25,Nassau County:33,Connecticut:30,All Boroughs:45,Rockland County:30,Westchester:77,New Jersey:25,Brooklyn:71,Bronx:19,Queens:26
+2015-10-13,New Jersey:26,Nassau County:25,Manhattan:128,Westchester:144,Queens:33,Brooklyn:74,Bronx:20,Staten Island:11,Rockland County:30
+2015-10-14,Brooklyn:27,Rockland County:23,Queens:36,Westchester:109,All Boroughs:29,Nassau County:20,Bronx:17,Staten Island:13,Manhattan:71
+2015-10-15,Nassau County:30,Bronx:16,All Boroughs:30,Queens:33,Rockland County:20,Manhattan:161,Staten Island:22,Brooklyn:25,Westchester:86
+2015-10-16,Brooklyn:30,Manhattan:35,Bronx:12
+2015-10-19,Manhattan:60,Rockland County:25,Brooklyn:26,Staten Island:18,New Jersey:25,Westchester:17,Bronx:17,Nassau County:27,Queens:64
+2015-10-20,Westchester:235,Brooklyn:127,Nassau County:31,Queens:31,Manhattan:48,Bronx:20,Staten Island:10
+2015-10-21,Brooklyn:130,Bronx:22,Manhattan:90,Queens:31,Nassau County:30,Staten Island:36,All Boroughs:60,Westchester:28,Rockland County:10
+2015-10-22,Bronx:16,Westchester:201,All Boroughs:25,Brooklyn:47,Manhattan:24,Queens:34,Staten Island:15,New Jersey:15,Nassau County:33
+2015-10-23,Brooklyn:139,Staten Island:18,Bronx:17,Queens:30,Manhattan:75,Westchester:353,Nassau County:27,Rockland County:30,Connecticut:30
+2015-10-26,Staten Island:22,Brooklyn:61,Manhattan:21,Queens:30,Westchester:373,Bronx:19,Nassau County:25,All Boroughs:30,New Jersey:15,Rockland County:15
+2015-10-27,Manhattan:61,Brooklyn:122,Staten Island:15,Bronx:19,Queens:33,All Boroughs:30,Westchester:130,Nassau County:25
+2015-10-28,Queens:32,Westchester:209,Staten Island:17,Nassau County:25,Bronx:19,All Boroughs:32,Rockland County:28,Connecticut:30,Manhattan:23,Brooklyn:42
+2015-10-29,Brooklyn:71,Bronx:19,Queens:26,Staten Island:12,Manhattan:25,Nassau County:33,Connecticut:30,All Boroughs:45,Rockland County:30,Westchester:77,New Jersey:25
 2015-10-30,Queens:28,Brooklyn:28,Bronx:18,Staten Island:12,Manhattan:267,Nassau County:29,Rockland County:32,Westchester:277
 2015-11-02,Queens:23,Brooklyn:180,Manhattan:81,Westchester:871,Bronx:21,Staten Island:13,Nassau County:33,New Jersey:35
 2015-11-03,Queens:28,Westchester:10,Brooklyn:362,Nassau County:37,Bronx:5,Manhattan:18,Rockland County:20,New Jersey:15
 2015-11-04,Brooklyn:28,Bronx:17,Manhattan:85,Staten Island:19,Queens:32,Nassau County:27,All Boroughs:30,Connecticut:37,Westchester:448
 2015-11-05,Brooklyn:26,Queens:116,Manhattan:78,Bronx:19,Rockland County:11,Staten Island:30,Westchester:426,Nassau County:25,All Boroughs:25,New Jersey:25
-2015-11-06,Manhattan:149,Staten Island:22,Brooklyn:31,Queens:35,Bronx:20,Nassau County:28,Westchester:396,All Boroughs:25
+2015-11-06,Brooklyn:31,Queens:35,Bronx:20,Nassau County:28,Westchester:396,All Boroughs:25,Manhattan:149,Staten Island:22
 2015-11-09,Bronx:20,All Boroughs:35,Brooklyn:24,Westchester:352,Manhattan:67,Queens:35,Staten Island:14,Nassau County:34,Rockland County:20
 2015-11-10,Queens:101,Brooklyn:109,Manhattan:169,Bronx:17,Westchester:236,Staten Island:16,Nassau County:23,Rockland County:50,New Jersey:20
 2015-11-12,Bronx:19,Staten Island:18,Westchester:238,Queens:27,Brooklyn:103,Manhattan:25,Nassau County:25,New Jersey:20
 2015-11-13,Queens:29,Manhattan:25,Brooklyn:49,Bronx:20,Nassau County:27,Staten Island:19,New Jersey:20,All Boroughs:25,Westchester:443
-2015-11-16,Manhattan:45,Queens:27,Nassau County:32,Staten Island:21,Bronx:21,Rockland County:22,New Jersey:17,Westchester:126,Brooklyn:31
+2015-11-16,Westchester:126,Brooklyn:31,Manhattan:45,Queens:27,Nassau County:32,Staten Island:21,Bronx:21,Rockland County:22,New Jersey:17
 2015-11-17,Bronx:17,Manhattan:23,New Jersey:17,Queens:25,Brooklyn:27,All Boroughs:35,Westchester:111,Staten Island:17,Nassau County:18,Rockland County:10
 2015-11-18,Bronx:61,Queens:29,Manhattan:25,Brooklyn:26,Staten Island:18,Westchester:216,All Boroughs:20,New Jersey:30,Nassau County:45
 2015-11-19,Queens:28,New Jersey:30,Brooklyn:69,Manhattan:26,Bronx:19,Staten Island:16,Nassau County:20,Westchester:17,Rockland County:25
 2015-11-20,Queens:30,Bronx:18,Brooklyn:23,Manhattan:27,Nassau County:22,Staten Island:11,Westchester:304,All Boroughs:45
-2015-11-23,Brooklyn:27,Manhattan:27,Westchester:14,Queens:29,Bronx:19,All Boroughs:30,Staten Island:17,Nassau County:30,New Jersey:40,Rockland County:15
-2015-11-24,Bronx:18,Westchester:140,Brooklyn:58,Queens:29,New Jersey:20,Manhattan:23,Staten Island:19,Nassau County:25,Rockland County:21,All Boroughs:27
-2015-11-25,Bronx:19,Manhattan:24,Brooklyn:31,Queens:27,New Jersey:23,Westchester:17,Staten Island:23,Nassau County:30
+2015-11-23,All Boroughs:30,Rockland County:15,Brooklyn:27,Manhattan:27,Westchester:14,Queens:29,Bronx:19,Staten Island:17,Nassau County:30,New Jersey:40
+2015-11-24,Nassau County:25,Bronx:18,Westchester:140,Brooklyn:58,Queens:29,New Jersey:20,Manhattan:23,Staten Island:19,Rockland County:21,All Boroughs:27
+2015-11-25,Westchester:17,Manhattan:24,Bronx:19,Brooklyn:31,Queens:27,New Jersey:23,Staten Island:23,Nassau County:30
 2015-11-27,Rockland County:6
-2015-11-30,Staten Island:18,Bronx:19,Brooklyn:104,Queens:29,Manhattan:24,Nassau County:40,Westchester:1133,All Boroughs:40,Rockland County:30
-2015-12-01,Queens:73,Westchester:1296,Manhattan:23,Brooklyn:70,Bronx:19,Nassau County:32,Staten Island:15,Rockland County:397,All Boroughs:29
-2015-12-02,Bronx:20,Brooklyn:49,New Jersey:30,Queens:29,Staten Island:17,Nassau County:27,Manhattan:24,Westchester:795,All Boroughs:30
-2015-12-03,Bronx:21,Manhattan:23,Brooklyn:77,Staten Island:18,New Jersey:28,Queens:26,Nassau County:26,All Boroughs:25,Westchester:457
-2015-12-04,Queens:26,Staten Island:20,Brooklyn:43,Manhattan:35,Bronx:102,Nassau County:35,Westchester:25,Rockland County:10,All Boroughs:30
-2015-12-07,Brooklyn:28,Bronx:22,Staten Island:19,Westchester:12,Queens:98,Manhattan:41,New Jersey:25,All Boroughs:45,Connecticut:20,Nassau County:20
-2015-12-08,Manhattan:49,Staten Island:17,Brooklyn:48,New Jersey:37,Queens:28,Rockland County:22,Westchester:353,Nassau County:30,Bronx:19
-2015-12-09,Brooklyn:30,Bronx:19,Queens:25,Staten Island:18,New Jersey:30,Nassau County:26,All Boroughs:20,Westchester:616,Manhattan:23
-2015-12-10,Staten Island:24,Queens:22,Bronx:33,Manhattan:23,Brooklyn:58,Nassau County:30,All Boroughs:15,New Jersey:25,Westchester:27
-2015-12-11,Bronx:17,Brooklyn:25,Queens:29,Westchester:325,Nassau County:11,All Boroughs:22,Staten Island:20,Manhattan:23
-2015-12-14,Brooklyn:25,Westchester:20,Bronx:20,Queens:25,Manhattan:30,Nassau County:25,Staten Island:18,All Boroughs:40,New Jersey:20
-2015-12-15,New Jersey:30,Manhattan:28,Queens:23,Nassau County:28,All Boroughs:45,Staten Island:13,Westchester:15,Bronx:16,Brooklyn:27
-2015-12-16,Bronx:20,Brooklyn:30,Manhattan:29,Queens:555,Nassau County:20,Staten Island:17,Westchester:237,All Boroughs:40
-2015-12-17,Bronx:18,Brooklyn:50,Manhattan:51,Nassau County:30,Staten Island:18,Westchester:835,New Jersey:20,All Boroughs:25,Rockland County:30,Queens:30
-2015-12-18,Bronx:19,Staten Island:22,Manhattan:87,Brooklyn:34,Queens:27,Nassau County:25,All Boroughs:30,New Jersey:31,Westchester:11
-2015-12-21,Rockland County:30,Nassau County:31,New Jersey:25,Westchester:16,Bronx:21,Brooklyn:3092,Manhattan:28,Queens:28,Staten Island:21
-2015-12-22,Nassau County:35,Staten Island:18,Bronx:21,Queens:26,Manhattan:25,Brooklyn:72,Rockland County:6,Westchester:16
-2015-12-23,Manhattan:23,Nassau County:37,Westchester:15,Staten Island:16,Queens:24,Brooklyn:31,Bronx:19,All Boroughs:30
+2015-11-30,Rockland County:30,Manhattan:24,Staten Island:18,Bronx:19,Brooklyn:104,Queens:29,Nassau County:40,Westchester:1133,All Boroughs:40
+2015-12-01,Bronx:19,Nassau County:32,Staten Island:15,Rockland County:397,All Boroughs:29,Brooklyn:70,Queens:73,Westchester:1296,Manhattan:23
+2015-12-02,Bronx:20,Brooklyn:49,Queens:29,Staten Island:17,Nassau County:27,Westchester:795,All Boroughs:30,Manhattan:24,New Jersey:30
+2015-12-03,Manhattan:23,Bronx:21,Brooklyn:77,Staten Island:18,New Jersey:28,Queens:26,Nassau County:26,All Boroughs:25,Westchester:457
+2015-12-04,Staten Island:20,Brooklyn:43,Manhattan:35,Nassau County:35,Westchester:25,Rockland County:10,All Boroughs:30,Bronx:102,Queens:26
+2015-12-07,New Jersey:25,Manhattan:41,Brooklyn:28,Bronx:22,Staten Island:19,Queens:98,Westchester:12,Connecticut:20,All Boroughs:45,Nassau County:20
+2015-12-08,Manhattan:49,Queens:28,Bronx:19,Nassau County:30,Staten Island:17,Rockland County:22,Westchester:353,New Jersey:37,Brooklyn:48
+2015-12-09,Westchester:616,Bronx:19,New Jersey:30,Brooklyn:30,All Boroughs:20,Staten Island:18,Manhattan:23,Nassau County:26,Queens:25
+2015-12-10,Staten Island:24,Westchester:27,Brooklyn:58,Nassau County:30,New Jersey:25,Manhattan:23,Bronx:33,All Boroughs:15,Queens:22
+2015-12-11,Manhattan:23,Staten Island:20,Bronx:17,Queens:29,All Boroughs:22,Westchester:325,Nassau County:11,Brooklyn:25
+2015-12-14,Westchester:20,Queens:25,Manhattan:30,New Jersey:20,Staten Island:18,All Boroughs:40,Nassau County:25,Brooklyn:25,Bronx:20
+2015-12-15,Manhattan:28,Bronx:16,Nassau County:28,Brooklyn:27,New Jersey:30,Queens:23,All Boroughs:45,Westchester:15,Staten Island:13
+2015-12-16,Bronx:20,Staten Island:17,Brooklyn:30,Nassau County:20,Queens:555,All Boroughs:40,Westchester:237,Manhattan:29
+2015-12-17,Manhattan:51,All Boroughs:25,Nassau County:30,Westchester:835,Staten Island:18,New Jersey:20,Brooklyn:50,Bronx:18,Queens:30,Rockland County:30
+2015-12-18,Nassau County:25,Manhattan:87,Brooklyn:34,All Boroughs:30,Westchester:11,New Jersey:31,Queens:27,Staten Island:22,Bronx:19
+2015-12-21,Rockland County:30,New Jersey:25,Staten Island:21,Brooklyn:3092,Westchester:16,Queens:28,Bronx:21,Nassau County:31,Manhattan:28
+2015-12-22,Bronx:21,Manhattan:25,Nassau County:35,Staten Island:18,Rockland County:6,Brooklyn:72,Queens:26,Westchester:16
+2015-12-23,Brooklyn:31,Nassau County:37,Westchester:15,Staten Island:16,Manhattan:23,Queens:24,Bronx:19,All Boroughs:30
 2015-12-24,Manhattan:20
-2015-12-28,Queens:17,Brooklyn:31
+2015-12-28,Brooklyn:31,Queens:17
 2015-12-29,Bronx:15,New Jersey:20,Brooklyn:30
-2015-12-30,New Jersey:25,Brooklyn:22
+2015-12-30,Brooklyn:22,New Jersey:25
 2015-12-31,Brooklyn:20
-2016-01-04,Brooklyn:30,Westchester:27,Bronx:203,Queens:29,Manhattan:87,Nassau County:31,Staten Island:19
-2016-01-05,Queens:29,Nassau County:29,Manhattan:28,All Boroughs:50,Staten Island:18,Bronx:29,New Jersey:15,Brooklyn:31,Westchester:291
-2016-01-06,Manhattan:29,Queens:113,Westchester:350,Nassau County:26,All Boroughs:30,Staten Island:24,Bronx:22,Brooklyn:27
-2016-01-07,Bronx:19,Manhattan:60,Westchester:15,All Boroughs:30,Staten Island:19,Nassau County:26,New Jersey:20,Brooklyn:65,Queens:26
-2016-01-08,New Jersey:20,Manhattan:131,Staten Island:22,Brooklyn:81,Westchester:231,Queens:26,All Boroughs:30,Bronx:21,Nassau County:37
-2016-01-11,New Jersey:15,Rockland County:12,Brooklyn:30,Staten Island:18,Manhattan:256,Nassau County:45,Westchester:1146,Bronx:20,Queens:22
-2016-01-12,Brooklyn:26,Westchester:317,New Jersey:17,Nassau County:30,Bronx:20,Manhattan:29,Rockland County:30,Staten Island:13,Queens:29
-2016-01-13,Bronx:19,Westchester:15,New Jersey:20,Brooklyn:45,Manhattan:26,Queens:29,Staten Island:16,Nassau County:20
-2016-01-14,Queens:27,Manhattan:61,Westchester:185,All Boroughs:27,Bronx:21,New Jersey:20,Rockland County:15,Staten Island:25,Brooklyn:40,Nassau County:32
-2016-01-15,Manhattan:26,Bronx:18,Staten Island:18,Brooklyn:28,Nassau County:30,Westchester:17,Queens:25
-2016-01-19,Staten Island:23,Queens:30,Brooklyn:40,Bronx:18,Manhattan:25,Nassau County:30,Rockland County:20,Westchester:228
-2016-01-20,Staten Island:16,Rockland County:22,Bronx:19,Westchester:17,All Boroughs:25,Manhattan:25,Brooklyn:30,Nassau County:33,Queens:27
-2016-01-21,All Boroughs:27,Queens:28,New Jersey:15,Brooklyn:81,Westchester:153,Manhattan:69,Bronx:18,Nassau County:30,Staten Island:18
-2016-01-22,Brooklyn:31,Westchester:393,New Jersey:15,Staten Island:10,Nassau County:30,Queens:59,All Boroughs:26,Bronx:20,Manhattan:83
-2016-01-25,New Jersey:21,Connecticut:25,Manhattan:35,Nassau County:25,All Boroughs:30,Rockland County:765,Bronx:38,Queens:42,Brooklyn:76,Staten Island:45,Westchester:474
-2016-01-26,Queens:27,Staten Island:32,New Jersey:20,Nassau County:26,Rockland County:17,Connecticut:25,Brooklyn:33,Bronx:74,Westchester:122,Manhattan:199
+2016-01-04,Bronx:203,Westchester:27,Nassau County:31,Staten Island:19,Brooklyn:30,Queens:29,Manhattan:87
+2016-01-05,Queens:29,All Boroughs:50,Manhattan:28,Nassau County:29,New Jersey:15,Brooklyn:31,Bronx:29,Staten Island:18,Westchester:291
+2016-01-06,Nassau County:26,All Boroughs:30,Queens:113,Manhattan:29,Brooklyn:27,Staten Island:24,Bronx:22,Westchester:350
+2016-01-07,Brooklyn:65,Bronx:19,Queens:26,Manhattan:60,Staten Island:19,Nassau County:26,New Jersey:20,All Boroughs:30,Westchester:15
+2016-01-08,Staten Island:22,Westchester:231,All Boroughs:30,Nassau County:37,Manhattan:131,Queens:26,Brooklyn:81,Bronx:21,New Jersey:20
+2016-01-11,Brooklyn:30,Queens:22,New Jersey:15,Bronx:20,Manhattan:256,Nassau County:45,Staten Island:18,Westchester:1146,Rockland County:12
+2016-01-12,Queens:29,Bronx:20,Manhattan:29,Brooklyn:26,Staten Island:13,New Jersey:17,Westchester:317,Rockland County:30,Nassau County:30
+2016-01-13,Brooklyn:45,Queens:29,Bronx:19,Manhattan:26,Nassau County:20,Staten Island:16,New Jersey:20,Westchester:15
+2016-01-14,Manhattan:61,Bronx:21,Staten Island:25,All Boroughs:27,Nassau County:32,Westchester:185,New Jersey:20,Rockland County:15,Brooklyn:40,Queens:27
+2016-01-15,Brooklyn:28,Bronx:18,Queens:25,Manhattan:26,Staten Island:18,Nassau County:30,Westchester:17
+2016-01-19,Brooklyn:40,Manhattan:25,Bronx:18,Queens:30,Staten Island:23,Nassau County:30,Rockland County:20,Westchester:228
+2016-01-20,Queens:27,Bronx:19,Brooklyn:30,Manhattan:25,Staten Island:16,Nassau County:33,Westchester:17,Rockland County:22,All Boroughs:25
+2016-01-21,Queens:28,Staten Island:18,Bronx:18,Brooklyn:81,Manhattan:69,Westchester:153,New Jersey:15,All Boroughs:27,Nassau County:30
+2016-01-22,Bronx:20,Queens:59,Brooklyn:31,Manhattan:83,Staten Island:10,Westchester:393,All Boroughs:26,Nassau County:30,New Jersey:15
+2016-01-25,Bronx:38,Brooklyn:76,Staten Island:45,Manhattan:35,Queens:42,All Boroughs:30,Westchester:474,Connecticut:25,New Jersey:21,Nassau County:25,Rockland County:765
+2016-01-26,Manhattan:199,Queens:27,Staten Island:32,New Jersey:20,Nassau County:26,Rockland County:17,Connecticut:25,Brooklyn:33,Bronx:74,Westchester:122
 2016-01-27,Bronx:21,Brooklyn:31,Queens:34,Manhattan:62,Staten Island:15,Nassau County:30,New Jersey:22,Westchester:18,Rockland County:22,All Boroughs:15
 2016-01-28,Bronx:19,Brooklyn:26,Queens:28,Manhattan:48,New Jersey:22,Westchester:22,Staten Island:12,Connecticut:15,Rockland County:30,Nassau County:22
 2016-01-29,Westchester:23,Brooklyn:30,Manhattan:26,Bronx:19,Queens:24,New Jersey:25,Staten Island:11,Rockland County:10,Nassau County:32,All Boroughs:15
 2016-02-01,Queens:30,Brooklyn:237,Bronx:21,Manhattan:117,Staten Island:17,All Boroughs:30,Nassau County:22,Westchester:20,Rockland County:10
-2016-02-02,Bronx:21,Queens:28,Manhattan:25,Nassau County:15,All Boroughs:35,Westchester:20,Brooklyn:25,Staten Island:14
+2016-02-02,Westchester:20,Brooklyn:25,Staten Island:14,Bronx:21,Queens:28,Manhattan:25,Nassau County:15,All Boroughs:35
 2016-02-03,Brooklyn:27,Manhattan:60,Staten Island:12,Queens:27,Nassau County:24,Bronx:19,Westchester:21,All Boroughs:25,New Jersey:20
 2016-02-04,Brooklyn:26,Queens:35,Manhattan:25,Nassau County:19,Bronx:19,Staten Island:14,Westchester:16,All Boroughs:24,Rockland County:20,New Jersey:60
 2016-02-05,Staten Island:18,Queens:27,Brooklyn:42,Bronx:23,Manhattan:108,New Jersey:32
@@ -110,194 +110,194 @@
 2016-02-09,Queens:28,Brooklyn:30,Bronx:21,Manhattan:79,Staten Island:16,Nassau County:37,Westchester:119,Connecticut:28,New Jersey:20,Rockland County:20
 2016-02-10,Manhattan:102,Brooklyn:91,Bronx:19,Queens:22,Nassau County:26,Westchester:20,Staten Island:15
 2016-02-11,Brooklyn:67,Manhattan:25,Bronx:18,Queens:99,Staten Island:15,Nassau County:21,Westchester:25
-2016-02-12,Manhattan:25,Queens:31,Nassau County:26,Westchester:13,Rockland County:30,Connecticut:15,New Jersey:25,Brooklyn:32,Bronx:19,Staten Island:20
+2016-02-12,Brooklyn:32,Bronx:19,Staten Island:20,Manhattan:25,Queens:31,Nassau County:26,Westchester:13,Rockland County:30,Connecticut:15,New Jersey:25
 2016-02-16,Nassau County:45,Manhattan:22,Brooklyn:37,Queens:20,Bronx:22
-2016-02-17,Queens:25,Manhattan:25,Westchester:10,Brooklyn:20,Bronx:10
+2016-02-17,Brooklyn:20,Bronx:10,Queens:25,Manhattan:25,Westchester:10
 2016-02-18,Manhattan:16,Brooklyn:30,New Jersey:20
 2016-02-19,Brooklyn:25,Bronx:15,Nassau County:15,Westchester:15,Queens:30
 2016-02-22,Bronx:22,Manhattan:29,Brooklyn:32,Queens:36,Staten Island:15,New Jersey:20,Westchester:20,Nassau County:30,Rockland County:17
-2016-02-23,Manhattan:53,Bronx:18,Brooklyn:28,Staten Island:18,Queens:29,Westchester:19,New Jersey:20,Nassau County:12
-2016-02-24,Bronx:18,Manhattan:52,Brooklyn:26,Staten Island:14,Queens:25,Nassau County:28,Westchester:18,New Jersey:40,All Boroughs:25
-2016-02-25,Queens:25,Manhattan:56,Brooklyn:29,New Jersey:22,Nassau County:26,Bronx:21,Staten Island:19,Westchester:295,All Boroughs:30
-2016-02-26,Queens:26,Manhattan:66,Brooklyn:82,Staten Island:12,Bronx:18,Westchester:31,Nassau County:40,All Boroughs:25,New Jersey:15
-2016-02-29,Brooklyn:32,Bronx:22,Manhattan:25,Queens:26,Rockland County:37,Staten Island:15,Nassau County:30,Westchester:21,New Jersey:22,Connecticut:20
-2016-03-01,Queens:27,Westchester:231,Brooklyn:30,Manhattan:560,Staten Island:13,Bronx:19,New Jersey:20,Rockland County:20,Nassau County:30
-2016-03-02,Brooklyn:28,Staten Island:15,Bronx:186,Manhattan:22,Queens:27,Nassau County:24,New Jersey:18,Westchester:315,Rockland County:60
-2016-03-03,Bronx:20,Brooklyn:30,Manhattan:22,All Boroughs:30,Staten Island:23,Queens:29,New Jersey:20,Westchester:15,Rockland County:15
-2016-03-04,Westchester:23,Queens:24,Bronx:22,Brooklyn:59,Staten Island:22,Manhattan:23,Nassau County:20,Rockland County:15,New Jersey:25
-2016-03-07,Bronx:18,Brooklyn:28,Queens:26,Staten Island:15,Manhattan:23,Nassau County:55,Westchester:21,New Jersey:35
-2016-03-08,Westchester:14,Staten Island:15,New Jersey:25,Brooklyn:27,Manhattan:24,Nassau County:35,Bronx:54,Queens:20
-2016-03-09,Manhattan:40,Brooklyn:35,New Jersey:20,Queens:34,Bronx:18,Staten Island:13,Rockland County:30,Nassau County:25,Westchester:13
-2016-03-10,Brooklyn:48,Bronx:19,Manhattan:67,Staten Island:16,Queens:27,Nassau County:33,Rockland County:15,Westchester:155,New Jersey:22
-2016-03-11,Staten Island:16,Brooklyn:27,Queens:25,New Jersey:17,Manhattan:22,Bronx:18,Westchester:14,Nassau County:20,Rockland County:15,All Boroughs:30
-2016-03-14,Brooklyn:31,Queens:26,Bronx:19,Manhattan:25,Westchester:17,Staten Island:17,New Jersey:18,Nassau County:31,Connecticut:15
-2016-03-15,Brooklyn:29,Staten Island:15,Queens:27,Nassau County:36,New Jersey:16,Bronx:19,Manhattan:67,Westchester:220,All Boroughs:30,Rockland County:20
-2016-03-16,Manhattan:26,Staten Island:14,Brooklyn:28,Queens:24,New Jersey:22,Bronx:17,All Boroughs:20,Westchester:19,Nassau County:25,Rockland County:15
-2016-03-17,Bronx:20,Manhattan:23,Brooklyn:34,Queens:24,Nassau County:28,Staten Island:15,Connecticut:15,All Boroughs:20,New Jersey:30,Westchester:16,Rockland County:15
-2016-03-18,Brooklyn:23,Bronx:22,Staten Island:23,Manhattan:22,Queens:24,Nassau County:26,Westchester:19,Rockland County:22
-2016-03-21,Queens:31,Brooklyn:29,Bronx:22,Manhattan:25,Staten Island:16,Nassau County:25,Westchester:20,New Jersey:27,Rockland County:21
-2016-03-22,Brooklyn:31,Bronx:21,Manhattan:20,Queens:24,Staten Island:15,Connecticut:15,Westchester:14,New Jersey:15,Nassau County:16
-2016-03-23,Westchester:18,Bronx:19,Manhattan:26,Brooklyn:29,Queens:23,New Jersey:20,Staten Island:23,Nassau County:30
-2016-03-24,Staten Island:17,Westchester:23,Brooklyn:29,Queens:26,New Jersey:22,Bronx:19,Manhattan:24,Nassau County:20
-2016-03-28,New Jersey:22,Bronx:22,Brooklyn:66,Manhattan:24,Queens:27,Staten Island:19,Westchester:20,Nassau County:28,Rockland County:30,All Boroughs:40
-2016-03-29,Brooklyn:28,Westchester:15,Bronx:17,Manhattan:28,Queens:37,Staten Island:16,New Jersey:25,Nassau County:45
-2016-03-30,Staten Island:13,Queens:26,Bronx:16,Brooklyn:29,Westchester:26,Manhattan:21,Nassau County:30,Rockland County:30
-2016-03-31,Brooklyn:31,Queens:25,Bronx:17,Manhattan:28,Staten Island:21,All Boroughs:30,Rockland County:10,Westchester:17,Nassau County:30
-2016-04-01,All Boroughs:20,Staten Island:25,Bronx:17,Brooklyn:96,Queens:27,Manhattan:25,Nassau County:18,Westchester:16
-2016-04-04,Rockland County:25,Bronx:17,Manhattan:26,Nassau County:23,Brooklyn:33,Staten Island:14,Queens:26,Westchester:18,All Boroughs:25,New Jersey:20
-2016-04-05,New Jersey:16,Rockland County:30,Manhattan:45,Staten Island:15,Brooklyn:41,Bronx:16,Queens:28,Westchester:435,Nassau County:25,All Boroughs:27
-2016-04-06,Nassau County:25,Bronx:18,Manhattan:40,Brooklyn:27,Westchester:187,New Jersey:20,Queens:26,All Boroughs:20,Staten Island:17
-2016-04-07,Manhattan:41,Westchester:586,Brooklyn:28,Queens:177,Bronx:19,Staten Island:15,All Boroughs:25,New Jersey:15,Rockland County:17
-2016-04-08,Queens:26,Manhattan:27,Brooklyn:29,Bronx:19,Westchester:269,Nassau County:26,New Jersey:17,Rockland County:775,Staten Island:11
-2016-04-11,Staten Island:22,Bronx:17,Queens:29,Brooklyn:63,Nassau County:28,Westchester:738,All Boroughs:25,Rockland County:20,New Jersey:30,Manhattan:21
-2016-04-12,Brooklyn:28,Bronx:24,Connecticut:30,Staten Island:22,Westchester:183,New Jersey:15,Queens:25,Rockland County:397,Nassau County:22,Manhattan:19
-2016-04-13,All Boroughs:20,Westchester:128,Rockland County:30,Queens:24,Bronx:19,Brooklyn:26,Manhattan:23,Staten Island:14,Nassau County:12
-2016-04-14,Nassau County:35,Westchester:475,Staten Island:17,Rockland County:30,Bronx:19,Brooklyn:28,Queens:27,Manhattan:24
-2016-04-15,Nassau County:15,Manhattan:25,Rockland County:15,Bronx:17,Queens:23,Brooklyn:37,Westchester:517,Staten Island:23
+2016-02-23,Manhattan:53,Bronx:18,Brooklyn:28,Staten Island:18,Westchester:19,New Jersey:20,Nassau County:12,Queens:29
+2016-02-24,Bronx:18,Manhattan:52,Brooklyn:26,Staten Island:14,Nassau County:28,Westchester:18,New Jersey:40,All Boroughs:25,Queens:25
+2016-02-25,Queens:25,Manhattan:56,Brooklyn:29,Nassau County:26,Bronx:21,Staten Island:19,All Boroughs:30,Westchester:295,New Jersey:22
+2016-02-26,Queens:26,Manhattan:66,Staten Island:12,Bronx:18,Westchester:31,Nassau County:40,All Boroughs:25,New Jersey:15,Brooklyn:82
+2016-02-29,Brooklyn:32,Manhattan:25,Queens:26,Rockland County:37,Nassau County:30,Westchester:21,New Jersey:22,Staten Island:15,Connecticut:20,Bronx:22
+2016-03-01,Queens:27,Westchester:231,Brooklyn:30,Manhattan:560,Staten Island:13,Bronx:19,New Jersey:20,Nassau County:30,Rockland County:20
+2016-03-02,Brooklyn:28,Staten Island:15,Manhattan:22,Queens:27,Nassau County:24,Westchester:315,Rockland County:60,Bronx:186,New Jersey:18
+2016-03-03,Bronx:20,Brooklyn:30,Manhattan:22,All Boroughs:30,Staten Island:23,New Jersey:20,Westchester:15,Rockland County:15,Queens:29
+2016-03-04,Queens:24,Bronx:22,Brooklyn:59,Westchester:23,Manhattan:23,Nassau County:20,Rockland County:15,New Jersey:25,Staten Island:22
+2016-03-07,New Jersey:35,Nassau County:55,Bronx:18,Brooklyn:28,Queens:26,Manhattan:23,Westchester:21,Staten Island:15
+2016-03-08,Brooklyn:27,Manhattan:24,Staten Island:15,Queens:20,Westchester:14,Nassau County:35,Bronx:54,New Jersey:25
+2016-03-09,Nassau County:25,Rockland County:30,Staten Island:13,Brooklyn:35,Manhattan:40,Bronx:18,Westchester:13,New Jersey:20,Queens:34
+2016-03-10,Brooklyn:48,New Jersey:22,Staten Island:16,Queens:27,Nassau County:33,Westchester:155,Bronx:19,Manhattan:67,Rockland County:15
+2016-03-11,Bronx:18,Nassau County:20,New Jersey:17,Staten Island:16,Queens:25,Manhattan:22,Westchester:14,Brooklyn:27,Rockland County:15,All Boroughs:30
+2016-03-14,Nassau County:31,Staten Island:17,New Jersey:18,Bronx:19,Brooklyn:31,Queens:26,Westchester:17,Connecticut:15,Manhattan:25
+2016-03-15,Queens:27,Brooklyn:29,Staten Island:15,Nassau County:36,Westchester:220,All Boroughs:30,Rockland County:20,Manhattan:67,New Jersey:16,Bronx:19
+2016-03-16,Nassau County:25,Staten Island:14,Bronx:17,Westchester:19,Rockland County:15,Queens:24,Manhattan:26,All Boroughs:20,New Jersey:22,Brooklyn:28
+2016-03-17,New Jersey:30,Connecticut:15,Nassau County:28,Brooklyn:34,Rockland County:15,Staten Island:15,Queens:24,All Boroughs:20,Bronx:20,Manhattan:23,Westchester:16
+2016-03-18,Bronx:22,Nassau County:26,Staten Island:23,Brooklyn:23,Manhattan:22,Queens:24,Rockland County:22,Westchester:19
+2016-03-21,Bronx:22,New Jersey:27,Westchester:20,Nassau County:25,Brooklyn:29,Manhattan:25,Staten Island:16,Queens:31,Rockland County:21
+2016-03-22,Bronx:21,Staten Island:15,Westchester:14,Connecticut:15,Brooklyn:31,New Jersey:15,Queens:24,Nassau County:16,Manhattan:20
+2016-03-23,Nassau County:30,Queens:23,New Jersey:20,Staten Island:23,Bronx:19,Brooklyn:29,Westchester:18,Manhattan:26
+2016-03-24,Brooklyn:29,Nassau County:20,Queens:26,Staten Island:17,Manhattan:24,New Jersey:22,Westchester:23,Bronx:19
+2016-03-28,Brooklyn:66,Bronx:22,Nassau County:28,Manhattan:24,New Jersey:22,Rockland County:30,Staten Island:19,All Boroughs:40,Westchester:20,Queens:27
+2016-03-29,Queens:37,Nassau County:45,Bronx:17,Staten Island:16,New Jersey:25,Manhattan:28,Brooklyn:28,Westchester:15
+2016-03-30,Nassau County:30,Brooklyn:29,Staten Island:13,Manhattan:21,Queens:26,Westchester:26,Bronx:16,Rockland County:30
+2016-03-31,Staten Island:21,Bronx:17,Nassau County:30,Queens:25,Brooklyn:31,Westchester:17,Rockland County:10,Manhattan:28,All Boroughs:30
+2016-04-01,Nassau County:18,Staten Island:25,Westchester:16,Bronx:17,All Boroughs:20,Brooklyn:96,Manhattan:25,Queens:27
+2016-04-04,All Boroughs:25,Manhattan:26,Queens:26,Nassau County:23,Rockland County:25,Staten Island:14,New Jersey:20,Brooklyn:33,Bronx:17,Westchester:18
+2016-04-05,New Jersey:16,Westchester:435,Nassau County:25,All Boroughs:27,Rockland County:30,Staten Island:15,Manhattan:45,Brooklyn:41,Bronx:16,Queens:28
+2016-04-06,Bronx:18,Manhattan:40,Brooklyn:27,Westchester:187,New Jersey:20,Queens:26,All Boroughs:20,Nassau County:25,Staten Island:17
+2016-04-07,Manhattan:41,Bronx:19,Staten Island:15,All Boroughs:25,Westchester:586,New Jersey:15,Rockland County:17,Brooklyn:28,Queens:177
+2016-04-08,Queens:26,Manhattan:27,Brooklyn:29,Bronx:19,Westchester:269,Staten Island:11,Nassau County:26,New Jersey:17,Rockland County:775
+2016-04-11,Staten Island:22,Bronx:17,Queens:29,Brooklyn:63,Manhattan:21,Nassau County:28,Westchester:738,All Boroughs:25,Rockland County:20,New Jersey:30
+2016-04-12,Westchester:183,Nassau County:22,Connecticut:30,New Jersey:15,Bronx:24,Staten Island:22,Manhattan:19,Queens:25,Brooklyn:28,Rockland County:397
+2016-04-13,Queens:24,Bronx:19,Brooklyn:26,Manhattan:23,Westchester:128,Staten Island:14,Nassau County:12,Rockland County:30,All Boroughs:20
+2016-04-14,Brooklyn:28,Staten Island:17,Queens:27,Bronx:19,Manhattan:24,Nassau County:35,Westchester:475,Rockland County:30
+2016-04-15,Brooklyn:37,Westchester:517,Queens:23,Bronx:17,Staten Island:23,Manhattan:25,Nassau County:15,Rockland County:15
 2016-04-17,Bronx:30
-2016-04-18,Westchester:15,Rockland County:22,Bronx:18,Queens:27,Manhattan:23,Nassau County:27,New Jersey:131,Brooklyn:28,Staten Island:25
-2016-04-19,Staten Island:17,Bronx:17,Queens:28,All Boroughs:40,Westchester:16,Brooklyn:29,New Jersey:20,Manhattan:22
-2016-04-20,Manhattan:22,Westchester:18,Nassau County:23,Bronx:17,All Boroughs:45,Queens:22,Brooklyn:27,Staten Island:19
-2016-04-21,Bronx:17,Manhattan:23,Westchester:17,Rockland County:30,New Jersey:17,Nassau County:19,All Boroughs:30,Queens:29,Staten Island:13,Brooklyn:30
-2016-04-22,Brooklyn:30,Westchester:21,Bronx:18,New Jersey:25,Nassau County:20,All Boroughs:30,Rockland County:20,Manhattan:24,Queens:26,Staten Island:23
-2016-04-25,Brooklyn:10,Westchester:18
+2016-04-18,Manhattan:23,Brooklyn:28,New Jersey:131,Staten Island:25,Bronx:18,Queens:27,Nassau County:27,Westchester:15,Rockland County:22
+2016-04-19,Staten Island:17,Brooklyn:29,Bronx:17,New Jersey:20,Manhattan:22,Queens:28,All Boroughs:40,Westchester:16
+2016-04-20,Staten Island:19,Brooklyn:27,Manhattan:22,Bronx:17,All Boroughs:45,Queens:22,Westchester:18,Nassau County:23
+2016-04-21,All Boroughs:30,Bronx:17,Brooklyn:30,Manhattan:23,Queens:29,Nassau County:19,Staten Island:13,Westchester:17,New Jersey:17,Rockland County:30
+2016-04-22,Brooklyn:30,Staten Island:23,Queens:26,Manhattan:24,Westchester:21,Bronx:18,New Jersey:25,All Boroughs:30,Nassau County:20,Rockland County:20
+2016-04-25,Westchester:18,Brooklyn:10
 2016-04-26,Westchester:30
-2016-04-27,Manhattan:22,Westchester:45
-2016-04-28,Manhattan:25,Staten Island:15,Westchester:30
+2016-04-27,Westchester:45,Manhattan:22
+2016-04-28,Staten Island:15,Manhattan:25,Westchester:30
 2016-04-29,Westchester:35
-2016-05-02,Bronx:22,New Jersey:32,Staten Island:21,Rockland County:20,Westchester:30,Queens:26,Nassau County:32,All Boroughs:45,Brooklyn:33,Manhattan:25
-2016-05-03,Manhattan:29,Nassau County:30,Westchester:18,Staten Island:15,Brooklyn:41,Bronx:18,New Jersey:21,All Boroughs:40,Queens:23,Rockland County:25
-2016-05-04,Rockland County:21,New Jersey:25,Brooklyn:35,Westchester:134,Manhattan:24,Staten Island:16,Queens:27,Nassau County:35,Bronx:18,All Boroughs:30
-2016-05-05,Staten Island:19,Manhattan:24,All Boroughs:45,Bronx:18,Westchester:17,Nassau County:30,New Jersey:25,Queens:25,Brooklyn:27,Rockland County:15
-2016-05-06,Staten Island:13,Bronx:21,Westchester:86,Queens:25,Nassau County:32,Manhattan:23,New Jersey:13,All Boroughs:32,Rockland County:23,Brooklyn:25
-2016-05-09,Manhattan:24,Staten Island:22,Brooklyn:28,All Boroughs:30,Queens:26,Bronx:19,New Jersey:15,Rockland County:20,Nassau County:33,Westchester:21
-2016-05-10,Brooklyn:52,Westchester:16,Rockland County:20,Bronx:19,New Jersey:20,Queens:29,All Boroughs:34,Manhattan:40,Staten Island:15,Nassau County:19
-2016-05-11,Nassau County:35,Brooklyn:31,Queens:28,Staten Island:25,Bronx:20,Manhattan:23,Westchester:25,New Jersey:21
-2016-05-12,Brooklyn:31,Queens:28,All Boroughs:15,Nassau County:22,Manhattan:46,Rockland County:20,Staten Island:17,New Jersey:25,Bronx:17,Westchester:21
-2016-05-13,Staten Island:28,All Boroughs:40,Manhattan:24,Bronx:19,Queens:24,Brooklyn:30,Westchester:18,Nassau County:29,Rockland County:24
-2016-05-16,Nassau County:23,New Jersey:25,Bronx:18,Rockland County:25,Brooklyn:31,Queens:25,All Boroughs:33,Westchester:24,Staten Island:14,Manhattan:46
-2016-05-17,Rockland County:20,Queens:28,Manhattan:53,Brooklyn:51,Nassau County:23,Staten Island:18,Bronx:19,Westchester:19
-2016-05-18,Westchester:142,Staten Island:28,Nassau County:29,Bronx:20,Queens:22,New Jersey:25,Manhattan:28,Brooklyn:30
-2016-05-19,Nassau County:23,Manhattan:51,Brooklyn:94,Staten Island:17,Rockland County:20,Bronx:16,Westchester:19,Queens:24
-2016-05-20,Connecticut:10,Brooklyn:85,Bronx:21,Rockland County:25,New Jersey:21,Staten Island:20,Manhattan:27,Westchester:21,Queens:30,Nassau County:35
+2016-05-02,Brooklyn:33,Bronx:22,New Jersey:32,Manhattan:25,Queens:26,Staten Island:21,All Boroughs:45,Nassau County:32,Westchester:30,Rockland County:20
+2016-05-03,Brooklyn:41,Bronx:18,Staten Island:15,Queens:23,Manhattan:29,Westchester:18,New Jersey:21,Nassau County:30,Rockland County:25,All Boroughs:40
+2016-05-04,Brooklyn:35,Bronx:18,Manhattan:24,Queens:27,Staten Island:16,New Jersey:25,Nassau County:35,All Boroughs:30,Westchester:134,Rockland County:21
+2016-05-05,Bronx:18,Brooklyn:27,Westchester:17,Manhattan:24,Queens:25,Staten Island:19,New Jersey:25,All Boroughs:45,Rockland County:15,Nassau County:30
+2016-05-06,Brooklyn:25,Bronx:21,New Jersey:13,Manhattan:23,Rockland County:23,Queens:25,Nassau County:32,All Boroughs:32,Staten Island:13,Westchester:86
+2016-05-09,Bronx:19,Manhattan:24,Staten Island:22,Brooklyn:28,Queens:26,Nassau County:33,Westchester:21,All Boroughs:30,Rockland County:20,New Jersey:15
+2016-05-10,Brooklyn:52,Queens:29,Staten Island:15,Manhattan:40,Bronx:19,Nassau County:19,New Jersey:20,Westchester:16,All Boroughs:34,Rockland County:20
+2016-05-11,Bronx:20,Brooklyn:31,Queens:28,Manhattan:23,Westchester:25,New Jersey:21,Staten Island:25,Nassau County:35
+2016-05-12,Manhattan:46,Bronx:17,Brooklyn:31,Queens:28,Staten Island:17,Nassau County:22,New Jersey:25,All Boroughs:15,Westchester:21,Rockland County:20
+2016-05-13,Staten Island:28,Manhattan:24,Bronx:19,Brooklyn:30,Rockland County:24,Queens:24,All Boroughs:40,Nassau County:29,Westchester:18
+2016-05-16,Bronx:18,Brooklyn:31,Manhattan:46,Nassau County:23,Queens:25,Staten Island:14,Westchester:24,New Jersey:25,All Boroughs:33,Rockland County:25
+2016-05-17,Brooklyn:51,Manhattan:53,Bronx:19,Westchester:19,Staten Island:18,Nassau County:23,Rockland County:20,Queens:28
+2016-05-18,Brooklyn:30,Bronx:20,Manhattan:28,New Jersey:25,Westchester:142,Queens:22,Nassau County:29,Staten Island:28
+2016-05-19,Brooklyn:94,Manhattan:51,Staten Island:17,Bronx:16,Queens:24,Westchester:19,Nassau County:23,Rockland County:20
+2016-05-20,Queens:30,Brooklyn:85,Bronx:21,Manhattan:27,New Jersey:21,Rockland County:25,Staten Island:20,Nassau County:35,Westchester:21,Connecticut:10
 2016-05-22,Queens:30
-2016-05-23,Brooklyn:33,New Jersey:28,Queens:26,Nassau County:35,Rockland County:1520,Staten Island:21,Westchester:522,Bronx:19,Manhattan:33
-2016-05-24,Westchester:391,All Boroughs:30,Rockland County:20,New Jersey:25,Brooklyn:103,Bronx:19,Queens:24,Manhattan:23,Staten Island:17,Nassau County:35
+2016-05-23,Brooklyn:33,Bronx:19,Manhattan:33,Queens:26,Staten Island:21,New Jersey:28,Westchester:522,Nassau County:35,Rockland County:1520
+2016-05-24,Brooklyn:103,Bronx:19,Queens:24,Manhattan:23,Staten Island:17,Nassau County:35,Westchester:391,All Boroughs:30,Rockland County:20,New Jersey:25
 2016-05-25,Bronx:18,Brooklyn:33,Manhattan:24,Staten Island:25,Queens:27,New Jersey:20,Nassau County:30,Westchester:39,Rockland County:17
-2016-05-26,Staten Island:18,Bronx:21,Nassau County:521,Westchester:20,New Jersey:15,All Boroughs:27,Manhattan:69,Brooklyn:43,Queens:24
+2016-05-26,Manhattan:69,Brooklyn:43,Queens:24,Staten Island:18,Bronx:21,Nassau County:521,Westchester:20,New Jersey:15,All Boroughs:27
 2016-05-27,Brooklyn:28,Manhattan:24,Bronx:21,Staten Island:29,Queens:26,Westchester:20,New Jersey:15,Nassau County:25
 2016-05-31,Manhattan:92,Brooklyn:35,Nassau County:29,Staten Island:25,Queens:29,Bronx:20,Westchester:15
 2016-06-01,Rockland County:30,Manhattan:22,Queens:28,Brooklyn:65,New Jersey:25,Staten Island:11,Bronx:19,Westchester:25,Nassau County:30
-2016-06-02,Manhattan:73,Brooklyn:70,Bronx:20,Westchester:16,Staten Island:16,Nassau County:40,All Boroughs:30,New Jersey:15,Queens:26,Rockland County:20
+2016-06-02,Queens:26,Rockland County:20,Manhattan:73,Brooklyn:70,Bronx:20,Westchester:16,Staten Island:16,Nassau County:40,All Boroughs:30,New Jersey:15
 2016-06-03,Brooklyn:65,Staten Island:19,Bronx:21,New Jersey:20,Manhattan:26,Nassau County:27,Queens:28,Westchester:25,All Boroughs:50,Rockland County:20
 2016-06-06,Manhattan:24,Brooklyn:54,Staten Island:17,Nassau County:32,Bronx:19,Queens:27,Westchester:20
 2016-06-07,Brooklyn:101,Staten Island:18,Manhattan:106,Bronx:19,Queens:27,New Jersey:15,Westchester:19,Rockland County:15,Nassau County:15
 2016-06-08,Bronx:19,Manhattan:86,Brooklyn:166,Queens:28,Nassau County:16,Staten Island:26,Westchester:15,New Jersey:20,All Boroughs:20,Rockland County:20
 2016-06-09,New Jersey:15,Brooklyn:26,Manhattan:34,Staten Island:16,Bronx:16,Westchester:21,Nassau County:218,Rockland County:20
 2016-06-10,Bronx:20,Queens:27,Brooklyn:34,Staten Island:23,New Jersey:22,Manhattan:62,Nassau County:30,Westchester:16
-2016-06-13,Nassau County:30,Queens:25,Westchester:14,Rockland County:20,Manhattan:66,Bronx:21,Brooklyn:31,Staten Island:26
+2016-06-13,Manhattan:66,Bronx:21,Brooklyn:31,Staten Island:26,Nassau County:30,Queens:25,Westchester:14,Rockland County:20
 2016-06-14,New Jersey:15,Brooklyn:30,Bronx:20,Queens:32,Manhattan:16,Nassau County:20,Rockland County:20,Westchester:18
 2016-06-15,Brooklyn:30,Bronx:19,Manhattan:22,Queens:27,Nassau County:15,New Jersey:20,Westchester:15,Staten Island:20
 2016-06-16,Brooklyn:132,Manhattan:22,Queens:24,New Jersey:15,Bronx:16,Connecticut:15,Nassau County:23,Westchester:17,Staten Island:15,Rockland County:30
 2016-06-17,Bronx:21,Brooklyn:123,Manhattan:27,Queens:229,Nassau County:25,Westchester:15,New Jersey:20
-2016-06-20,Bronx:21,Brooklyn:28,Manhattan:31,Queens:27,Staten Island:17,Westchester:15,Rockland County:20
-2016-06-21,Staten Island:14,Brooklyn:30,Queens:33,Manhattan:154,Rockland County:20,Bronx:19,Nassau County:45,Westchester:15
-2016-06-22,Brooklyn:31,Bronx:19,Manhattan:23,Queens:143,Staten Island:17,Nassau County:20,Westchester:15
-2016-06-23,Staten Island:13,Bronx:19,Brooklyn:31,Manhattan:74,Queens:27,Nassau County:27,Westchester:20,Rockland County:30
-2016-06-24,Bronx:22,Manhattan:28,Brooklyn:97,Staten Island:13,Queens:26,Westchester:16
-2016-06-27,Manhattan:27,Queens:126,Brooklyn:38,Bronx:28,Staten Island:15
+2016-06-20,Westchester:15,Brooklyn:28,Bronx:21,Manhattan:31,Queens:27,Staten Island:17,Rockland County:20
+2016-06-21,Queens:33,Staten Island:14,Brooklyn:30,Manhattan:154,Rockland County:20,Bronx:19,Nassau County:45,Westchester:15
+2016-06-22,Westchester:15,Manhattan:23,Brooklyn:31,Bronx:19,Queens:143,Staten Island:17,Nassau County:20
+2016-06-23,Manhattan:74,Staten Island:13,Bronx:19,Brooklyn:31,Queens:27,Nassau County:27,Westchester:20,Rockland County:30
+2016-06-24,Staten Island:13,Bronx:22,Manhattan:28,Brooklyn:97,Queens:26,Westchester:16
+2016-06-27,Queens:126,Manhattan:27,Brooklyn:38,Bronx:28,Staten Island:15
 2016-06-28,Bronx:21,Brooklyn:31,Queens:24,Manhattan:31
 2016-06-29,Staten Island:30,Manhattan:30,Brooklyn:15
-2016-06-30,Manhattan:15,Queens:15,Staten Island:30
+2016-06-30,Queens:15,Manhattan:15,Staten Island:30
 2016-07-01,Brooklyn:15
-2016-07-05,Manhattan:20,Westchester:20,Bronx:21,Brooklyn:24,Rockland County:45,Staten Island:30,Queens:27
+2016-07-05,Queens:27,Westchester:20,Staten Island:30,Manhattan:20,Bronx:21,Brooklyn:24,Rockland County:45
 2016-07-06,Manhattan:30,Westchester:21,Brooklyn:20,Bronx:19,Queens:15,Rockland County:25
-2016-07-07,Brooklyn:76,Manhattan:25,Queens:27,Staten Island:40,Bronx:21,Rockland County:15
-2016-07-08,Queens:25,Manhattan:22,Brooklyn:23,Bronx:23,All Boroughs:4050,Staten Island:40
-2016-07-11,Westchester:20,Manhattan:24,Queens:31,Rockland County:20,Brooklyn:26,Bronx:21,Staten Island:20,Nassau County:31
-2016-07-12,Staten Island:33,Rockland County:40,Manhattan:25,Westchester:27,Brooklyn:27,Queens:30,Nassau County:45,Bronx:19
-2016-07-13,Brooklyn:24,Manhattan:23,Bronx:22,Staten Island:31,Queens:30,Nassau County:458,Westchester:20,Rockland County:20
-2016-07-14,Westchester:24,Staten Island:27,Brooklyn:28,Manhattan:56,Nassau County:30,Queens:28,Bronx:23
+2016-07-07,Manhattan:25,Queens:27,Staten Island:40,Rockland County:15,Bronx:21,Brooklyn:76
+2016-07-08,Queens:25,Manhattan:22,Bronx:23,All Boroughs:4050,Staten Island:40,Brooklyn:23
+2016-07-11,Westchester:20,Manhattan:24,Queens:31,Rockland County:20,Bronx:21,Staten Island:20,Nassau County:31,Brooklyn:26
+2016-07-12,Westchester:27,Brooklyn:27,Queens:30,Bronx:19,Staten Island:33,Rockland County:40,Manhattan:25,Nassau County:45
+2016-07-13,Brooklyn:24,Manhattan:23,Bronx:22,Staten Island:31,Nassau County:458,Westchester:20,Rockland County:20,Queens:30
+2016-07-14,Staten Island:27,Brooklyn:28,Manhattan:56,Queens:28,Bronx:23,Westchester:24,Nassau County:30
 2016-07-15,Manhattan:66,Staten Island:27,Bronx:23,Brooklyn:29,Westchester:30,Queens:28
-2016-07-18,Staten Island:32,Manhattan:26,Bronx:22,Westchester:23,Brooklyn:30,Queens:33,Nassau County:30,New Jersey:45
+2016-07-18,Staten Island:32,Manhattan:26,Bronx:22,Brooklyn:30,Queens:33,Nassau County:30,Westchester:23,New Jersey:45
 2016-07-19,Brooklyn:27,Queens:27,Manhattan:25,Staten Island:36,Bronx:24,Westchester:16,Rockland County:30
-2016-07-20,Queens:117,Brooklyn:28,Westchester:23,Bronx:17,Manhattan:27,Staten Island:31,Nassau County:15
-2016-07-21,Brooklyn:318,Westchester:27,Manhattan:23,Bronx:22,Queens:29,Staten Island:26,Nassau County:34
-2016-07-22,Westchester:23,Manhattan:22,Brooklyn:96,Queens:27,Nassau County:20,Bronx:27,Staten Island:28
-2016-07-25,Westchester:29,Brooklyn:25,Bronx:24,Nassau County:35,Queens:27,Manhattan:58,All Boroughs:1015,Rockland County:30,Staten Island:23
-2016-07-26,Manhattan:25,Brooklyn:74,Queens:30,Bronx:18,Staten Island:33,Westchester:26
-2016-07-27,Rockland County:30,Bronx:22,Manhattan:24,Brooklyn:25,Staten Island:26,Westchester:25,Queens:27
-2016-07-28,Queens:29,Brooklyn:28,Staten Island:25,Westchester:20,Manhattan:25,Bronx:20,Nassau County:15
-2016-07-29,Brooklyn:31,Queens:86,Manhattan:23,Rockland County:30,All Boroughs:2037,Bronx:22,Staten Island:35,Nassau County:30,Westchester:28
-2016-08-01,Brooklyn:28,Westchester:23,Manhattan:21,Bronx:23,Queens:29,Staten Island:33,Nassau County:30,Rockland County:15
-2016-08-02,Queens:27,Brooklyn:28,Westchester:30,Bronx:23,Manhattan:22,Staten Island:38,Nassau County:20
-2016-08-03,Queens:26,Manhattan:75,Brooklyn:177,Bronx:24,Westchester:18,Staten Island:28,Nassau County:30,Rockland County:20
-2016-08-04,Brooklyn:26,Westchester:23,Bronx:21,Manhattan:58,Queens:29,Staten Island:13,Nassau County:30
-2016-08-05,Manhattan:25,Brooklyn:29,Bronx:22,Nassau County:20,Westchester:20,Staten Island:27,Queens:30
-2016-08-08,Manhattan:24,Brooklyn:340,Bronx:21,Nassau County:30,Queens:146,Westchester:28,Staten Island:22
-2016-08-09,Manhattan:25,Queens:27,Westchester:27,Brooklyn:28,Nassau County:30,Bronx:21,Staten Island:10
-2016-08-10,Westchester:15,Manhattan:23,Brooklyn:29,Bronx:18,Queens:28,Staten Island:31,Rockland County:30,Nassau County:27
-2016-08-11,Nassau County:35,Brooklyn:31,Manhattan:23,Bronx:23,Staten Island:20,Westchester:12,Queens:41
-2016-08-12,Queens:60,Brooklyn:25,Westchester:17,Manhattan:25,Bronx:21
-2016-08-15,Westchester:25,Manhattan:23,Brooklyn:494,Queens:29,Bronx:26,Nassau County:30,Staten Island:33
-2016-08-16,Brooklyn:67,Westchester:20,Nassau County:20,Manhattan:26,Queens:20
-2016-08-17,Bronx:30,Nassau County:20,Brooklyn:20
-2016-08-18,Queens:20,Nassau County:30,Bronx:45
+2016-07-20,Brooklyn:28,Westchester:23,Bronx:17,Staten Island:31,Nassau County:15,Manhattan:27,Queens:117
+2016-07-21,Staten Island:26,Brooklyn:318,Manhattan:23,Bronx:22,Queens:29,Nassau County:34,Westchester:27
+2016-07-22,Nassau County:20,Manhattan:22,Bronx:27,Brooklyn:96,Queens:27,Westchester:23,Staten Island:28
+2016-07-25,Rockland County:30,Nassau County:35,Westchester:29,Queens:27,Manhattan:58,All Boroughs:1015,Staten Island:23,Brooklyn:25,Bronx:24
+2016-07-26,Queens:30,Brooklyn:74,Bronx:18,Westchester:26,Manhattan:25,Staten Island:33
+2016-07-27,Staten Island:26,Bronx:22,Westchester:25,Queens:27,Manhattan:24,Brooklyn:25,Rockland County:30
+2016-07-28,Westchester:20,Queens:29,Staten Island:25,Nassau County:15,Brooklyn:28,Manhattan:25,Bronx:20
+2016-07-29,Queens:86,Rockland County:30,Nassau County:30,Westchester:28,Bronx:22,All Boroughs:2037,Brooklyn:31,Staten Island:35,Manhattan:23
+2016-08-01,Queens:29,Bronx:23,Brooklyn:28,Manhattan:21,Nassau County:30,Rockland County:15,Staten Island:33,Westchester:23
+2016-08-02,Queens:27,Westchester:30,Nassau County:20,Manhattan:22,Bronx:23,Staten Island:38,Brooklyn:28
+2016-08-03,Manhattan:75,Queens:26,Bronx:24,Rockland County:20,Westchester:18,Staten Island:28,Nassau County:30,Brooklyn:177
+2016-08-04,Westchester:23,Manhattan:58,Brooklyn:26,Nassau County:30,Bronx:21,Staten Island:13,Queens:29
+2016-08-05,Queens:30,Manhattan:25,Brooklyn:29,Bronx:22,Westchester:20,Nassau County:20,Staten Island:27
+2016-08-08,Brooklyn:340,Nassau County:30,Westchester:28,Bronx:21,Queens:146,Staten Island:22,Manhattan:24
+2016-08-09,Nassau County:30,Westchester:27,Brooklyn:28,Staten Island:10,Bronx:21,Queens:27,Manhattan:25
+2016-08-10,Rockland County:30,Queens:28,Westchester:15,Staten Island:31,Bronx:18,Nassau County:27,Brooklyn:29,Manhattan:23
+2016-08-11,Westchester:12,Nassau County:35,Staten Island:20,Queens:41,Bronx:23,Manhattan:23,Brooklyn:31
+2016-08-12,Brooklyn:25,Queens:60,Manhattan:25,Westchester:17,Bronx:21
+2016-08-15,Bronx:26,Westchester:25,Nassau County:30,Manhattan:23,Queens:29,Brooklyn:494,Staten Island:33
+2016-08-16,Brooklyn:67,Queens:20,Nassau County:20,Westchester:20,Manhattan:26
+2016-08-17,Brooklyn:20,Bronx:30,Nassau County:20
+2016-08-18,Bronx:45,Nassau County:30,Queens:20
 2016-08-19,Westchester:20
 2016-08-23,Manhattan:25,Brooklyn:40
 2016-08-24,Manhattan:20,Brooklyn:25
 2016-08-26,Manhattan:15
 2016-08-29,Brooklyn:20
 2016-08-31,Westchester:24
-2016-09-01,Westchester:18,Brooklyn:20,Bronx:20,Rockland County:16,Manhattan:15
-2016-09-02,Queens:20,Brooklyn:36,Westchester:15
-2016-09-06,Nassau County:23,Queens:31,Brooklyn:385,Westchester:25,Manhattan:29,Bronx:20,Rockland County:15,Connecticut:30
-2016-09-07,Queens:15,Brooklyn:116,Staten Island:18,New Jersey:32,Manhattan:22,Bronx:17,Nassau County:21,Westchester:22
-2016-09-08,New Jersey:20,Staten Island:22,Brooklyn:51,Queens:28,Manhattan:28,Bronx:20,Westchester:20,Nassau County:28,Rockland County:20,Connecticut:25
-2016-09-09,Queens:26,Manhattan:26,Staten Island:20,Bronx:19,Brooklyn:55,Rockland County:30,Westchester:24,New Jersey:28,Nassau County:30
-2016-09-12,Brooklyn:36,Westchester:14,Bronx:17,Manhattan:26,Connecticut:20,New Jersey:28,Nassau County:25,Queens:31,Rockland County:50
-2016-09-13,Manhattan:34,Nassau County:33,Queens:26,Brooklyn:56,Bronx:20,Staten Island:19,Westchester:25,New Jersey:18,Rockland County:10
-2016-09-14,Brooklyn:33,Manhattan:28,Bronx:22,Staten Island:17,Westchester:19,Nassau County:28,New Jersey:23,Rockland County:10,All Boroughs:45,Queens:27
-2016-09-15,Bronx:21,Manhattan:26,Staten Island:16,Brooklyn:76,Nassau County:30,New Jersey:21,Rockland County:16,Westchester:31,Queens:26
-2016-09-16,Staten Island:15,Manhattan:31,Queens:25,Brooklyn:29,Nassau County:26,Westchester:15,New Jersey:20,Rockland County:10,Bronx:21,All Boroughs:45
+2016-09-01,Bronx:20,Rockland County:16,Manhattan:15,Westchester:18,Brooklyn:20
+2016-09-02,Brooklyn:36,Westchester:15,Queens:20
+2016-09-06,Westchester:25,Manhattan:29,Queens:31,Rockland County:15,Brooklyn:385,Bronx:20,Connecticut:30,Nassau County:23
+2016-09-07,Queens:15,New Jersey:32,Brooklyn:116,Staten Island:18,Manhattan:22,Nassau County:21,Bronx:17,Westchester:22
+2016-09-08,New Jersey:20,Connecticut:25,Rockland County:20,Bronx:20,Queens:28,Westchester:20,Staten Island:22,Manhattan:28,Brooklyn:51,Nassau County:28
+2016-09-09,Rockland County:30,Manhattan:26,Queens:26,Westchester:24,Nassau County:30,Staten Island:20,Brooklyn:55,New Jersey:28,Bronx:19
+2016-09-12,Connecticut:20,Brooklyn:36,Bronx:17,Westchester:14,Manhattan:26,Rockland County:50,New Jersey:28,Queens:31,Nassau County:25
+2016-09-13,Queens:26,Brooklyn:56,Staten Island:19,Westchester:25,New Jersey:18,Manhattan:34,Bronx:20,Nassau County:33,Rockland County:10
+2016-09-14,Manhattan:28,Rockland County:10,Westchester:19,Bronx:22,Queens:27,All Boroughs:45,Staten Island:17,New Jersey:23,Brooklyn:33,Nassau County:28
+2016-09-15,Staten Island:16,Brooklyn:76,Nassau County:30,Bronx:21,New Jersey:21,Queens:26,Westchester:31,Rockland County:16,Manhattan:26
+2016-09-16,Rockland County:10,Nassau County:26,New Jersey:20,Westchester:15,Bronx:21,Queens:25,Brooklyn:29,All Boroughs:45,Manhattan:31,Staten Island:15
 2016-09-18,Manhattan:45
-2016-09-19,Nassau County:33,Manhattan:45,Bronx:23,All Boroughs:42,Staten Island:16,Queens:45,New Jersey:20,Westchester:30,Rockland County:25,Brooklyn:72
-2016-09-20,New Jersey:20,Staten Island:16,Bronx:21,Manhattan:61,Westchester:20,Rockland County:19,Brooklyn:116,Queens:27,Nassau County:37
-2016-09-21,Bronx:23,Brooklyn:54,Staten Island:17,Queens:25,New Jersey:26,Nassau County:36,Westchester:24,Rockland County:15,Manhattan:97
-2016-09-22,Manhattan:29,Bronx:62,New Jersey:18,Nassau County:20,Brooklyn:31,Westchester:20,Queens:28,Rockland County:19,Staten Island:14
-2016-09-23,Bronx:181,Manhattan:29,Queens:28,Staten Island:16,Nassau County:37,Rockland County:38,Westchester:23,New Jersey:24,Brooklyn:57
+2016-09-19,Brooklyn:72,Rockland County:25,All Boroughs:42,Manhattan:45,New Jersey:20,Bronx:23,Staten Island:16,Queens:45,Nassau County:33,Westchester:30
+2016-09-20,Manhattan:61,Staten Island:16,Brooklyn:116,Rockland County:19,Bronx:21,New Jersey:20,Queens:27,Westchester:20,Nassau County:37
+2016-09-21,Manhattan:97,Staten Island:17,Bronx:23,Westchester:24,New Jersey:26,Rockland County:15,Nassau County:36,Queens:25,Brooklyn:54
+2016-09-22,Nassau County:20,Staten Island:14,Bronx:62,Manhattan:29,Westchester:20,Queens:28,Rockland County:19,Brooklyn:31,New Jersey:18
+2016-09-23,Rockland County:38,New Jersey:24,Westchester:23,Bronx:181,Staten Island:16,Manhattan:29,Nassau County:37,Brooklyn:57,Queens:28
 2016-09-25,Queens:45
-2016-09-26,Nassau County:30,Queens:75,Westchester:23,Manhattan:122,New Jersey:18,Staten Island:18,Bronx:22,Rockland County:20,Brooklyn:31
-2016-09-27,Queens:26,Staten Island:16,New Jersey:20,Manhattan:30,Nassau County:36,Connecticut:17,Brooklyn:121,All Boroughs:37,Rockland County:45,Westchester:26,Bronx:21
-2016-09-28,Westchester:19,Nassau County:30,Bronx:22,Manhattan:119,Staten Island:18,New Jersey:20,Rockland County:30,Brooklyn:39,Queens:28
-2016-09-29,Staten Island:18,Brooklyn:32,Queens:24,New Jersey:20,Manhattan:34,Nassau County:30,Westchester:23,Bronx:20,Rockland County:20
-2016-09-30,Bronx:23,Nassau County:32,Rockland County:30,Manhattan:58,Staten Island:15,New Jersey:20,Queens:26,Brooklyn:31,Westchester:19
-2016-10-03,Brooklyn:32,Manhattan:20,Bronx:21
-2016-10-04,Brooklyn:30,Queens:30,Bronx:14,Staten Island:20,Manhattan:26,Westchester:21
-2016-10-05,Queens:30,Nassau County:38,Westchester:29,All Boroughs:45,Bronx:23,Manhattan:87,Brooklyn:69,Rockland County:45,Connecticut:20,New Jersey:3833,Staten Island:17
-2016-10-06,Bronx:21,Manhattan:54,Queens:30,Rockland County:30,Staten Island:20,Brooklyn:102,Westchester:26,Nassau County:16,New Jersey:30
-2016-10-07,Westchester:25,Queens:25,Nassau County:39,Staten Island:16,Bronx:22,New Jersey:21,Manhattan:52,Brooklyn:78
+2016-09-26,Brooklyn:31,Rockland County:20,Manhattan:122,Nassau County:30,New Jersey:18,Bronx:22,Westchester:23,Queens:75,Staten Island:18
+2016-09-27,Westchester:26,New Jersey:20,Connecticut:17,All Boroughs:37,Manhattan:30,Rockland County:45,Brooklyn:121,Bronx:21,Queens:26,Nassau County:36,Staten Island:16
+2016-09-28,Nassau County:30,Bronx:22,Manhattan:119,Brooklyn:39,Staten Island:18,Queens:28,Westchester:19,Rockland County:30,New Jersey:20
+2016-09-29,Staten Island:18,Queens:24,Manhattan:34,Nassau County:30,Westchester:23,New Jersey:20,Rockland County:20,Bronx:20,Brooklyn:32
+2016-09-30,Westchester:19,Queens:26,Bronx:23,Brooklyn:31,Manhattan:58,Staten Island:15,Nassau County:32,New Jersey:20,Rockland County:30
+2016-10-03,Bronx:21,Brooklyn:32,Manhattan:20
+2016-10-04,Manhattan:26,Westchester:21,Brooklyn:30,Queens:30,Bronx:14,Staten Island:20
+2016-10-05,Connecticut:20,All Boroughs:45,Rockland County:45,New Jersey:3833,Queens:30,Brooklyn:69,Staten Island:17,Bronx:23,Nassau County:38,Manhattan:87,Westchester:29
+2016-10-06,Brooklyn:102,Manhattan:54,Queens:30,Staten Island:20,Westchester:26,Bronx:21,New Jersey:30,Nassau County:16,Rockland County:30
+2016-10-07,Bronx:22,Brooklyn:78,Manhattan:52,Staten Island:16,New Jersey:21,Westchester:25,Nassau County:39,Queens:25
 2016-10-10,Manhattan:30
-2016-10-11,Nassau County:41,Staten Island:22,Manhattan:34,New Jersey:16,Westchester:19,Bronx:21,Brooklyn:235,Queens:29
-2016-10-12,Westchester:10,Bronx:10,Brooklyn:25,Nassau County:45
-2016-10-13,Brooklyn:30,Bronx:21,Manhattan:27,All Boroughs:40,Nassau County:27,Westchester:25,New Jersey:22,Staten Island:19,Connecticut:15,Queens:28
-2016-10-14,Brooklyn:89,Staten Island:19,Queens:30,Nassau County:23,Westchester:16,Rockland County:10,Manhattan:47,Bronx:24
-2016-10-17,Westchester:31,Manhattan:33,New Jersey:17,Nassau County:30,Queens:27,Staten Island:14,Bronx:22,Brooklyn:76
-2016-10-18,Nassau County:45,Bronx:21,Westchester:25,Brooklyn:32,New Jersey:20,Staten Island:14,Queens:25,Manhattan:32
-2016-10-19,Nassau County:448,Staten Island:19,Queens:25,Bronx:21,Brooklyn:31,New Jersey:15,Manhattan:33,Westchester:19,All Boroughs:30
-2016-10-20,Queens:26,Brooklyn:31,New Jersey:17,Bronx:21,Staten Island:16,Nassau County:23,Westchester:24,Manhattan:32
-2016-10-21,Nassau County:45,New Jersey:30,Staten Island:16,Manhattan:29,Rockland County:25,Queens:25,Bronx:21,Brooklyn:32,Westchester:20,All Boroughs:20
-2016-10-24,Nassau County:45,Queens:28,All Boroughs:45,Manhattan:29,Bronx:20,New Jersey:18,Staten Island:18,Brooklyn:33,Westchester:22,Rockland County:30
-2016-10-25,Westchester:19,Queens:35,Brooklyn:32,Manhattan:30,Staten Island:20,New Jersey:15,Bronx:18,Rockland County:40,Nassau County:28
-2016-10-26,Manhattan:32,Rockland County:40,Bronx:22,Brooklyn:50,Staten Island:18,Queens:25,Nassau County:29,New Jersey:15,Connecticut:15,Westchester:22
-2016-10-27,All Boroughs:40,Nassau County:43,New Jersey:22,Manhattan:23,Bronx:21,Westchester:35,Brooklyn:31,Staten Island:17,Queens:27,Rockland County:25
-2016-10-28,Connecticut:20,Rockland County:30,Manhattan:27,Queens:27,Bronx:21,Brooklyn:63,Westchester:15,Staten Island:27,Nassau County:36
-2016-10-31,Connecticut:15,Staten Island:17,New Jersey:40,Nassau County:30,Queens:31,Westchester:29,Bronx:22,Manhattan:33,Brooklyn:32
-2016-11-01,Manhattan:26,Staten Island:19,All Boroughs:30,Westchester:20,Nassau County:30,Brooklyn:795,Queens:29,Bronx:22,Rockland County:26
-2016-11-02,Westchester:32,Connecticut:25,New Jersey:27,Nassau County:30,Manhattan:27,Staten Island:19,Brooklyn:51,Queens:26,Rockland County:22,Bronx:16
+2016-10-11,Brooklyn:235,Bronx:21,Staten Island:22,Manhattan:34,Queens:29,Nassau County:41,Westchester:19,New Jersey:16
+2016-10-12,Nassau County:45,Brooklyn:25,Westchester:10,Bronx:10
+2016-10-13,Bronx:21,Brooklyn:30,Queens:28,Manhattan:27,Staten Island:19,New Jersey:22,Connecticut:15,Westchester:25,Nassau County:27,All Boroughs:40
+2016-10-14,Staten Island:19,Brooklyn:89,Manhattan:47,Queens:30,Bronx:24,Nassau County:23,Westchester:16,Rockland County:10
+2016-10-17,Bronx:22,Manhattan:33,Staten Island:14,Brooklyn:76,Queens:27,Westchester:31,New Jersey:17,Nassau County:30
+2016-10-18,Bronx:21,Westchester:25,Nassau County:45,New Jersey:20,Manhattan:32,Brooklyn:32,Queens:25,Staten Island:14
+2016-10-19,Bronx:21,Brooklyn:31,Manhattan:33,Staten Island:19,Nassau County:448,Queens:25,Westchester:19,All Boroughs:30,New Jersey:15
+2016-10-20,Westchester:24,Brooklyn:31,Manhattan:32,Staten Island:16,Queens:26,Bronx:21,New Jersey:17,Nassau County:23
+2016-10-21,Brooklyn:32,Queens:25,Manhattan:29,Bronx:21,Staten Island:16,All Boroughs:20,Westchester:20,New Jersey:30,Rockland County:25,Nassau County:45
+2016-10-24,Brooklyn:33,Queens:28,Staten Island:18,Manhattan:29,Bronx:20,All Boroughs:45,Westchester:22,Nassau County:45,New Jersey:18,Rockland County:30
+2016-10-25,Staten Island:20,Bronx:18,Queens:35,Brooklyn:32,Manhattan:30,Nassau County:28,New Jersey:15,Westchester:19,Rockland County:40
+2016-10-26,Queens:25,Staten Island:18,Bronx:22,Brooklyn:50,Manhattan:32,Rockland County:40,Westchester:22,Nassau County:29,New Jersey:15,Connecticut:15
+2016-10-27,Staten Island:17,Bronx:21,Brooklyn:31,Manhattan:23,Queens:27,Nassau County:43,Westchester:35,All Boroughs:40,New Jersey:22,Rockland County:25
+2016-10-28,Brooklyn:63,Staten Island:27,Manhattan:27,Queens:27,Bronx:21,Nassau County:36,Rockland County:30,Westchester:15,Connecticut:20
+2016-10-31,Queens:31,Bronx:22,Brooklyn:32,Staten Island:17,Manhattan:33,Nassau County:30,New Jersey:40,Westchester:29,Connecticut:15
+2016-11-01,Queens:29,Brooklyn:795,Staten Island:19,Bronx:22,Manhattan:26,All Boroughs:30,Rockland County:26,Westchester:20,Nassau County:30
+2016-11-02,Manhattan:27,Staten Island:19,Brooklyn:51,Queens:26,Rockland County:22,Bronx:16,Westchester:32,Connecticut:25,New Jersey:27,Nassau County:30
 2016-11-03,Manhattan:26,Bronx:22,Staten Island:16,Brooklyn:30,Westchester:26,Queens:24,Nassau County:32,Connecticut:15,New Jersey:15
-2016-11-04,Queens:31,Staten Island:18,Connecticut:20,Westchester:37,All Boroughs:30,Nassau County:20,New Jersey:25,Bronx:20,Manhattan:28,Brooklyn:75
-2016-11-07,Bronx:21,Queens:28,Brooklyn:31,New Jersey:22,Staten Island:21,Manhattan:27,Westchester:28,Nassau County:15
+2016-11-04,Bronx:20,Manhattan:28,Brooklyn:75,Queens:31,Staten Island:18,Connecticut:20,Westchester:37,All Boroughs:30,Nassau County:20,New Jersey:25
+2016-11-07,Brooklyn:31,New Jersey:22,Staten Island:21,Manhattan:27,Westchester:28,Nassau County:15,Bronx:21,Queens:28
 2016-11-08,Bronx:23,Nassau County:20,Brooklyn:450,Westchester:22,Staten Island:25,New Jersey:34,Queens:32,Manhattan:33,Rockland County:20
 2016-11-09,Manhattan:60,Brooklyn:100,Staten Island:19,Nassau County:20,Bronx:21,Queens:28,Westchester:23,Rockland County:20
 2016-11-10,Staten Island:16,Brooklyn:29,Queens:24,Manhattan:26,New Jersey:21,Bronx:1216,Westchester:20,Connecticut:15,All Boroughs:30,Rockland County:32
@@ -307,75 +307,75 @@
 2016-11-16,Bronx:21,Queens:25,Staten Island:16,Brooklyn:30,Manhattan:71,Westchester:24,New Jersey:20,Nassau County:30
 2016-11-17,Queens:27,Staten Island:16,Brooklyn:34,Bronx:22,Manhattan:29,Westchester:25,Nassau County:30,New Jersey:20
 2016-11-18,Bronx:23,Brooklyn:52,Queens:29,Manhattan:25,New Jersey:21,Staten Island:18,All Boroughs:30,Rockland County:15,Westchester:25,Nassau County:25
-2016-11-21,Nassau County:28,Manhattan:74,Westchester:15,Rockland County:35,Bronx:23,Queens:26,Staten Island:20,Brooklyn:88,New Jersey:25
+2016-11-21,Bronx:23,Queens:26,Staten Island:20,Brooklyn:88,New Jersey:25,Nassau County:28,Manhattan:74,Westchester:15,Rockland County:35
 2016-11-22,Brooklyn:29,Queens:29,Manhattan:26,Nassau County:30,Bronx:21,Staten Island:18,Westchester:32,New Jersey:20
 2016-11-23,Brooklyn:31,Nassau County:40,Queens:66,Bronx:19,Staten Island:16,Manhattan:35,Connecticut:20,Rockland County:20,New Jersey:45
 2016-11-28,Brooklyn:74,Bronx:23,Manhattan:32,Queens:30,Staten Island:18,All Boroughs:40,Westchester:31
 2016-11-29,Brooklyn:33,Bronx:21,Manhattan:25,Queens:31,Rockland County:21,Westchester:27,Staten Island:20,New Jersey:25,Nassau County:25,All Boroughs:30
 2016-11-30,Bronx:22,Brooklyn:34,Queens:28,Manhattan:42,Staten Island:20,Nassau County:26,All Boroughs:35,New Jersey:15
-2016-12-01,Bronx:20,Queens:26,Brooklyn:61,Manhattan:49,Staten Island:19,All Boroughs:50,Nassau County:30,Westchester:24,Rockland County:45
-2016-12-02,Queens:27,Manhattan:32,Brooklyn:194,Bronx:20,Staten Island:18,Nassau County:27,Westchester:32,New Jersey:17
-2016-12-05,Queens:24,Brooklyn:41,Bronx:21,Manhattan:24,Staten Island:57,Connecticut:20,Westchester:33,New Jersey:22,Nassau County:28,Rockland County:42
-2016-12-06,Staten Island:16,Brooklyn:47,Bronx:20,Queens:26,Manhattan:52,Nassau County:30,Westchester:18,New Jersey:20
-2016-12-07,Manhattan:26,Brooklyn:27,Staten Island:18,Bronx:23,Queens:24,Westchester:15,New Jersey:18,Connecticut:20,Nassau County:20
-2016-12-08,Bronx:21,Brooklyn:25,Staten Island:20,Westchester:38,Manhattan:24,Queens:28,Nassau County:30,New Jersey:26,All Boroughs:40
-2016-12-09,Manhattan:234,Brooklyn:21,Queens:26,Bronx:21,Westchester:27,Staten Island:18,Nassau County:45,New Jersey:25
-2016-12-12,Manhattan:28,Bronx:20,Staten Island:19,Nassau County:31,Queens:24,Brooklyn:65,New Jersey:217,Westchester:22,All Boroughs:37
-2016-12-13,Manhattan:25,Brooklyn:34,Bronx:22,Staten Island:19,Queens:28,New Jersey:55,Nassau County:36,All Boroughs:30,Westchester:25
-2016-12-14,New Jersey:17,Queens:33,Nassau County:33,Manhattan:29,Westchester:32,Rockland County:20,Brooklyn:46,Bronx:20,Staten Island:17
-2016-12-15,Bronx:23,Queens:29,Brooklyn:40,Staten Island:20,Manhattan:29,Westchester:30,All Boroughs:32,Nassau County:32,New Jersey:21
-2016-12-16,Queens:29,Bronx:24,Brooklyn:59,Staten Island:17,Manhattan:49,All Boroughs:40,New Jersey:39,Westchester:25,Nassau County:33
-2016-12-19,New Jersey:30,Staten Island:19,Bronx:22,Queens:77,Brooklyn:72,Manhattan:25,Westchester:25,All Boroughs:45,Nassau County:30
-2016-12-20,Staten Island:20,Manhattan:25,Brooklyn:16,Bronx:21,Queens:25,Nassau County:28,All Boroughs:30,Westchester:472
-2016-12-21,Bronx:26,Staten Island:20,Queens:39,Manhattan:30,Westchester:18,Rockland County:45,Nassau County:2,Brooklyn:31
-2016-12-22,Brooklyn:27,Queens:29,Manhattan:27,Bronx:21,Staten Island:16,Nassau County:30,Westchester:20,All Boroughs:30
-2016-12-23,Brooklyn:19,Manhattan:29,Queens:26,Staten Island:13,Nassau County:30,Westchester:20,Bronx:18
-2016-12-27,Brooklyn:36,Bronx:25
-2016-12-28,Brooklyn:25,Bronx:15
-2017-01-03,Staten Island:20,Bronx:22,Brooklyn:52,Manhattan:30,Nassau County:29,Rockland County:20,Westchester:38,All Boroughs:40,Queens:29
-2017-01-04,Manhattan:28,Brooklyn:31,New Jersey:21,Staten Island:21,Bronx:22,Queens:28,Westchester:25,Nassau County:28
-2017-01-05,Staten Island:21,Bronx:21,Brooklyn:33,Queens:29,New Jersey:22,Nassau County:31,Westchester:30,Manhattan:26
-2017-01-06,Brooklyn:48,Queens:30,Bronx:25,Staten Island:20,New Jersey:20,Westchester:19,Nassau County:33,Manhattan:88
-2017-01-09,New Jersey:23,Staten Island:24,All Boroughs:42,Westchester:47,Queens:30,Brooklyn:35,Manhattan:29,Bronx:23,Nassau County:28,Rockland County:20
-2017-01-10,All Boroughs:30,Nassau County:15,Queens:27,Manhattan:25,Staten Island:19,Brooklyn:86,Bronx:23,Westchester:17,New Jersey:25
-2017-01-11,Westchester:25,Staten Island:23,Brooklyn:38,Manhattan:23,Queens:27,Bronx:26,Nassau County:26
-2017-01-12,Rockland County:25,Manhattan:46,Staten Island:24,Nassau County:36,Westchester:30,Bronx:23,Brooklyn:29,Queens:24,New Jersey:26
-2017-01-13,Staten Island:22,Westchester:37,Nassau County:35,Queens:24,Brooklyn:26,Bronx:29,Manhattan:29,New Jersey:25
-2017-01-17,New Jersey:20,Manhattan:26,All Boroughs:45,Queens:30,Brooklyn:27,Bronx:22,Staten Island:21,Westchester:25,Nassau County:25
-2017-01-18,Nassau County:44,Westchester:32,Staten Island:25,Bronx:23,Queens:29,All Boroughs:45,New Jersey:30,Manhattan:27,Brooklyn:84
-2017-01-19,Queens:26,Brooklyn:31,Bronx:24,Nassau County:35,Manhattan:25,Staten Island:28,Westchester:27,New Jersey:25
-2017-01-20,Bronx:23,Brooklyn:30,Queens:28,Westchester:41,Nassau County:31,Manhattan:27,Staten Island:23,New Jersey:15
-2017-01-23,Brooklyn:29,Queens:202,Westchester:26,Staten Island:25,Bronx:25,Manhattan:66,Nassau County:36
-2017-01-24,Manhattan:26,Brooklyn:52,Rockland County:20,Westchester:40,Nassau County:35,Staten Island:23,Queens:30,New Jersey:21,Bronx:26
-2017-01-25,Manhattan:182,New Jersey:30,Brooklyn:450,Westchester:15,Queens:29,Bronx:22,Staten Island:25,Nassau County:28
-2017-01-26,Westchester:30,Nassau County:27,Manhattan:24,New Jersey:20,Bronx:21,Rockland County:10,Queens:24,Brooklyn:26,Staten Island:24
-2017-01-27,Bronx:25,Brooklyn:27,Westchester:41,All Boroughs:30,Rockland County:20,Manhattan:26,Nassau County:16,Staten Island:28,Queens:23,New Jersey:17
-2017-01-30,Westchester:30,Queens:28,Manhattan:38,Staten Island:29,Bronx:20,Connecticut:19,Brooklyn:28,Nassau County:29,New Jersey:27
-2017-01-31,Staten Island:26,Bronx:24,Nassau County:37,Queens:29,Connecticut:20,Rockland County:20,Brooklyn:28,Westchester:32,New Jersey:22,Manhattan:28
-2017-02-01,Westchester:25,New Jersey:21,Brooklyn:27,Bronx:24,Manhattan:25,Queens:32,Staten Island:25,Nassau County:31
-2017-02-02,Staten Island:23,Bronx:23,Brooklyn:26,Westchester:27,Manhattan:24,New Jersey:10,Nassau County:30,Queens:28
-2017-02-03,Brooklyn:51,Bronx:21,New Jersey:10,Queens:27,Manhattan:25,Nassau County:32,Westchester:32,Staten Island:26
-2017-02-06,Westchester:30,Staten Island:32,Connecticut:20,Queens:33,Nassau County:35,Bronx:26,Manhattan:26,Brooklyn:57
-2017-02-07,Staten Island:24,Rockland County:10,Nassau County:30,Queens:28,Brooklyn:146,Westchester:31,New Jersey:23,Connecticut:22,Manhattan:26,Bronx:150
-2017-02-08,Nassau County:33,Connecticut:22,Rockland County:30,New Jersey:15,Westchester:34,Bronx:22,Brooklyn:55,Manhattan:47,Staten Island:25,Queens:27
-2017-02-10,Brooklyn:34,Bronx:27,Staten Island:22,Manhattan:286,Queens:59,New Jersey:26,Nassau County:28,Westchester:28,Rockland County:30
-2017-02-13,Staten Island:25,Bronx:24,Queens:29,Nassau County:31,Westchester:26,Connecticut:32,New Jersey:15,Manhattan:45,Brooklyn:49
-2017-02-14,Brooklyn:42,Nassau County:34,Staten Island:26,Manhattan:27,Queens:30,Bronx:32,Westchester:23,New Jersey:16
+2016-12-01,Nassau County:30,Bronx:20,Queens:26,Brooklyn:61,Manhattan:49,Staten Island:19,All Boroughs:50,Westchester:24,Rockland County:45
+2016-12-02,Manhattan:32,Queens:27,Brooklyn:194,Bronx:20,Staten Island:18,Nassau County:27,Westchester:32,New Jersey:17
+2016-12-05,Rockland County:42,Connecticut:20,Brooklyn:41,Queens:24,Bronx:21,Manhattan:24,Staten Island:57,Westchester:33,New Jersey:22,Nassau County:28
+2016-12-06,New Jersey:20,Staten Island:16,Brooklyn:47,Bronx:20,Queens:26,Manhattan:52,Nassau County:30,Westchester:18
+2016-12-07,Connecticut:20,Bronx:23,Manhattan:26,Brooklyn:27,Staten Island:18,Queens:24,Westchester:15,New Jersey:18,Nassau County:20
+2016-12-08,Nassau County:30,Bronx:21,Brooklyn:25,Staten Island:20,Westchester:38,Manhattan:24,Queens:28,New Jersey:26,All Boroughs:40
+2016-12-09,Staten Island:18,Brooklyn:21,Manhattan:234,Queens:26,Bronx:21,Westchester:27,Nassau County:45,New Jersey:25
+2016-12-12,Brooklyn:65,Manhattan:28,Bronx:20,Staten Island:19,Nassau County:31,Queens:24,New Jersey:217,Westchester:22,All Boroughs:37
+2016-12-13,Queens:28,Manhattan:25,Brooklyn:34,Bronx:22,Staten Island:19,New Jersey:55,Nassau County:36,All Boroughs:30,Westchester:25
+2016-12-14,Westchester:32,New Jersey:17,Brooklyn:46,Bronx:20,Staten Island:17,Queens:33,Nassau County:33,Manhattan:29,Rockland County:20
+2016-12-15,Brooklyn:40,Bronx:23,Queens:29,Staten Island:20,Manhattan:29,Westchester:30,All Boroughs:32,Nassau County:32,New Jersey:21
+2016-12-16,All Boroughs:40,Bronx:24,Queens:29,Brooklyn:59,Staten Island:17,Manhattan:49,New Jersey:39,Westchester:25,Nassau County:33
+2016-12-19,Staten Island:19,All Boroughs:45,Bronx:22,Queens:77,New Jersey:30,Brooklyn:72,Manhattan:25,Westchester:25,Nassau County:30
+2016-12-20,All Boroughs:30,Bronx:21,Staten Island:20,Manhattan:25,Brooklyn:16,Queens:25,Nassau County:28,Westchester:472
+2016-12-21,Bronx:26,Staten Island:20,Brooklyn:31,Queens:39,Manhattan:30,Westchester:18,Nassau County:2,Rockland County:45
+2016-12-22,All Boroughs:30,Brooklyn:27,Queens:29,Manhattan:27,Nassau County:30,Staten Island:16,Bronx:21,Westchester:20
+2016-12-23,Bronx:18,Brooklyn:19,Manhattan:29,Staten Island:13,Queens:26,Westchester:20,Nassau County:30
+2016-12-27,Bronx:25,Brooklyn:36
+2016-12-28,Bronx:15,Brooklyn:25
+2017-01-03,Bronx:22,Nassau County:29,Rockland County:20,All Boroughs:40,Staten Island:20,Queens:29,Westchester:38,Manhattan:30,Brooklyn:52
+2017-01-04,Nassau County:28,Manhattan:28,Staten Island:21,Queens:28,Westchester:25,New Jersey:21,Bronx:22,Brooklyn:31
+2017-01-05,Bronx:21,New Jersey:22,Westchester:30,Manhattan:26,Queens:29,Brooklyn:33,Staten Island:21,Nassau County:31
+2017-01-06,Brooklyn:48,Staten Island:20,Westchester:19,Bronx:25,Manhattan:88,Nassau County:33,New Jersey:20,Queens:30
+2017-01-09,Queens:30,Staten Island:24,New Jersey:23,Westchester:47,All Boroughs:42,Manhattan:29,Nassau County:28,Bronx:23,Brooklyn:35,Rockland County:20
+2017-01-10,All Boroughs:30,Bronx:23,Queens:27,New Jersey:25,Nassau County:15,Westchester:17,Brooklyn:86,Staten Island:19,Manhattan:25
+2017-01-11,Bronx:26,Manhattan:23,Staten Island:23,Westchester:25,Brooklyn:38,Nassau County:26,Queens:27
+2017-01-12,Brooklyn:29,Manhattan:46,Nassau County:36,Westchester:30,Rockland County:25,Queens:24,New Jersey:26,Staten Island:24,Bronx:23
+2017-01-13,New Jersey:25,Bronx:29,Queens:24,Staten Island:22,Brooklyn:26,Westchester:37,Manhattan:29,Nassau County:35
+2017-01-17,All Boroughs:45,Bronx:22,Manhattan:26,Nassau County:25,New Jersey:20,Queens:30,Staten Island:21,Brooklyn:27,Westchester:25
+2017-01-18,Bronx:23,Westchester:32,New Jersey:30,Queens:29,All Boroughs:45,Nassau County:44,Staten Island:25,Brooklyn:84,Manhattan:27
+2017-01-19,Nassau County:35,Staten Island:28,Bronx:24,New Jersey:25,Westchester:27,Brooklyn:31,Manhattan:25,Queens:26
+2017-01-20,Queens:28,New Jersey:15,Westchester:41,Manhattan:27,Staten Island:23,Brooklyn:30,Bronx:23,Nassau County:31
+2017-01-23,Bronx:25,Brooklyn:29,Staten Island:25,Queens:202,Manhattan:66,Westchester:26,Nassau County:36
+2017-01-24,Queens:30,Manhattan:26,Nassau County:35,New Jersey:21,Brooklyn:52,Westchester:40,Rockland County:20,Staten Island:23,Bronx:26
+2017-01-25,Brooklyn:450,Nassau County:28,Queens:29,Staten Island:25,Westchester:15,New Jersey:30,Bronx:22,Manhattan:182
+2017-01-26,Rockland County:10,Staten Island:24,Bronx:21,Nassau County:27,New Jersey:20,Queens:24,Brooklyn:26,Westchester:30,Manhattan:24
+2017-01-27,Rockland County:20,Westchester:41,All Boroughs:30,Staten Island:28,Bronx:25,New Jersey:17,Nassau County:16,Manhattan:26,Queens:23,Brooklyn:27
+2017-01-30,Nassau County:29,Brooklyn:28,Manhattan:38,Bronx:20,Connecticut:19,New Jersey:27,Westchester:30,Staten Island:29,Queens:28
+2017-01-31,Staten Island:26,Rockland County:20,Westchester:32,New Jersey:22,Queens:29,Bronx:24,Nassau County:37,Connecticut:20,Manhattan:28,Brooklyn:28
+2017-02-01,New Jersey:21,Brooklyn:27,Nassau County:31,Manhattan:25,Staten Island:25,Bronx:24,Westchester:25,Queens:32
+2017-02-02,Bronx:23,Queens:28,Brooklyn:26,Nassau County:30,Staten Island:23,New Jersey:10,Manhattan:24,Westchester:27
+2017-02-03,Bronx:21,Brooklyn:51,Nassau County:32,New Jersey:10,Manhattan:25,Westchester:32,Queens:27,Staten Island:26
+2017-02-06,Queens:33,Bronx:26,Nassau County:35,Manhattan:26,Connecticut:20,Brooklyn:57,Staten Island:32,Westchester:30
+2017-02-07,Queens:28,Westchester:31,Brooklyn:146,Rockland County:10,Connecticut:22,New Jersey:23,Manhattan:26,Staten Island:24,Nassau County:30,Bronx:150
+2017-02-08,Nassau County:33,Staten Island:25,Rockland County:30,Queens:27,Brooklyn:55,Manhattan:47,Bronx:22,New Jersey:15,Westchester:34,Connecticut:22
+2017-02-10,Manhattan:286,Queens:59,Staten Island:22,Bronx:27,Rockland County:30,Westchester:28,New Jersey:26,Nassau County:28,Brooklyn:34
+2017-02-13,Bronx:24,Manhattan:45,Brooklyn:49,Connecticut:32,New Jersey:15,Westchester:26,Queens:29,Nassau County:31,Staten Island:25
+2017-02-14,Westchester:23,New Jersey:16,Brooklyn:42,Nassau County:34,Staten Island:26,Manhattan:27,Queens:30,Bronx:32
 2017-02-15,Brooklyn:75,Queens:31,Manhattan:67,Bronx:23,Staten Island:28,Nassau County:41,New Jersey:32,Westchester:25
-2017-02-16,Rockland County:17,Bronx:23,Staten Island:23,Brooklyn:28,New Jersey:25,Queens:28,Manhattan:24,Nassau County:45,Connecticut:15,Westchester:30
+2017-02-16,Nassau County:45,Connecticut:15,Westchester:30,Rockland County:17,Bronx:23,Staten Island:23,Brooklyn:28,New Jersey:25,Queens:28,Manhattan:24
 2017-02-17,Brooklyn:39,Bronx:22,Queens:31,Staten Island:25,Manhattan:25,New Jersey:30,Nassau County:30
 2017-02-21,Bronx:22,New Jersey:30,Westchester:30,Brooklyn:30
 2017-02-22,Connecticut:30,Manhattan:780,Brooklyn:18,Queens:20,New Jersey:30
 2017-02-23,Brooklyn:25,Bronx:30,Westchester:45
 2017-02-24,Westchester:35,Brooklyn:26,Queens:25,Bronx:30,Manhattan:32,Staten Island:10
-2017-02-27,Manhattan:52,Staten Island:25,Brooklyn:31,Bronx:49,Queens:28,New Jersey:25,Nassau County:31,Connecticut:20,Westchester:32,All Boroughs:50,Rockland County:20
+2017-02-27,Bronx:49,Queens:28,New Jersey:25,Nassau County:31,Connecticut:20,Westchester:32,All Boroughs:50,Rockland County:20,Manhattan:52,Staten Island:25,Brooklyn:31
 2017-02-28,Bronx:57,Staten Island:25,Brooklyn:32,Nassau County:27,Queens:29,Manhattan:25,Westchester:24,New Jersey:21,All Boroughs:40
 2017-03-01,Queens:32,Staten Island:25,Manhattan:28,Brooklyn:30,Bronx:24,Nassau County:28,Westchester:32,All Boroughs:36,Connecticut:15
 2017-03-02,Brooklyn:74,Staten Island:24,Queens:30,Manhattan:26,Bronx:22,Nassau County:35,Westchester:26,Connecticut:15
-2017-03-03,Nassau County:33,Staten Island:27,Brooklyn:72,Queens:28,Bronx:22,Rockland County:20,Westchester:17,New Jersey:27,Manhattan:61
+2017-03-03,Manhattan:61,Nassau County:33,Staten Island:27,Brooklyn:72,Queens:28,Bronx:22,Rockland County:20,Westchester:17,New Jersey:27
 2017-03-06,Brooklyn:31,Manhattan:28,Bronx:36,Queens:392,Staten Island:24,Nassau County:38,All Boroughs:50,Westchester:21,Rockland County:20,New Jersey:34
 2017-03-07,Brooklyn:35,Staten Island:25,Manhattan:25,Bronx:20,Queens:28,Westchester:15,Nassau County:35
-2017-03-08,Manhattan:25,Brooklyn:29,Queens:30,Bronx:36,Staten Island:26,All Boroughs:30,Nassau County:45,New Jersey:25
+2017-03-08,Staten Island:26,All Boroughs:30,Nassau County:45,New Jersey:25,Manhattan:25,Brooklyn:29,Queens:30,Bronx:36
 2017-03-09,Manhattan:29,Queens:30,Bronx:41,Staten Island:30,Brooklyn:28,Nassau County:37,New Jersey:20
 2017-03-10,Manhattan:75,Staten Island:27,Brooklyn:30,New Jersey:22,Bronx:67,Queens:26,Nassau County:40
 2017-03-13,All Boroughs:30,Bronx:74,Brooklyn:32,Manhattan:28,Queens:28,Staten Island:30,Nassau County:35
@@ -388,84 +388,84 @@
 2017-03-23,Brooklyn:30,Queens:37,Staten Island:25,Manhattan:24,All Boroughs:27,Nassau County:35,Bronx:48,Westchester:20,New Jersey:30
 2017-03-24,Westchester:30,Manhattan:29,Staten Island:27,Brooklyn:28,Queens:28,Bronx:67,Nassau County:30
 2017-03-26,Manhattan:25
-2017-03-27,All Boroughs:15,Brooklyn:33,Manhattan:27,Staten Island:23,Queens:30,Bronx:35,Westchester:28,Rockland County:40,Nassau County:32,New Jersey:28
+2017-03-27,Brooklyn:33,Manhattan:27,Staten Island:23,Queens:30,Bronx:35,Westchester:28,Rockland County:40,Nassau County:32,New Jersey:28,All Boroughs:15
 2017-03-28,Staten Island:32,Brooklyn:29,Queens:31,Bronx:53,Manhattan:26,New Jersey:22,Nassau County:35,Westchester:26,Connecticut:20
-2017-03-29,Nassau County:45,Bronx:44,Queens:28,Staten Island:28,Brooklyn:405,Manhattan:31,Westchester:26,New Jersey:20,Connecticut:20
-2017-03-30,Manhattan:28,Staten Island:24,Brooklyn:30,Nassau County:37,Bronx:36,Westchester:23,New Jersey:20,Queens:28
-2017-03-31,Bronx:23,Manhattan:25,Staten Island:26,Westchester:24,Connecticut:20,Nassau County:33,New Jersey:18,Brooklyn:32,Queens:26
-2017-04-03,Brooklyn:41,Bronx:50,Manhattan:174,Rockland County:20,Queens:29,Westchester:35,New Jersey:28,Connecticut:15,Nassau County:36,Staten Island:26
-2017-04-04,Brooklyn:83,Manhattan:26,Queens:27,Bronx:35,New Jersey:23,Westchester:30,Connecticut:17,Nassau County:35,Staten Island:25
-2017-04-05,Manhattan:25,Brooklyn:66,Staten Island:21,Westchester:43,New Jersey:25,Connecticut:17,Bronx:44,Rockland County:23,Queens:31
+2017-03-29,Bronx:44,Queens:28,Staten Island:28,Brooklyn:405,Manhattan:31,Nassau County:45,Westchester:26,New Jersey:20,Connecticut:20
+2017-03-30,Manhattan:28,Staten Island:24,Brooklyn:30,Nassau County:37,Queens:28,Bronx:36,Westchester:23,New Jersey:20
+2017-03-31,Manhattan:25,Staten Island:26,Brooklyn:32,Westchester:24,Connecticut:20,Nassau County:33,New Jersey:18,Queens:26,Bronx:23
+2017-04-03,Brooklyn:41,Bronx:50,Manhattan:174,Staten Island:26,Rockland County:20,Queens:29,Westchester:35,Nassau County:36,New Jersey:28,Connecticut:15
+2017-04-04,Brooklyn:83,Staten Island:25,Manhattan:26,Queens:27,Bronx:35,New Jersey:23,Westchester:30,Connecticut:17,Nassau County:35
+2017-04-05,Queens:31,Manhattan:25,Brooklyn:66,Staten Island:21,Bronx:44,Westchester:43,New Jersey:25,Connecticut:17,Rockland County:23
 2017-04-06,Brooklyn:47,Staten Island:25,Manhattan:24,Queens:31,Bronx:41,New Jersey:19,Nassau County:20,Westchester:23
-2017-04-07,Brooklyn:27,Staten Island:28,Queens:23,Westchester:20,Bronx:61,Manhattan:23
+2017-04-07,Brooklyn:27,Staten Island:28,Queens:23,Manhattan:23,Westchester:20,Bronx:61
 2017-04-10,Bronx:25
-2017-04-11,Queens:20,Brooklyn:45
+2017-04-11,Brooklyn:45,Queens:20
 2017-04-12,Manhattan:15,Brooklyn:50,Bronx:12
 2017-04-13,Manhattan:25
-2017-04-17,Brooklyn:34,Manhattan:43,Westchester:29,Bronx:26,New Jersey:15,Nassau County:37
-2017-04-18,Manhattan:22,Nassau County:37,New Jersey:30,Queens:37,Brooklyn:30,Bronx:22,Westchester:21
-2017-04-19,Manhattan:39,Brooklyn:32,Connecticut:20,Bronx:88,Staten Island:27,Westchester:22,Nassau County:20,Queens:31
-2017-04-20,Westchester:20,Queens:28,Rockland County:15,Manhattan:24,Staten Island:29,New Jersey:25,All Boroughs:25,Nassau County:34,Bronx:41,Brooklyn:30
-2017-04-21,New Jersey:25,Brooklyn:47,Queens:30,Bronx:38,Nassau County:45,Manhattan:28,Staten Island:25
-2017-04-24,New Jersey:26,Westchester:23,Manhattan:25,Brooklyn:34,Connecticut:20,Nassau County:36,Bronx:25,Staten Island:26,Queens:31
-2017-04-25,Westchester:15,Queens:32,Manhattan:39,Brooklyn:351,Staten Island:26,Bronx:49,Connecticut:20,New Jersey:20,Nassau County:38
-2017-04-26,Nassau County:30,All Boroughs:37,Manhattan:29,Westchester:24,Bronx:22,Staten Island:21,New Jersey:23,Brooklyn:33,Queens:28
-2017-04-27,Bronx:34,Staten Island:24,Manhattan:42,Brooklyn:30,Connecticut:35,Queens:27,Westchester:20,New Jersey:24,Nassau County:30
-2017-04-28,Westchester:26,Queens:29,Staten Island:27,Brooklyn:34,Nassau County:408,Rockland County:20,Bronx:23,New Jersey:12,Manhattan:35
-2017-05-01,Queens:30,Manhattan:24,Bronx:23,Staten Island:25,Nassau County:35,Rockland County:12,Westchester:18,Brooklyn:58,New Jersey:15
-2017-05-02,Bronx:22,Queens:27,Staten Island:26,Brooklyn:30,All Boroughs:20,Rockland County:15,Westchester:31,Manhattan:23,New Jersey:15
-2017-05-03,Manhattan:22,Westchester:23,Rockland County:20,Staten Island:23,New Jersey:15,Brooklyn:60,Bronx:21,Nassau County:30,Queens:31
-2017-05-04,Nassau County:32,New Jersey:22,Staten Island:32,Bronx:23,Brooklyn:41,Manhattan:25,Queens:27,Westchester:20
-2017-05-05,Brooklyn:65,Westchester:27,Connecticut:15,Manhattan:24,Rockland County:30,Staten Island:29,New Jersey:45,Queens:34,Bronx:27
-2017-05-08,Staten Island:27,Westchester:20,Manhattan:23,Brooklyn:30,Bronx:26,Queens:30,All Boroughs:50,Rockland County:15,Nassau County:27,New Jersey:17
-2017-05-09,New Jersey:25,Queens:31,Manhattan:25,Nassau County:37,Westchester:28,Staten Island:29,Bronx:23,Brooklyn:30
-2017-05-10,Queens:26,New Jersey:25,Bronx:25,Westchester:25,Staten Island:29,Manhattan:24,Nassau County:42,Brooklyn:36
-2017-05-11,Manhattan:24,New Jersey:18,Queens:30,Brooklyn:28,Staten Island:28,Westchester:21,Bronx:22,Rockland County:20,Nassau County:26
-2017-05-12,Queens:30,Brooklyn:46,Manhattan:22,Rockland County:21,Bronx:24,Westchester:25,Staten Island:27,New Jersey:33
-2017-05-14,Bronx:20,Queens:30
-2017-05-15,Manhattan:26,Bronx:26,Rockland County:22,New Jersey:25,Westchester:26,Nassau County:15,Queens:26,Staten Island:29,Brooklyn:32
-2017-05-16,Manhattan:22,Rockland County:30,Queens:31,New Jersey:19,Bronx:23,Staten Island:24,Westchester:27,Brooklyn:30
-2017-05-17,Brooklyn:32,Manhattan:22,Staten Island:30,Nassau County:48,Rockland County:15,Queens:35,Connecticut:25,Bronx:32,New Jersey:26,Westchester:28
-2017-05-18,Nassau County:30,Westchester:39,New Jersey:26,Rockland County:26,Queens:51,Brooklyn:33,Staten Island:25,Manhattan:26,Bronx:22
-2017-05-19,Bronx:23,Manhattan:27,Queens:27,Brooklyn:32,Staten Island:29,New Jersey:15,Westchester:30,Nassau County:42
-2017-05-22,Bronx:23,Westchester:25,Nassau County:40,Rockland County:15,All Boroughs:30,New Jersey:15,Queens:34,Staten Island:29,Manhattan:28,Brooklyn:32
-2017-05-23,Manhattan:28,Brooklyn:29,New Jersey:31,Staten Island:27,Queens:29,Bronx:21,Westchester:22,Rockland County:10,Nassau County:60
-2017-05-24,Brooklyn:31,Manhattan:40,Queens:28,Staten Island:27,Bronx:22,New Jersey:20,Westchester:24,Rockland County:18,Nassau County:41
-2017-05-25,Rockland County:15,Queens:29,Westchester:14,Bronx:25,Manhattan:29,Staten Island:31,Brooklyn:31,New Jersey:24,Nassau County:25
-2017-05-26,Bronx:22,Brooklyn:53,Manhattan:26,Queens:27,Staten Island:29,All Boroughs:20,New Jersey:22,Westchester:25,Nassau County:25,Rockland County:15
-2017-05-30,Queens:30,Brooklyn:29,Manhattan:28,Staten Island:27,Bronx:23,Connecticut:20,Nassau County:45,Westchester:17,New Jersey:21
-2017-05-31,Manhattan:27,Staten Island:28,Queens:27,Brooklyn:31,Bronx:21,Nassau County:782,Westchester:20,All Boroughs:15
-2017-06-01,Brooklyn:67,Bronx:19,Manhattan:45,Queens:27,Staten Island:30,Westchester:37,Nassau County:45
-2017-06-02,Brooklyn:33,Queens:27,Staten Island:28,Manhattan:33,Bronx:24,Westchester:45,Nassau County:35,All Boroughs:30
+2017-04-17,Brooklyn:34,Manhattan:43,Nassau County:37,Westchester:29,Bronx:26,New Jersey:15
+2017-04-18,Bronx:22,Manhattan:22,Nassau County:37,New Jersey:30,Westchester:21,Queens:37,Brooklyn:30
+2017-04-19,Brooklyn:32,Manhattan:39,Bronx:88,Queens:31,Staten Island:27,Westchester:22,Nassau County:20,Connecticut:20
+2017-04-20,Manhattan:24,Brooklyn:30,Staten Island:29,Bronx:41,Queens:28,Rockland County:15,All Boroughs:25,Nassau County:34,New Jersey:25,Westchester:20
+2017-04-21,Queens:30,Manhattan:28,Staten Island:25,Brooklyn:47,Bronx:38,New Jersey:25,Nassau County:45
+2017-04-24,Queens:31,Manhattan:25,Bronx:25,Staten Island:26,Westchester:23,Brooklyn:34,Connecticut:20,Nassau County:36,New Jersey:26
+2017-04-25,Staten Island:26,Brooklyn:351,Manhattan:39,Queens:32,Bronx:49,Nassau County:38,Connecticut:20,Westchester:15,New Jersey:20
+2017-04-26,New Jersey:23,Queens:28,Brooklyn:33,Manhattan:29,Bronx:22,Staten Island:21,Westchester:24,Nassau County:30,All Boroughs:37
+2017-04-27,Connecticut:35,Brooklyn:30,Bronx:34,Staten Island:24,Queens:27,Manhattan:42,Westchester:20,Nassau County:30,New Jersey:24
+2017-04-28,Nassau County:408,Manhattan:35,Queens:29,Staten Island:27,Brooklyn:34,Bronx:23,New Jersey:12,Westchester:26,Rockland County:20
+2017-05-01,Bronx:23,Queens:30,Brooklyn:58,Manhattan:24,Staten Island:25,Rockland County:12,Westchester:18,New Jersey:15,Nassau County:35
+2017-05-02,New Jersey:15,Manhattan:23,Staten Island:26,Brooklyn:30,Queens:27,Westchester:31,Bronx:22,Rockland County:15,All Boroughs:20
+2017-05-03,Queens:31,Brooklyn:60,Staten Island:23,Manhattan:22,Bronx:21,New Jersey:15,Nassau County:30,Westchester:23,Rockland County:20
+2017-05-04,Queens:27,Westchester:20,Manhattan:25,Bronx:23,Brooklyn:41,Staten Island:32,Nassau County:32,New Jersey:22
+2017-05-05,Queens:34,Rockland County:30,Brooklyn:65,Staten Island:29,Manhattan:24,Bronx:27,New Jersey:45,Westchester:27,Connecticut:15
+2017-05-08,Rockland County:15,Bronx:26,Queens:30,Brooklyn:30,Manhattan:23,Staten Island:27,Nassau County:27,New Jersey:17,Westchester:20,All Boroughs:50
+2017-05-09,Westchester:28,Manhattan:25,Brooklyn:30,Queens:31,Staten Island:29,New Jersey:25,Nassau County:37,Bronx:23
+2017-05-10,Nassau County:42,Brooklyn:36,Manhattan:24,Queens:26,Staten Island:29,Bronx:25,New Jersey:25,Westchester:25
+2017-05-11,New Jersey:18,Queens:30,Staten Island:28,Manhattan:24,Nassau County:26,Brooklyn:28,Bronx:22,Rockland County:20,Westchester:21
+2017-05-12,Staten Island:27,Queens:30,Manhattan:22,Brooklyn:46,New Jersey:33,Bronx:24,Westchester:25,Rockland County:21
+2017-05-14,Queens:30,Bronx:20
+2017-05-15,Bronx:26,Manhattan:26,Westchester:26,Brooklyn:32,Queens:26,Staten Island:29,New Jersey:25,Nassau County:15,Rockland County:22
+2017-05-16,Rockland County:30,Westchester:27,Brooklyn:30,Staten Island:24,Bronx:23,New Jersey:19,Queens:31,Manhattan:22
+2017-05-17,Manhattan:22,Westchester:28,Queens:35,Connecticut:25,Rockland County:15,Brooklyn:32,Staten Island:30,New Jersey:26,Bronx:32,Nassau County:48
+2017-05-18,Brooklyn:33,Staten Island:25,Manhattan:26,Nassau County:30,Queens:51,Bronx:22,Rockland County:26,New Jersey:26,Westchester:39
+2017-05-19,Bronx:23,Manhattan:27,Staten Island:29,Brooklyn:32,Nassau County:42,Westchester:30,New Jersey:15,Queens:27
+2017-05-22,Queens:34,Staten Island:29,Manhattan:28,Bronx:23,All Boroughs:30,Brooklyn:32,Rockland County:15,New Jersey:15,Nassau County:40,Westchester:25
+2017-05-23,Manhattan:28,New Jersey:31,Westchester:22,Rockland County:10,Brooklyn:29,Bronx:21,Queens:29,Staten Island:27,Nassau County:60
+2017-05-24,Manhattan:40,New Jersey:20,Rockland County:18,Bronx:22,Brooklyn:31,Nassau County:41,Westchester:24,Queens:28,Staten Island:27
+2017-05-25,Queens:29,Staten Island:31,Brooklyn:31,Rockland County:15,Nassau County:25,Bronx:25,Manhattan:29,Westchester:14,New Jersey:24
+2017-05-26,Queens:27,All Boroughs:20,Westchester:25,Rockland County:15,Staten Island:29,Nassau County:25,New Jersey:22,Brooklyn:53,Manhattan:26,Bronx:22
+2017-05-30,New Jersey:21,Brooklyn:29,Manhattan:28,Staten Island:27,Connecticut:20,Bronx:23,Queens:30,Nassau County:45,Westchester:17
+2017-05-31,Manhattan:27,Queens:27,Bronx:21,Westchester:20,Staten Island:28,All Boroughs:15,Nassau County:782,Brooklyn:31
+2017-06-01,Manhattan:45,Brooklyn:67,Westchester:37,Staten Island:30,Queens:27,Bronx:19,Nassau County:45
+2017-06-02,Queens:27,Staten Island:28,Brooklyn:33,Bronx:24,Westchester:45,Manhattan:33,Nassau County:35,All Boroughs:30
 2017-06-04,Queens:30
-2017-06-05,Manhattan:29,Staten Island:27,Brooklyn:31,Queens:34,New Jersey:28,Bronx:24,Nassau County:38,Connecticut:20,Rockland County:20
-2017-06-06,Bronx:23,Manhattan:27,Brooklyn:31,Staten Island:28,Queens:29,Westchester:25,New Jersey:22,Nassau County:42
-2017-06-07,Staten Island:28,Bronx:22,Westchester:17,Nassau County:45,Brooklyn:30,Manhattan:29,Queens:31
-2017-06-08,Nassau County:30,Bronx:27,Brooklyn:27,Westchester:40,Queens:173,Manhattan:23
-2017-06-09,Queens:33,Manhattan:120,Staten Island:28,Bronx:25,Brooklyn:50,Nassau County:35,Connecticut:15,All Boroughs:15,New Jersey:30,Westchester:20
-2017-06-12,Brooklyn:29,Nassau County:27,Manhattan:27,New Jersey:22,Queens:28,Bronx:25,Westchester:21
-2017-06-13,Brooklyn:31,Manhattan:29,Queens:33,Staten Island:29,Bronx:23,All Boroughs:30,New Jersey:20,Nassau County:32,Connecticut:20
-2017-06-14,New Jersey:22,Brooklyn:28,Queens:79,Staten Island:27,Manhattan:37,Bronx:24,Nassau County:36,Connecticut:10,All Boroughs:25
-2017-06-15,Bronx:25,Brooklyn:28,Queens:27,Staten Island:26,Manhattan:28,Nassau County:41,Westchester:30,New Jersey:45
-2017-06-16,Brooklyn:32,Manhattan:28,Staten Island:29,Bronx:23,Queens:26,Nassau County:30
-2017-06-19,Manhattan:28,Staten Island:26,Brooklyn:31,Bronx:26,All Boroughs:30,Queens:33,Nassau County:37,Westchester:30
-2017-06-20,Brooklyn:30,Manhattan:28,Staten Island:27,Queens:30,Bronx:22,New Jersey:26,Nassau County:42,Westchester:25
-2017-06-21,Manhattan:23,Brooklyn:29,Staten Island:26,Queens:26,Bronx:24,New Jersey:35,Nassau County:32,Westchester:25
-2017-06-22,Manhattan:26,Brooklyn:32,Staten Island:23,Queens:23,Bronx:25,New Jersey:21,Rockland County:15,Nassau County:30
-2017-06-23,Manhattan:26,Staten Island:28,Brooklyn:29,Queens:29,Bronx:28,New Jersey:30,Nassau County:25
-2017-06-26,Brooklyn:25,Bronx:25,Manhattan:33
-2017-06-27,Brooklyn:34,Staten Island:28,Manhattan:28,Queens:29,Bronx:25,Westchester:30
-2017-06-28,Manhattan:29,Queens:23,Staten Island:30,Brooklyn:29,Bronx:30
+2017-06-05,New Jersey:28,Manhattan:29,Rockland County:20,Connecticut:20,Queens:34,Nassau County:38,Brooklyn:31,Staten Island:27,Bronx:24
+2017-06-06,Brooklyn:31,Nassau County:42,Bronx:23,Staten Island:28,Queens:29,Manhattan:27,New Jersey:22,Westchester:25
+2017-06-07,Manhattan:29,Queens:31,Brooklyn:30,Staten Island:28,Nassau County:45,Westchester:17,Bronx:22
+2017-06-08,Westchester:40,Manhattan:23,Nassau County:30,Bronx:27,Brooklyn:27,Queens:173
+2017-06-09,New Jersey:30,Staten Island:28,Westchester:20,Nassau County:35,Bronx:25,All Boroughs:15,Brooklyn:50,Connecticut:15,Manhattan:120,Queens:33
+2017-06-12,Queens:28,Brooklyn:29,Bronx:25,Westchester:21,Manhattan:27,Nassau County:27,New Jersey:22
+2017-06-13,New Jersey:20,Manhattan:29,Bronx:23,Queens:33,Staten Island:29,Nassau County:32,All Boroughs:30,Brooklyn:31,Connecticut:20
+2017-06-14,Manhattan:37,New Jersey:22,All Boroughs:25,Brooklyn:28,Staten Island:27,Nassau County:36,Bronx:24,Connecticut:10,Queens:79
+2017-06-15,Bronx:25,Brooklyn:28,Staten Island:26,Queens:27,Westchester:30,New Jersey:45,Nassau County:41,Manhattan:28
+2017-06-16,Manhattan:28,Bronx:23,Brooklyn:32,Staten Island:29,Nassau County:30,Queens:26
+2017-06-19,Westchester:30,Manhattan:28,All Boroughs:30,Staten Island:26,Nassau County:37,Queens:33,Bronx:26,Brooklyn:31
+2017-06-20,Westchester:25,Brooklyn:30,Nassau County:42,New Jersey:26,Bronx:22,Manhattan:28,Queens:30,Staten Island:27
+2017-06-21,Manhattan:23,Bronx:24,Staten Island:26,Westchester:25,Queens:26,Nassau County:32,New Jersey:35,Brooklyn:29
+2017-06-22,Brooklyn:32,Manhattan:26,New Jersey:21,Rockland County:15,Nassau County:30,Bronx:25,Queens:23,Staten Island:23
+2017-06-23,Queens:29,Bronx:28,Manhattan:26,New Jersey:30,Nassau County:25,Brooklyn:29,Staten Island:28
+2017-06-26,Manhattan:33,Bronx:25,Brooklyn:25
+2017-06-27,Bronx:25,Westchester:30,Manhattan:28,Staten Island:28,Queens:29,Brooklyn:34
+2017-06-28,Staten Island:30,Bronx:30,Queens:23,Brooklyn:29,Manhattan:29
 2017-06-29,Brooklyn:17,Manhattan:22
 2017-06-30,Bronx:40
 2017-07-03,Westchester:30,Manhattan:30,Brooklyn:32,Queens:37,Bronx:28,Nassau County:30,Rockland County:30
-2017-07-05,Brooklyn:30,Westchester:32,Nassau County:30,Manhattan:28,Bronx:24,Staten Island:26,Connecticut:45,Queens:32,New Jersey:45
+2017-07-05,Manhattan:28,Bronx:24,Staten Island:26,Connecticut:45,Queens:32,New Jersey:45,Brooklyn:30,Westchester:32,Nassau County:30
 2017-07-06,Bronx:27,Manhattan:27,Staten Island:111,Westchester:45,Queens:30,Brooklyn:25,Nassau County:30
 2017-07-07,Brooklyn:30,Manhattan:31,Bronx:25,Queens:26,New Jersey:45,Westchester:25,Staten Island:15
 2017-07-10,Westchester:21,Queens:32,Brooklyn:41,Manhattan:27,Nassau County:25,Bronx:152,Staten Island:23,Rockland County:45
 2017-07-11,Brooklyn:29,Westchester:31,Rockland County:30,Queens:240,Staten Island:28,Manhattan:28,Bronx:27,Nassau County:25
 2017-07-12,Manhattan:25,Brooklyn:29,Nassau County:30,Queens:28,Bronx:26,Westchester:30
-2017-07-13,Brooklyn:30,Manhattan:229,Staten Island:45,Queens:35,Nassau County:32,Bronx:23,Westchester:20
+2017-07-13,Queens:35,Nassau County:32,Bronx:23,Westchester:20,Brooklyn:30,Manhattan:229,Staten Island:45
 2017-07-14,Manhattan:31,Brooklyn:23,Westchester:32,Bronx:25,Queens:18
 2017-07-17,Brooklyn:87,Manhattan:27,Bronx:21,Queens:35,Nassau County:31,Rockland County:21,Westchester:30,Staten Island:15,All Boroughs:25
 2017-07-18,Brooklyn:103,Manhattan:28,Bronx:25,Westchester:26,Queens:23,Rockland County:30,Staten Island:23,Nassau County:15
@@ -476,196 +476,196 @@
 2017-07-25,Brooklyn:22,Manhattan:27,Queens:27,Westchester:27,Bronx:26,Rockland County:30,Staten Island:28,Nassau County:31
 2017-07-26,Brooklyn:26,Queens:31,Manhattan:26,Westchester:21,Bronx:25,Staten Island:24
 2017-07-27,Brooklyn:29,Westchester:25,Manhattan:25,Bronx:26,Staten Island:23,Queens:128,Nassau County:30
-2017-07-28,Brooklyn:26,Staten Island:16,Queens:37,Manhattan:23,Bronx:25,Westchester:24
-2017-07-31,Bronx:26,Brooklyn:25,Manhattan:28,Queens:32,Staten Island:27,Nassau County:30,Westchester:28
-2017-08-01,Bronx:25,Rockland County:30,Manhattan:28,Brooklyn:28,Queens:33,Westchester:23,Nassau County:33,Staten Island:27
-2017-08-02,Manhattan:28,Staten Island:20,Bronx:27,Brooklyn:28,Westchester:32,Queens:34
-2017-08-03,Staten Island:28,Brooklyn:29,Manhattan:26,New Jersey:45,Westchester:39,Queens:33,Bronx:25
-2017-08-04,Queens:20,Brooklyn:26,Bronx:24,Manhattan:23,Westchester:29,Staten Island:17
+2017-07-28,Brooklyn:26,Queens:37,Manhattan:23,Bronx:25,Staten Island:16,Westchester:24
+2017-07-31,Brooklyn:25,Manhattan:28,Bronx:26,Queens:32,Staten Island:27,Nassau County:30,Westchester:28
+2017-08-01,Manhattan:28,Brooklyn:28,Queens:33,Bronx:25,Westchester:23,Nassau County:33,Staten Island:27,Rockland County:30
+2017-08-02,Staten Island:20,Bronx:27,Brooklyn:28,Manhattan:28,Westchester:32,Queens:34
+2017-08-03,Brooklyn:29,Manhattan:26,New Jersey:45,Westchester:39,Queens:33,Staten Island:28,Bronx:25
+2017-08-04,Brooklyn:26,Bronx:24,Queens:20,Manhattan:23,Westchester:29,Staten Island:17
 2017-08-07,Manhattan:29,Westchester:28,Queens:25,Brooklyn:27,Staten Island:23,Bronx:21
-2017-09-01,Queens:30,Manhattan:67,Brooklyn:30,Westchester:15
-2017-09-05,Bronx:15,Manhattan:40,New Jersey:60,Brooklyn:34,Westchester:41,Queens:37,Nassau County:25
-2017-09-06,Staten Island:20,Brooklyn:34,New Jersey:35,Manhattan:35,Bronx:25,Queens:36,Nassau County:30,Rockland County:45,Westchester:30,Connecticut:15
-2017-09-07,Staten Island:43,Manhattan:44,Brooklyn:38,Westchester:30,Bronx:31,Queens:46,Rockland County:35,New Jersey:50,Nassau County:40
-2017-09-08,Bronx:26,Brooklyn:41,Manhattan:41,Nassau County:35,Westchester:31,Queens:46,Staten Island:31,New Jersey:54
+2017-09-01,Manhattan:67,Brooklyn:30,Queens:30,Westchester:15
+2017-09-05,New Jersey:60,Brooklyn:34,Manhattan:40,Westchester:41,Queens:37,Nassau County:25,Bronx:15
+2017-09-06,Brooklyn:34,New Jersey:35,Manhattan:35,Bronx:25,Queens:36,Nassau County:30,Rockland County:45,Staten Island:20,Westchester:30,Connecticut:15
+2017-09-07,Brooklyn:38,Manhattan:44,Westchester:30,Bronx:31,Queens:46,Staten Island:43,Rockland County:35,New Jersey:50,Nassau County:40
+2017-09-08,Brooklyn:41,Manhattan:41,Nassau County:35,Westchester:31,Bronx:26,Queens:46,Staten Island:31,New Jersey:54
 2017-09-10,Manhattan:30,Brooklyn:30
-2017-09-11,Staten Island:37,Manhattan:37,Queens:46,Brooklyn:39,Bronx:28,New Jersey:67,Westchester:27,Nassau County:32
-2017-09-12,Manhattan:46,New Jersey:60,Brooklyn:39,Staten Island:46,Bronx:29,Queens:45,Nassau County:30,Westchester:30
-2017-09-13,Queens:44,Manhattan:45,Bronx:30,Brooklyn:36,Staten Island:39,Nassau County:30,Westchester:47,New Jersey:52
-2017-09-14,Brooklyn:39,Manhattan:45,Queens:39,Staten Island:42,Bronx:27,Westchester:35,All Boroughs:37,New Jersey:60,Rockland County:15,Nassau County:41
-2017-09-15,Rockland County:15,Nassau County:30,Manhattan:45,Bronx:28,New Jersey:60,Brooklyn:37,Queens:34,Staten Island:36,Westchester:45
-2017-09-18,Connecticut:30,Manhattan:45,New Jersey:58,Rockland County:40,Westchester:52,Staten Island:38,Brooklyn:38,Queens:42,Bronx:29
-2017-09-19,Queens:41,Brooklyn:36,Bronx:27,Rockland County:50,Connecticut:30,Nassau County:40,All Boroughs:60,Manhattan:45,Westchester:51,Staten Island:44,New Jersey:60
-2017-09-20,Bronx:29,Staten Island:36,Westchester:65,Connecticut:30,Brooklyn:38,Queens:38,Manhattan:44,New Jersey:45,All Boroughs:52
-2017-09-21,Queens:30,Brooklyn:33,Bronx:15,Westchester:30,Manhattan:47
+2017-09-11,Manhattan:37,Queens:46,Staten Island:37,Brooklyn:39,Bronx:28,New Jersey:67,Westchester:27,Nassau County:32
+2017-09-12,Brooklyn:39,Staten Island:46,Manhattan:46,Bronx:29,Queens:45,Nassau County:30,New Jersey:60,Westchester:30
+2017-09-13,Manhattan:45,Bronx:30,Queens:44,Brooklyn:36,Staten Island:39,Nassau County:30,Westchester:47,New Jersey:52
+2017-09-14,Westchester:35,Nassau County:41,All Boroughs:37,New Jersey:60,Rockland County:15,Manhattan:45,Queens:39,Brooklyn:39,Staten Island:42,Bronx:27
+2017-09-15,Bronx:28,Brooklyn:37,Queens:34,Manhattan:45,New Jersey:60,Staten Island:36,Westchester:45,Nassau County:30,Rockland County:15
+2017-09-18,Queens:42,Manhattan:45,Brooklyn:38,Staten Island:38,Bronx:29,New Jersey:58,Rockland County:40,Westchester:52,Connecticut:30
+2017-09-19,Queens:41,Brooklyn:36,Manhattan:45,Bronx:27,Staten Island:44,New Jersey:60,Nassau County:40,Rockland County:50,Connecticut:30,Westchester:51,All Boroughs:60
+2017-09-20,Bronx:29,Brooklyn:38,Queens:38,Manhattan:44,Staten Island:36,Westchester:65,All Boroughs:52,New Jersey:45,Connecticut:30
+2017-09-21,Brooklyn:33,Manhattan:47,Westchester:30,Queens:30,Bronx:15
 2017-09-22,Brooklyn:37,Nassau County:30
-2017-09-25,Manhattan:44,Staten Island:44,Rockland County:45,Connecticut:30,Bronx:28,Brooklyn:36,Queens:39,Nassau County:45,New Jersey:45,Westchester:40
-2017-09-26,Brooklyn:39,Staten Island:41,Nassau County:37,Queens:46,New Jersey:60,Manhattan:44,Westchester:42,Bronx:27
-2017-09-27,Westchester:47,Bronx:26,Manhattan:42,New Jersey:60,All Boroughs:45,Rockland County:45,Brooklyn:37,Nassau County:48,Staten Island:41,Queens:35
-2017-09-28,Brooklyn:34,Staten Island:39,Bronx:27,All Boroughs:30,Rockland County:60,New Jersey:60,Nassau County:36,Westchester:41,Queens:40,Manhattan:45
-2017-09-29,Manhattan:44,Brooklyn:32,Westchester:42,Connecticut:30,Bronx:28,Nassau County:30,Rockland County:55,Staten Island:36,Queens:36,New Jersey:60
+2017-09-25,Manhattan:44,Bronx:28,Brooklyn:36,Queens:39,Staten Island:44,Westchester:40,New Jersey:45,Nassau County:45,Rockland County:45,Connecticut:30
+2017-09-26,Bronx:27,Manhattan:44,Brooklyn:39,Queens:46,Staten Island:41,Westchester:42,Nassau County:37,New Jersey:60
+2017-09-27,Queens:35,Brooklyn:37,Westchester:47,Bronx:26,Manhattan:42,Staten Island:41,New Jersey:60,Nassau County:48,All Boroughs:45,Rockland County:45
+2017-09-28,Brooklyn:34,Manhattan:45,Staten Island:39,Queens:40,Bronx:27,Nassau County:36,Westchester:41,New Jersey:60,All Boroughs:30,Rockland County:60
+2017-09-29,Manhattan:44,Staten Island:36,Brooklyn:32,Queens:36,New Jersey:60,Bronx:28,Westchester:42,Rockland County:55,Connecticut:30,Nassau County:30
 2017-10-01,Manhattan:60
-2017-10-02,Nassau County:42,Brooklyn:37,Manhattan:43,Westchester:41,All Boroughs:40,Queens:38,Staten Island:37,Bronx:25,New Jersey:60,Rockland County:30
-2017-10-03,Rockland County:60,Manhattan:43,Westchester:30,Connecticut:30,Staten Island:34,All Boroughs:36,Queens:35,Nassau County:26,Bronx:28,Brooklyn:34,New Jersey:60
-2017-10-04,New Jersey:60,Staten Island:38,Manhattan:41,Queens:34,Bronx:25,Brooklyn:34,Westchester:46,Nassau County:35
-2017-10-05,Rockland County:45,Manhattan:43,All Boroughs:45,New Jersey:60,Bronx:25,Queens:37,Westchester:30,Nassau County:41,Staten Island:33,Brooklyn:36
-2017-10-06,Manhattan:42,Brooklyn:32,Bronx:25,Westchester:27,New Jersey:60,Queens:32,Staten Island:30,Nassau County:36
-2017-10-09,Bronx:15,Manhattan:45,Brooklyn:45
-2017-10-10,Queens:32,Rockland County:35,Connecticut:30,Manhattan:39,New Jersey:40,All Boroughs:37,Bronx:27,Brooklyn:33,Westchester:39,Staten Island:25,Nassau County:30
-2017-10-11,Westchester:36,Staten Island:33,Nassau County:30,Brooklyn:33,All Boroughs:45,Bronx:27,Queens:38,New Jersey:60,Manhattan:43
-2017-10-12,Manhattan:41,Staten Island:34,All Boroughs:37,Queens:28,New Jersey:56,Westchester:44,Bronx:28,Rockland County:30,Nassau County:38,Brooklyn:32
-2017-10-13,Nassau County:60,Westchester:43,All Boroughs:30,Manhattan:46,Staten Island:33,Queens:30,Bronx:28,Brooklyn:36,New Jersey:45
+2017-10-02,Staten Island:37,Bronx:25,Brooklyn:37,Manhattan:43,Queens:38,Nassau County:42,Westchester:41,All Boroughs:40,New Jersey:60,Rockland County:30
+2017-10-03,Queens:35,Manhattan:43,Brooklyn:34,Staten Island:34,Bronx:28,All Boroughs:36,Nassau County:26,New Jersey:60,Connecticut:30,Westchester:30,Rockland County:60
+2017-10-04,Bronx:25,Staten Island:38,Brooklyn:34,Manhattan:41,Queens:34,Nassau County:35,New Jersey:60,Westchester:46
+2017-10-05,Bronx:25,Nassau County:41,Manhattan:43,Brooklyn:36,Queens:37,Staten Island:33,All Boroughs:45,Westchester:30,Rockland County:45,New Jersey:60
+2017-10-06,Manhattan:42,Bronx:25,Brooklyn:32,Staten Island:30,Queens:32,Nassau County:36,Westchester:27,New Jersey:60
+2017-10-09,Manhattan:45,Brooklyn:45,Bronx:15
+2017-10-10,Nassau County:30,Westchester:39,Manhattan:39,Brooklyn:33,Queens:32,Staten Island:25,Bronx:27,Rockland County:35,New Jersey:40,All Boroughs:37,Connecticut:30
+2017-10-11,All Boroughs:45,Bronx:27,Brooklyn:33,Queens:38,Manhattan:43,Staten Island:33,Westchester:36,Nassau County:30,New Jersey:60
+2017-10-12,All Boroughs:37,Manhattan:41,Queens:28,Bronx:28,Brooklyn:32,Staten Island:34,Westchester:44,Nassau County:38,Rockland County:30,New Jersey:56
+2017-10-13,Nassau County:60,Staten Island:33,Bronx:28,Brooklyn:36,Manhattan:46,Queens:30,Westchester:43,All Boroughs:30,New Jersey:45
 2017-10-15,Brooklyn:60,Bronx:15
-2017-10-16,Manhattan:43,Queens:38,Bronx:31,New Jersey:60,Nassau County:55,Westchester:35,Brooklyn:37,Staten Island:35
-2017-10-17,Bronx:30,Nassau County:40,Westchester:42,Rockland County:30,Staten Island:29,Brooklyn:35,New Jersey:60,Manhattan:41,Queens:42
-2017-10-18,Westchester:45,Staten Island:32,Nassau County:33,Queens:41,Brooklyn:30,Manhattan:41,Bronx:29,New Jersey:52
-2017-10-19,Staten Island:32,New Jersey:60,Queens:43,Brooklyn:32,Nassau County:33,Westchester:42,Bronx:30,Manhattan:41
-2017-10-20,Nassau County:41,Bronx:32,Queens:37,Westchester:37,Brooklyn:33,New Jersey:60,Manhattan:42,Staten Island:31
+2017-10-16,Brooklyn:37,Bronx:31,Manhattan:43,Staten Island:35,Queens:38,Nassau County:55,New Jersey:60,Westchester:35
+2017-10-17,Queens:42,Bronx:30,Brooklyn:35,Staten Island:29,Manhattan:41,Nassau County:40,Rockland County:30,Westchester:42,New Jersey:60
+2017-10-18,Brooklyn:30,Bronx:29,Manhattan:41,Staten Island:32,Queens:41,Nassau County:33,New Jersey:52,Westchester:45
+2017-10-19,Queens:43,Bronx:30,Brooklyn:32,Manhattan:41,Staten Island:32,Westchester:42,Nassau County:33,New Jersey:60
+2017-10-20,Brooklyn:33,Staten Island:31,Bronx:32,Queens:37,Manhattan:42,Westchester:37,New Jersey:60,Nassau County:41
 2017-10-22,Queens:30
-2017-10-23,Nassau County:45,Brooklyn:31,Staten Island:35,Westchester:37,Queens:37,Bronx:33,Manhattan:41,All Boroughs:52,Rockland County:60
-2017-10-24,Bronx:29,Staten Island:29,Brooklyn:31,All Boroughs:40,Manhattan:41,Queens:34,Nassau County:30,Westchester:46
-2017-10-25,Brooklyn:33,Manhattan:41,Bronx:26,Staten Island:30,Queens:40,Nassau County:25,Westchester:30
-2017-10-26,Brooklyn:36,Bronx:25,Queens:37,Manhattan:40,Staten Island:32,Westchester:31,Nassau County:45,Connecticut:30,All Boroughs:45,Rockland County:15
-2017-10-27,Nassau County:30,Westchester:34,All Boroughs:37,Manhattan:41,Brooklyn:34,Bronx:28,Staten Island:29,Queens:31,New Jersey:60
+2017-10-23,All Boroughs:52,Queens:37,Manhattan:41,Rockland County:60,Brooklyn:31,Staten Island:35,Bronx:33,Nassau County:45,Westchester:37
+2017-10-24,Westchester:46,Brooklyn:31,Manhattan:41,Bronx:29,Queens:34,Staten Island:29,Nassau County:30,All Boroughs:40
+2017-10-25,Westchester:30,Bronx:26,Brooklyn:33,Manhattan:41,Staten Island:30,Queens:40,Nassau County:25
+2017-10-26,Brooklyn:36,Bronx:25,Queens:37,Manhattan:40,Staten Island:32,Westchester:31,Nassau County:45,All Boroughs:45,Rockland County:15,Connecticut:30
+2017-10-27,Manhattan:41,Bronx:28,Staten Island:29,Queens:31,Nassau County:30,Westchester:34,All Boroughs:37,New Jersey:60,Brooklyn:34
 2017-10-29,Bronx:30
-2017-10-30,Queens:35,Manhattan:41,Brooklyn:34,Staten Island:36,Bronx:28,Nassau County:32,New Jersey:49,Connecticut:37,Westchester:39,Rockland County:37,All Boroughs:45
-2017-10-31,Bronx:31,Manhattan:42,Queens:37,Brooklyn:49,New Jersey:45,Staten Island:33,Nassau County:51,Westchester:40,Rockland County:45
-2017-11-01,Brooklyn:34,Nassau County:42,Bronx:27,Staten Island:26,Manhattan:43,Queens:31,Westchester:30,New Jersey:60
-2017-11-02,Bronx:28,Manhattan:44,Brooklyn:32,Queens:33
-2017-11-03,Manhattan:39,Queens:36,Brooklyn:32,Staten Island:36,Westchester:32,Bronx:34,Rockland County:45,Connecticut:30,New Jersey:60,Nassau County:48
-2017-11-06,Bronx:22,Brooklyn:32,Queens:40,Staten Island:30,Manhattan:15
-2017-11-07,Bronx:25,Brooklyn:33,Manhattan:27,New Jersey:50,Westchester:45,Queens:15
-2017-11-08,Brooklyn:37,Queens:34,Manhattan:42,Bronx:31,Staten Island:34,Nassau County:52,Rockland County:30,New Jersey:56,Westchester:32,Connecticut:30
-2017-11-09,Nassau County:30,Bronx:30,Manhattan:43,Brooklyn:31,Queens:36,Staten Island:28,Westchester:54,New Jersey:35,Rockland County:37,Connecticut:30,All Boroughs:30
-2017-11-10,Manhattan:42,Brooklyn:32,Queens:34,Staten Island:31,Bronx:28,Westchester:35,Nassau County:30,Rockland County:30
-2017-11-12,Brooklyn:30,Nassau County:45
-2017-11-13,Rockland County:21,Connecticut:45,Brooklyn:34,Bronx:33,Manhattan:45,Queens:38,Staten Island:33,New Jersey:50,Nassau County:45,Westchester:39
-2017-11-14,Brooklyn:30,Manhattan:41,Bronx:29,Staten Island:28,Queens:35,New Jersey:60,Nassau County:30,Westchester:55,Rockland County:15
-2017-11-15,Brooklyn:32,Queens:36,Bronx:31,Manhattan:40,Staten Island:30,Westchester:27,Nassau County:37,Rockland County:45,Connecticut:45,New Jersey:60
-2017-11-16,Queens:37,Brooklyn:32,Manhattan:40,Staten Island:27,Westchester:40,Bronx:29,Nassau County:49,Connecticut:45,New Jersey:54,Rockland County:45
-2017-11-17,Bronx:29,Manhattan:39,Brooklyn:39,Queens:40,Staten Island:35,Nassau County:41,Westchester:34
-2017-11-20,Brooklyn:35,Westchester:42,Manhattan:40,Bronx:26,Staten Island:33,Nassau County:37,Queens:40,New Jersey:30
-2017-11-21,Manhattan:40,Bronx:29,Brooklyn:37,Queens:39,Staten Island:32,Nassau County:35,Westchester:37,New Jersey:60
-2017-11-22,Manhattan:39,Staten Island:26,Queens:32,Brooklyn:33,Bronx:32,Nassau County:45,New Jersey:35,Westchester:30,Connecticut:45
-2017-11-27,Manhattan:43,Staten Island:40,Brooklyn:33,Queens:43,Nassau County:48,Bronx:31,Rockland County:45,Westchester:62,New Jersey:45
-2017-11-28,Bronx:31,Brooklyn:33,Manhattan:43,Queens:45,Staten Island:32,Westchester:37,Rockland County:30,Nassau County:50
-2017-11-29,Bronx:27,Brooklyn:34,Manhattan:43,Queens:34,Staten Island:28,Connecticut:45,New Jersey:30,Westchester:51,Nassau County:33
-2017-11-30,Queens:35,Manhattan:42,Brooklyn:36,Bronx:26,Staten Island:25,Westchester:33,Nassau County:45,New Jersey:60
-2017-12-01,Manhattan:39,Bronx:32,Brooklyn:36,Queens:33,Staten Island:30,Nassau County:39,Westchester:54,New Jersey:30,Connecticut:45
-2017-12-03,Brooklyn:30,Queens:45
-2017-12-04,Queens:37,Manhattan:43,Brooklyn:35,Bronx:31,Nassau County:42,Staten Island:31,Westchester:53,Connecticut:60
-2017-12-05,Bronx:27,Manhattan:42,Brooklyn:34,Queens:32,Staten Island:26,Nassau County:38,Westchester:40
-2017-12-06,New Jersey:90,Westchester:35,Brooklyn:30,Manhattan:42,Queens:33,Staten Island:26,Bronx:29
-2017-12-07,Manhattan:41,Queens:37,Staten Island:28,Brooklyn:30,Bronx:31,Nassau County:45,New Jersey:45,Westchester:30
-2017-12-08,Manhattan:41,Queens:31,Staten Island:31,Bronx:28,Westchester:30,Connecticut:45,Rockland County:45,Nassau County:37,New Jersey:30,Brooklyn:32
-2017-12-11,Bronx:28,Brooklyn:38,Manhattan:43,Queens:37,Westchester:43,Connecticut:45,Rockland County:37,New Jersey:60,Nassau County:57,Staten Island:32
-2017-12-12,Bronx:29,Queens:35,Staten Island:33,Brooklyn:38,Nassau County:45,Connecticut:45,Westchester:44,New Jersey:48,Manhattan:39
-2017-12-13,Bronx:25,Queens:34,Brooklyn:38,Nassau County:37,Westchester:30,New Jersey:60,Manhattan:42,Rockland County:45,Staten Island:32
-2017-12-14,Nassau County:43,Brooklyn:38,Queens:34,Manhattan:41,All Boroughs:37,Bronx:29,Staten Island:29,New Jersey:45,Connecticut:36,Westchester:66
-2017-12-15,Manhattan:41,Bronx:38,Nassau County:45,Westchester:25,Staten Island:31,All Boroughs:40,New Jersey:60,Rockland County:40,Queens:32,Brooklyn:34
+2017-10-30,New Jersey:49,Westchester:39,Connecticut:37,Queens:35,Brooklyn:34,Nassau County:32,Bronx:28,Staten Island:36,Manhattan:41,Rockland County:37,All Boroughs:45
+2017-10-31,New Jersey:45,Westchester:40,Brooklyn:49,Manhattan:42,Queens:37,Staten Island:33,Nassau County:51,Rockland County:45,Bronx:31
+2017-11-01,Bronx:27,Brooklyn:34,Manhattan:43,Staten Island:26,Westchester:30,New Jersey:60,Queens:31,Nassau County:42
+2017-11-02,Brooklyn:32,Bronx:28,Manhattan:44,Queens:33
+2017-11-03,Manhattan:39,Westchester:32,Rockland County:45,New Jersey:60,Brooklyn:32,Staten Island:36,Connecticut:30,Nassau County:48,Bronx:34,Queens:36
+2017-11-06,Queens:40,Staten Island:30,Manhattan:15,Bronx:22,Brooklyn:32
+2017-11-07,Brooklyn:33,Queens:15,Westchester:45,Bronx:25,Manhattan:27,New Jersey:50
+2017-11-08,Queens:34,Bronx:31,New Jersey:56,Westchester:32,Connecticut:30,Manhattan:42,Nassau County:52,Rockland County:30,Staten Island:34,Brooklyn:37
+2017-11-09,Bronx:30,Staten Island:28,New Jersey:35,Connecticut:30,Nassau County:30,Brooklyn:31,Queens:36,All Boroughs:30,Rockland County:37,Westchester:54,Manhattan:43
+2017-11-10,Queens:34,Staten Island:31,Nassau County:30,Westchester:35,Rockland County:30,Manhattan:42,Brooklyn:32,Bronx:28
+2017-11-12,Nassau County:45,Brooklyn:30
+2017-11-13,Brooklyn:34,Staten Island:33,Rockland County:21,Connecticut:45,New Jersey:50,Nassau County:45,Westchester:39,Bronx:33,Queens:38,Manhattan:45
+2017-11-14,Brooklyn:30,Bronx:29,Nassau County:30,Rockland County:15,Manhattan:41,Westchester:55,Staten Island:28,Queens:35,New Jersey:60
+2017-11-15,Queens:36,Staten Island:30,Nassau County:37,Westchester:27,New Jersey:60,Bronx:31,Manhattan:40,Brooklyn:32,Connecticut:45,Rockland County:45
+2017-11-16,Westchester:40,Staten Island:27,Bronx:29,Connecticut:45,Brooklyn:32,Queens:37,Nassau County:49,Rockland County:45,New Jersey:54,Manhattan:40
+2017-11-17,Staten Island:35,Nassau County:41,Manhattan:39,Queens:40,Bronx:29,Brooklyn:39,Westchester:34
+2017-11-20,Manhattan:40,Queens:40,New Jersey:30,Bronx:26,Nassau County:37,Brooklyn:35,Westchester:42,Staten Island:33
+2017-11-21,Manhattan:40,Brooklyn:37,Westchester:37,Queens:39,Bronx:29,Staten Island:32,Nassau County:35,New Jersey:60
+2017-11-22,Westchester:30,Brooklyn:33,New Jersey:35,Nassau County:45,Queens:32,Connecticut:45,Bronx:32,Staten Island:26,Manhattan:39
+2017-11-27,Staten Island:40,Brooklyn:33,Rockland County:45,New Jersey:45,Nassau County:48,Queens:43,Westchester:62,Manhattan:43,Bronx:31
+2017-11-28,Bronx:31,Brooklyn:33,Queens:45,Westchester:37,Nassau County:50,Rockland County:30,Staten Island:32,Manhattan:43
+2017-11-29,Brooklyn:34,Staten Island:28,Bronx:27,Nassau County:33,Queens:34,New Jersey:30,Connecticut:45,Manhattan:43,Westchester:51
+2017-11-30,Nassau County:45,Brooklyn:36,Manhattan:42,New Jersey:60,Staten Island:25,Queens:35,Bronx:26,Westchester:33
+2017-12-01,Manhattan:39,Bronx:32,Nassau County:39,Queens:33,Brooklyn:36,Connecticut:45,Westchester:54,New Jersey:30,Staten Island:30
+2017-12-03,Queens:45,Brooklyn:30
+2017-12-04,Queens:37,Connecticut:60,Westchester:53,Nassau County:42,Manhattan:43,Staten Island:31,Bronx:31,Brooklyn:35
+2017-12-05,Bronx:27,Brooklyn:34,Manhattan:42,Staten Island:26,Nassau County:38,Westchester:40,Queens:32
+2017-12-06,Westchester:35,Queens:33,Bronx:29,Brooklyn:30,Manhattan:42,New Jersey:90,Staten Island:26
+2017-12-07,Westchester:30,Nassau County:45,Bronx:31,Brooklyn:30,Manhattan:41,Staten Island:28,New Jersey:45,Queens:37
+2017-12-08,Connecticut:45,Nassau County:37,Manhattan:41,Rockland County:45,Brooklyn:32,Staten Island:31,Queens:31,New Jersey:30,Bronx:28,Westchester:30
+2017-12-11,Queens:37,Rockland County:37,Bronx:28,Manhattan:43,Connecticut:45,Nassau County:57,Westchester:43,New Jersey:60,Brooklyn:38,Staten Island:32
+2017-12-12,Bronx:29,Manhattan:39,Staten Island:33,New Jersey:48,Nassau County:45,Connecticut:45,Queens:35,Westchester:44,Brooklyn:38
+2017-12-13,Queens:34,Manhattan:42,Nassau County:37,Staten Island:32,Rockland County:45,Brooklyn:38,New Jersey:60,Westchester:30,Bronx:25
+2017-12-14,Staten Island:29,Westchester:66,New Jersey:45,Connecticut:36,Nassau County:43,Brooklyn:38,Queens:34,Manhattan:41,All Boroughs:37,Bronx:29
+2017-12-15,Manhattan:41,Brooklyn:34,Bronx:38,Nassau County:45,Westchester:25,Queens:32,Staten Island:31,All Boroughs:40,New Jersey:60,Rockland County:40
 2017-12-17,Staten Island:45
-2017-12-18,Queens:32,Brooklyn:36,Nassau County:40,Manhattan:42,Staten Island:28,Bronx:27,Connecticut:30,New Jersey:42,Westchester:33
-2017-12-19,Bronx:28,Brooklyn:32,Manhattan:41,Queens:37,Nassau County:42,Westchester:38,Rockland County:30,Connecticut:45,Staten Island:29
-2017-12-20,Queens:38,Westchester:30,Connecticut:40,Brooklyn:38,Nassau County:30,Manhattan:42,Staten Island:30,Bronx:29
-2017-12-21,New Jersey:60,Westchester:31,Nassau County:30,Manhattan:42,Queens:33,Brooklyn:34,Connecticut:30,Bronx:28,Staten Island:34
-2017-12-22,Westchester:40,Bronx:30,Staten Island:30,Brooklyn:36,Nassau County:35,Manhattan:40,Rockland County:45,Queens:35
-2017-12-26,New Jersey:45,Brooklyn:22,Rockland County:30,Manhattan:30,Nassau County:30
-2017-12-27,Queens:45,Brooklyn:40,Rockland County:15
+2017-12-18,Nassau County:40,Queens:32,Manhattan:42,Staten Island:28,Bronx:27,Westchester:33,Connecticut:30,New Jersey:42,Brooklyn:36
+2017-12-19,Bronx:28,Staten Island:29,Brooklyn:32,Manhattan:41,Queens:37,Nassau County:42,Westchester:38,Rockland County:30,Connecticut:45
+2017-12-20,Bronx:29,Brooklyn:38,Nassau County:30,Manhattan:42,Staten Island:30,Queens:38,Connecticut:40,Westchester:30
+2017-12-21,Nassau County:30,New Jersey:60,Bronx:28,Queens:33,Brooklyn:34,Manhattan:42,Staten Island:34,Connecticut:30,Westchester:31
+2017-12-22,Brooklyn:36,Queens:35,Staten Island:30,Manhattan:40,Nassau County:35,Bronx:30,Westchester:40,Rockland County:45
+2017-12-26,Brooklyn:22,Rockland County:30,New Jersey:45,Nassau County:30,Manhattan:30
+2017-12-27,Brooklyn:40,Queens:45,Rockland County:15
 2017-12-28,Brooklyn:40,Bronx:90
 2017-12-29,Brooklyn:30
-2018-01-02,Bronx:36,New Jersey:45,Brooklyn:53,Manhattan:45,Westchester:45,All Boroughs:45,Queens:42,Staten Island:36,Nassau County:90
-2018-01-03,Manhattan:43,Queens:37,Staten Island:31,Rockland County:90,Nassau County:47,Bronx:30,New Jersey:52,Brooklyn:45,Westchester:48
-2018-01-05,Bronx:49,Manhattan:48,Westchester:30,Staten Island:35,Nassau County:70,Queens:48,Brooklyn:47
+2018-01-02,Queens:42,Brooklyn:53,New Jersey:45,Bronx:36,Staten Island:36,Manhattan:45,Westchester:45,All Boroughs:45,Nassau County:90
+2018-01-03,Queens:37,Bronx:30,Manhattan:43,Brooklyn:45,Staten Island:31,Westchester:48,Rockland County:90,New Jersey:52,Nassau County:47
+2018-01-05,Bronx:49,Queens:48,Brooklyn:47,Manhattan:48,Westchester:30,Staten Island:35,Nassau County:70
 2018-01-07,Brooklyn:30
-2018-01-08,Staten Island:34,Bronx:39,Rockland County:75,New Jersey:30,Westchester:37,Queens:45,Brooklyn:48,Nassau County:32,Manhattan:46
-2018-01-09,Staten Island:36,New Jersey:60,Brooklyn:47,Nassau County:32,Queens:37,Bronx:32,Westchester:43,Manhattan:43
-2018-01-10,Queens:35,Bronx:30,Rockland County:56,New Jersey:45,Brooklyn:45,Westchester:52,Connecticut:30,Nassau County:50,Staten Island:30,Manhattan:41
-2018-01-11,New Jersey:30,Manhattan:43,Westchester:51,Queens:36,Brooklyn:38,Bronx:36,Staten Island:30,Nassau County:45,Rockland County:37
-2018-01-12,Bronx:35,Westchester:34,Manhattan:39,Queens:40,Brooklyn:38,Nassau County:34,New Jersey:37,Staten Island:30
-2018-01-16,Staten Island:31,Rockland County:45,Queens:37,Brooklyn:38,Manhattan:42,Westchester:25,Bronx:30,Nassau County:40
-2018-01-17,Nassau County:45,Manhattan:41,Bronx:31,Staten Island:30,Rockland County:45,Brooklyn:40,Westchester:30,Connecticut:45,Queens:32
-2018-01-18,Staten Island:29,Manhattan:41,Westchester:45,Bronx:28,New Jersey:30,Nassau County:45,Queens:37,Brooklyn:40
-2018-01-19,All Boroughs:60,Bronx:29,Brooklyn:36,Westchester:33,Manhattan:43,Staten Island:32,Queens:34,Nassau County:35,Rockland County:45
-2018-01-22,New Jersey:56,Nassau County:48,Manhattan:44,Brooklyn:43,Bronx:28,Connecticut:30,Staten Island:35,Westchester:28,Queens:37
-2018-01-23,Westchester:40,Staten Island:30,Manhattan:41,Brooklyn:45,Queens:31,Rockland County:45,Nassau County:55,Bronx:29,New Jersey:75
-2018-01-24,Queens:42,Nassau County:40,Westchester:33,Bronx:25,Manhattan:40,Brooklyn:37,Rockland County:45,Staten Island:31
-2018-01-25,Queens:31,Bronx:24,Staten Island:30,Rockland County:45,Brooklyn:34,Westchester:35,Nassau County:37,Manhattan:38
-2018-01-26,Westchester:33,New Jersey:30,Bronx:30,Rockland County:45,Brooklyn:38,Staten Island:30,Manhattan:38,Queens:34,All Boroughs:90,Nassau County:38
+2018-01-08,Brooklyn:48,Manhattan:46,Nassau County:32,Staten Island:34,Westchester:37,Bronx:39,Queens:45,Rockland County:75,New Jersey:30
+2018-01-09,Queens:37,Bronx:32,Brooklyn:47,Manhattan:43,Staten Island:36,Westchester:43,Nassau County:32,New Jersey:60
+2018-01-10,Queens:35,Brooklyn:45,Nassau County:50,Bronx:30,Manhattan:41,Staten Island:30,Rockland County:56,Westchester:52,Connecticut:30,New Jersey:45
+2018-01-11,Manhattan:43,Bronx:36,Queens:36,Brooklyn:38,Nassau County:45,Staten Island:30,Westchester:51,New Jersey:30,Rockland County:37
+2018-01-12,Bronx:35,Queens:40,Brooklyn:38,Manhattan:39,Staten Island:30,Westchester:34,Nassau County:34,New Jersey:37
+2018-01-16,Bronx:30,Brooklyn:38,Queens:37,Manhattan:42,Staten Island:31,Nassau County:40,Westchester:25,Rockland County:45
+2018-01-17,Manhattan:41,Queens:32,Brooklyn:40,Bronx:31,Staten Island:30,Nassau County:45,Westchester:30,Connecticut:45,Rockland County:45
+2018-01-18,Queens:37,Brooklyn:40,Staten Island:29,Bronx:28,Manhattan:41,Westchester:45,Nassau County:45,New Jersey:30
+2018-01-19,Bronx:29,Queens:34,Brooklyn:36,Manhattan:43,Staten Island:32,Nassau County:35,All Boroughs:60,Westchester:33,Rockland County:45
+2018-01-22,Queens:37,Bronx:28,Nassau County:48,Brooklyn:43,Manhattan:44,Staten Island:35,Westchester:28,New Jersey:56,Connecticut:30
+2018-01-23,Brooklyn:45,Manhattan:41,Bronx:29,Staten Island:30,Queens:31,Nassau County:55,Westchester:40,New Jersey:75,Rockland County:45
+2018-01-24,Bronx:25,Brooklyn:37,Manhattan:40,Queens:42,Staten Island:31,Westchester:33,Nassau County:40,Rockland County:45
+2018-01-25,Brooklyn:34,Bronx:24,Queens:31,Nassau County:37,Staten Island:30,Manhattan:38,Westchester:35,Rockland County:45
+2018-01-26,Bronx:30,Brooklyn:38,Staten Island:30,Manhattan:38,Queens:34,All Boroughs:90,Nassau County:38,Westchester:33,New Jersey:30,Rockland County:45
 2018-01-29,Brooklyn:41,Bronx:29,Queens:36,Manhattan:42,Staten Island:31,Nassau County:45,Westchester:34,New Jersey:50,Rockland County:45
-2018-01-30,Manhattan:39,Westchester:37,Nassau County:37,New Jersey:60,Rockland County:37,All Boroughs:30,Queens:32,Staten Island:31,Brooklyn:39,Bronx:25
-2018-01-31,Manhattan:42,Bronx:32,Brooklyn:41,Queens:39,Staten Island:28,Westchester:78,Nassau County:37
+2018-01-30,Queens:32,Staten Island:31,Brooklyn:39,Bronx:25,Manhattan:39,Westchester:37,Nassau County:37,New Jersey:60,Rockland County:37,All Boroughs:30
+2018-01-31,Staten Island:28,Westchester:78,Nassau County:37,Manhattan:42,Bronx:32,Brooklyn:41,Queens:39
 2018-02-01,Bronx:40,Manhattan:42,Queens:41,Brooklyn:34,Staten Island:33,Westchester:32,Nassau County:40,New Jersey:45
 2018-02-02,Brooklyn:31,Staten Island:31,Queens:41,Bronx:29,Manhattan:40,New Jersey:45,Rockland County:45
-2018-02-05,Nassau County:36,Bronx:31,Westchester:75,New Jersey:50,Connecticut:30,Queens:40,Manhattan:39,Staten Island:33,Brooklyn:41
-2018-02-06,Brooklyn:44,Queens:38,Manhattan:37,Bronx:39,Staten Island:31,Westchester:30
-2018-02-07,Brooklyn:36,Queens:35,Manhattan:36,Staten Island:31,Bronx:36,Westchester:30,Rockland County:30,Nassau County:15
-2018-02-08,Bronx:37,Queens:41,Brooklyn:38,Staten Island:32,Manhattan:36,New Jersey:40,Westchester:25
+2018-02-05,Bronx:31,Queens:40,Manhattan:39,Staten Island:33,Brooklyn:41,Nassau County:36,Westchester:75,New Jersey:50,Connecticut:30
+2018-02-06,Staten Island:31,Queens:38,Manhattan:37,Bronx:39,Westchester:30,Brooklyn:44
+2018-02-07,Brooklyn:36,Queens:35,Manhattan:36,Staten Island:31,Bronx:36,Westchester:30,Nassau County:15,Rockland County:30
+2018-02-08,Bronx:37,Queens:41,Staten Island:32,Manhattan:36,New Jersey:40,Westchester:25,Brooklyn:38
 2018-02-09,Queens:38,Nassau County:40,Brooklyn:38,Manhattan:35,Staten Island:35,Bronx:35,Westchester:31,Rockland County:55
-2018-02-12,Brooklyn:40,Manhattan:34,Queens:42,Staten Island:31,Bronx:38,Nassau County:30,New Jersey:30,Westchester:27
-2018-02-13,Queens:42,Manhattan:38,Staten Island:33,Brooklyn:41,Nassau County:51,Bronx:33,New Jersey:33,Connecticut:30,Westchester:30
-2018-02-14,Bronx:38,New Jersey:60,Brooklyn:39,Queens:40,Staten Island:30,Manhattan:37,Nassau County:30,Westchester:30
-2018-02-15,New Jersey:30,Nassau County:35,Westchester:31,Staten Island:30,Bronx:42,Brooklyn:39,Queens:42,Manhattan:38
-2018-02-16,Bronx:30,Brooklyn:34,Manhattan:24,Westchester:30
+2018-02-12,Brooklyn:40,Manhattan:34,Queens:42,Bronx:38,Nassau County:30,New Jersey:30,Westchester:27,Staten Island:31
+2018-02-13,Queens:42,Manhattan:38,Staten Island:33,Brooklyn:41,Nassau County:51,Bronx:33,New Jersey:33,Westchester:30,Connecticut:30
+2018-02-14,Bronx:38,New Jersey:60,Queens:40,Staten Island:30,Manhattan:37,Westchester:30,Nassau County:30,Brooklyn:39
+2018-02-15,Staten Island:30,Bronx:42,Brooklyn:39,Queens:42,Manhattan:38,New Jersey:30,Westchester:31,Nassau County:35
+2018-02-16,Bronx:30,Brooklyn:34,Westchester:30,Manhattan:24
 2018-02-20,Manhattan:60,Brooklyn:30
 2018-02-21,Manhattan:26,Staten Island:30,Nassau County:60,Brooklyn:30
 2018-02-22,Brooklyn:35,Staten Island:30
-2018-02-23,Staten Island:15,Nassau County:60,Brooklyn:30,Manhattan:15
+2018-02-23,Staten Island:15,Nassau County:60,Manhattan:15,Brooklyn:30
 2018-02-25,Brooklyn:35
-2018-02-26,Queens:40,Manhattan:41,Brooklyn:41,Bronx:42,Nassau County:52,Staten Island:30,New Jersey:60,Westchester:42,Rockland County:52
-2018-02-27,Bronx:35,Brooklyn:41,Manhattan:43,Queens:38,Staten Island:30,Nassau County:34,Westchester:55,New Jersey:60,Rockland County:45
-2018-02-28,Brooklyn:42,Queens:42,Bronx:33,Manhattan:40,Staten Island:35,Westchester:33,Nassau County:31,Rockland County:45
-2018-03-01,Brooklyn:32,Manhattan:41,Staten Island:30,Queens:31,Bronx:37,Westchester:52,Nassau County:45
-2018-03-02,Staten Island:34,Brooklyn:36,Bronx:42,Manhattan:41,Queens:39,Nassau County:64,Westchester:30,New Jersey:60,Rockland County:45
-2018-03-05,Manhattan:41,Brooklyn:39,Bronx:36,Staten Island:36,Queens:41,Nassau County:39,New Jersey:60,Westchester:25,Rockland County:45
-2018-03-06,Brooklyn:45,Staten Island:34,Bronx:38,Queens:36,Manhattan:40,Nassau County:41,Westchester:27,New Jersey:45
-2018-03-07,Staten Island:32,Brooklyn:38,Bronx:35,Manhattan:40,Queens:41,Nassau County:45
-2018-03-08,Bronx:35,Queens:36,Brooklyn:38,Manhattan:41,Staten Island:32,Nassau County:35,Westchester:60
-2018-03-09,Brooklyn:32,Manhattan:41,Staten Island:30,New Jersey:45,Queens:38,Bronx:33,Westchester:32,Rockland County:45,Nassau County:75
-2018-03-12,Brooklyn:36,Manhattan:41,Queens:42,Staten Island:32,Bronx:32,Westchester:42,Rockland County:56,Nassau County:45,New Jersey:60
-2018-03-13,Queens:45,Bronx:32,Staten Island:29,Brooklyn:38,Manhattan:42,New Jersey:60,Westchester:51,Nassau County:67,Rockland County:37
-2018-03-14,Brooklyn:36,Manhattan:39,Staten Island:31,Bronx:36,Queens:41,Nassau County:38,Westchester:24,New Jersey:55,Rockland County:60
-2018-03-15,Bronx:41,Brooklyn:35,Manhattan:39,Staten Island:33,Queens:38,New Jersey:40,Nassau County:45,Westchester:40,Rockland County:41
-2018-03-16,Manhattan:41,Queens:38,Bronx:35,Rockland County:50,Nassau County:35,Westchester:34,New Jersey:60,Staten Island:32,Brooklyn:41
-2018-03-19,Manhattan:40,Staten Island:31,Bronx:38,Brooklyn:39,Queens:35,Rockland County:54,Westchester:32,New Jersey:30,Nassau County:40
-2018-03-20,Staten Island:30,Brooklyn:38,Queens:38,Nassau County:48,Westchester:37,Rockland County:33,Bronx:34,Manhattan:41
+2018-02-26,Staten Island:30,Bronx:42,Rockland County:52,Queens:40,Brooklyn:41,Manhattan:41,New Jersey:60,Westchester:42,Nassau County:52
+2018-02-27,Bronx:35,Westchester:55,Manhattan:43,Brooklyn:41,Nassau County:34,New Jersey:60,Queens:38,Staten Island:30,Rockland County:45
+2018-02-28,Bronx:33,Manhattan:40,Queens:42,Brooklyn:42,Staten Island:35,Westchester:33,Nassau County:31,Rockland County:45
+2018-03-01,Westchester:52,Manhattan:41,Staten Island:30,Brooklyn:32,Bronx:37,Nassau County:45,Queens:31
+2018-03-02,Queens:39,Rockland County:45,Bronx:42,New Jersey:60,Brooklyn:36,Nassau County:64,Westchester:30,Staten Island:34,Manhattan:41
+2018-03-05,Nassau County:39,Staten Island:36,Bronx:36,Westchester:25,Brooklyn:39,Manhattan:41,Queens:41,New Jersey:60,Rockland County:45
+2018-03-06,Brooklyn:45,Queens:36,Manhattan:40,Nassau County:41,New Jersey:45,Staten Island:34,Bronx:38,Westchester:27
+2018-03-07,Brooklyn:38,Manhattan:40,Nassau County:45,Bronx:35,Queens:41,Staten Island:32
+2018-03-08,Manhattan:41,Queens:36,Nassau County:35,Westchester:60,Brooklyn:38,Bronx:35,Staten Island:32
+2018-03-09,Nassau County:75,Rockland County:45,Brooklyn:32,Manhattan:41,Staten Island:30,Westchester:32,Queens:38,Bronx:33,New Jersey:45
+2018-03-12,Westchester:42,Queens:42,New Jersey:60,Nassau County:45,Manhattan:41,Rockland County:56,Staten Island:32,Bronx:32,Brooklyn:36
+2018-03-13,Brooklyn:38,Nassau County:67,New Jersey:60,Bronx:32,Staten Island:29,Westchester:51,Queens:45,Manhattan:42,Rockland County:37
+2018-03-14,Manhattan:39,Staten Island:31,Rockland County:60,Westchester:24,New Jersey:55,Queens:41,Brooklyn:36,Nassau County:38,Bronx:36
+2018-03-15,Staten Island:33,Westchester:40,New Jersey:40,Brooklyn:35,Queens:38,Nassau County:45,Manhattan:39,Rockland County:41,Bronx:41
+2018-03-16,Rockland County:50,Manhattan:41,Staten Island:32,Westchester:34,Brooklyn:41,Bronx:35,New Jersey:60,Queens:38,Nassau County:35
+2018-03-19,Nassau County:40,Staten Island:31,Brooklyn:39,Manhattan:40,Westchester:32,Rockland County:54,Bronx:38,New Jersey:30,Queens:35
+2018-03-20,Queens:38,Westchester:37,Rockland County:33,Bronx:34,Nassau County:48,Staten Island:30,Manhattan:41,Brooklyn:38
 2018-03-21,Brooklyn:30
-2018-03-22,Brooklyn:49,Manhattan:41,Bronx:39,Staten Island:36,Nassau County:39,New Jersey:60,Queens:48,Westchester:30
-2018-03-23,Bronx:35,Brooklyn:39,Queens:41,Staten Island:28,Nassau County:38,New Jersey:60,Westchester:40,Rockland County:26,Manhattan:38
-2018-03-26,Brooklyn:38,Manhattan:40,Bronx:37,Staten Island:33,Westchester:26,Rockland County:35,New Jersey:42,Queens:43,Nassau County:42
-2018-03-27,Brooklyn:41,Staten Island:30,Bronx:40,Queens:41,Westchester:30,Nassau County:35,Rockland County:45,Manhattan:41
-2018-03-28,Bronx:37,Manhattan:42,Staten Island:30,Queens:41,Westchester:27,New Jersey:30,Rockland County:45,Brooklyn:44,Nassau County:63
-2018-03-29,Manhattan:38,Staten Island:31,Bronx:36,Queens:33,Nassau County:30,New Jersey:50,Westchester:30,Brooklyn:35
+2018-03-22,Bronx:39,Queens:48,Staten Island:36,Brooklyn:49,New Jersey:60,Nassau County:39,Manhattan:41,Westchester:30
+2018-03-23,Manhattan:38,New Jersey:60,Westchester:40,Nassau County:38,Rockland County:26,Staten Island:28,Bronx:35,Queens:41,Brooklyn:39
+2018-03-26,Bronx:37,Staten Island:33,Nassau County:42,New Jersey:42,Manhattan:40,Westchester:26,Queens:43,Brooklyn:38,Rockland County:35
+2018-03-27,Nassau County:35,Brooklyn:41,Queens:41,Rockland County:45,Staten Island:30,Manhattan:41,Westchester:30,Bronx:40
+2018-03-28,New Jersey:30,Rockland County:45,Bronx:37,Brooklyn:44,Manhattan:42,Staten Island:30,Queens:41,Nassau County:63,Westchester:27
+2018-03-29,Brooklyn:35,Manhattan:38,Staten Island:31,Bronx:36,Queens:33,Nassau County:30,New Jersey:50,Westchester:30
 2018-03-30,Brooklyn:45
-2018-04-02,Bronx:15,Queens:45,Brooklyn:30,Manhattan:42
-2018-04-03,Bronx:15,Manhattan:30,Brooklyn:50,Westchester:15
-2018-04-04,Brooklyn:45,Queens:45,Bronx:45,Manhattan:36
-2018-04-05,Nassau County:35,Bronx:26,Manhattan:36,Brooklyn:60,All Boroughs:30
-2018-04-06,Manhattan:45,Nassau County:22
-2018-04-09,Queens:48,Rockland County:55,Brooklyn:48,New Jersey:60,Manhattan:42,Staten Island:34,Nassau County:48,Westchester:43,Bronx:37
-2018-04-10,Staten Island:32,Westchester:43,Brooklyn:45,Queens:49,New Jersey:46,Manhattan:44,Nassau County:52,Bronx:36
-2018-04-11,Manhattan:42,Staten Island:31,Brooklyn:45,Nassau County:34,Westchester:70,New Jersey:48,Queens:44,Bronx:33,Rockland County:30
-2018-04-12,Queens:38,Bronx:32,Brooklyn:45,Rockland County:37,Nassau County:45,Staten Island:39,Westchester:55,Manhattan:42
-2018-04-13,Rockland County:60,Queens:49,New Jersey:60,All Boroughs:60,Staten Island:29,Manhattan:41,Bronx:32,Brooklyn:42,Nassau County:41
+2018-04-02,Queens:45,Manhattan:42,Brooklyn:30,Bronx:15
+2018-04-03,Westchester:15,Bronx:15,Manhattan:30,Brooklyn:50
+2018-04-04,Manhattan:36,Queens:45,Bronx:45,Brooklyn:45
+2018-04-05,Manhattan:36,Nassau County:35,Bronx:26,All Boroughs:30,Brooklyn:60
+2018-04-06,Nassau County:22,Manhattan:45
+2018-04-09,Brooklyn:48,Manhattan:42,Bronx:37,Westchester:43,Queens:48,Staten Island:34,Nassau County:48,New Jersey:60,Rockland County:55
+2018-04-10,Brooklyn:45,Manhattan:44,Staten Island:32,Bronx:36,Queens:49,Nassau County:52,New Jersey:46,Westchester:43
+2018-04-11,Bronx:33,Queens:44,Manhattan:42,Brooklyn:45,Nassau County:34,Westchester:70,Rockland County:30,New Jersey:48,Staten Island:31
+2018-04-12,Queens:38,Bronx:32,Westchester:55,Brooklyn:45,Manhattan:42,Rockland County:37,Staten Island:39,Nassau County:45
+2018-04-13,Brooklyn:42,Manhattan:41,Bronx:32,Queens:49,New Jersey:60,Rockland County:60,Staten Island:29,All Boroughs:60,Nassau County:41
 2018-04-15,Brooklyn:60,Queens:90
-2018-04-16,Rockland County:41,Manhattan:42,Bronx:33,Westchester:61,Queens:39,Staten Island:33,Brooklyn:45,New Jersey:47,Nassau County:41
-2018-04-17,Rockland County:60,Bronx:32,Manhattan:44,Westchester:42,Brooklyn:45,Staten Island:28,New Jersey:60,Queens:49,Nassau County:35
-2018-04-18,Manhattan:42,Brooklyn:44,Bronx:29,Westchester:40,Staten Island:30,Queens:42,Nassau County:42,Rockland County:45,New Jersey:50
-2018-04-19,Staten Island:28,Brooklyn:49,Manhattan:42,New Jersey:40,Westchester:35,Bronx:30,Rockland County:36,Queens:44,Nassau County:40
-2018-04-20,Brooklyn:46,Bronx:30,Nassau County:48,Manhattan:45,Staten Island:29,Westchester:33,Queens:47,Rockland County:30
-2018-04-23,Staten Island:29,Bronx:30,Westchester:30,Rockland County:37,New Jersey:45,Queens:48,Manhattan:45,Nassau County:43,Brooklyn:43
-2018-04-24,Bronx:31,Westchester:34,New Jersey:60,Manhattan:41,Nassau County:37,Rockland County:30,Queens:40,Brooklyn:43,Staten Island:30
-2018-04-25,Nassau County:37,New Jersey:37,Bronx:33,Westchester:37,Manhattan:40,Rockland County:37,Queens:43,Staten Island:32,Brooklyn:39
-2018-04-26,Connecticut:15,Manhattan:41,Staten Island:31,Bronx:36,Rockland County:30,New Jersey:51,Brooklyn:42,Nassau County:39,Westchester:31,Queens:48
-2018-04-27,New Jersey:51,Staten Island:30,Westchester:30,Manhattan:41,Brooklyn:38,Bronx:34,Rockland County:37,Queens:41,Nassau County:40
-2018-04-30,Staten Island:29,New Jersey:60,Nassau County:39,Queens:51,Brooklyn:46,Manhattan:43,Rockland County:45,Bronx:34,Westchester:48
-2018-05-01,Bronx:32,Queens:51,Westchester:45,Rockland County:45,Brooklyn:48,Nassau County:39,Manhattan:44,Staten Island:31
-2018-05-02,New Jersey:67,Rockland County:45,Manhattan:43,Brooklyn:51,Queens:46,Staten Island:30,Bronx:39,Westchester:43,Nassau County:66
+2018-04-16,Bronx:33,Brooklyn:45,Manhattan:42,Queens:39,Westchester:61,Staten Island:33,Nassau County:41,New Jersey:47,Rockland County:41
+2018-04-17,Bronx:32,Manhattan:44,Brooklyn:45,Staten Island:28,Westchester:42,Nassau County:35,Queens:49,New Jersey:60,Rockland County:60
+2018-04-18,Manhattan:42,Bronx:29,Westchester:40,Brooklyn:44,Queens:42,Staten Island:30,New Jersey:50,Nassau County:42,Rockland County:45
+2018-04-19,Westchester:35,Manhattan:42,Brooklyn:49,Nassau County:40,Staten Island:28,Queens:44,Bronx:30,Rockland County:36,New Jersey:40
+2018-04-20,Brooklyn:46,Staten Island:29,Westchester:33,Queens:47,Bronx:30,Nassau County:48,Rockland County:30,Manhattan:45
+2018-04-23,Brooklyn:43,Manhattan:45,Bronx:30,Staten Island:29,Queens:48,Nassau County:43,Rockland County:37,Westchester:30,New Jersey:45
+2018-04-24,Bronx:31,Brooklyn:43,Nassau County:37,Manhattan:41,Staten Island:30,Queens:40,New Jersey:60,Westchester:34,Rockland County:30
+2018-04-25,Manhattan:40,Brooklyn:39,Bronx:33,Staten Island:32,Queens:43,Westchester:37,Rockland County:37,Nassau County:37,New Jersey:37
+2018-04-26,Bronx:36,Brooklyn:42,Manhattan:41,Queens:48,Staten Island:31,New Jersey:51,Westchester:31,Nassau County:39,Rockland County:30,Connecticut:15
+2018-04-27,Manhattan:41,Bronx:34,Brooklyn:38,Staten Island:30,Queens:41,Nassau County:40,Westchester:30,Rockland County:37,New Jersey:51
+2018-04-30,Manhattan:43,Queens:51,Brooklyn:46,Bronx:34,Staten Island:29,Westchester:48,Nassau County:39,New Jersey:60,Rockland County:45
+2018-05-01,Manhattan:44,Brooklyn:48,Bronx:32,Queens:51,Nassau County:39,Staten Island:31,Westchester:45,Rockland County:45
+2018-05-02,Manhattan:43,Brooklyn:51,Queens:46,Staten Island:30,Bronx:39,Westchester:43,Nassau County:66,New Jersey:67,Rockland County:45
 2018-05-03,Brooklyn:43,Queens:48,Manhattan:44,Bronx:37,Staten Island:31,Nassau County:45,Westchester:40,New Jersey:60,Rockland County:30
-2018-05-04,Queens:42,Westchester:45,Rockland County:45,Nassau County:50,Bronx:32,Brooklyn:47,Manhattan:44,Staten Island:31,New Jersey:60
+2018-05-04,Bronx:32,Brooklyn:47,Manhattan:44,Staten Island:31,New Jersey:60,Queens:42,Westchester:45,Rockland County:45,Nassau County:50
 2018-05-07,Staten Island:30,Manhattan:43,Bronx:40,Brooklyn:49,Nassau County:52,Queens:43,Westchester:30,Connecticut:60,Rockland County:37
 2018-05-08,Brooklyn:45,Manhattan:43,Staten Island:32,Queens:45,Bronx:36,Rockland County:37,Nassau County:54,New Jersey:52,Westchester:40
 2018-05-09,Westchester:41,Manhattan:45,Brooklyn:50,Queens:50,Bronx:45,Staten Island:30,Nassau County:45,New Jersey:35,Rockland County:45
-2018-05-10,Manhattan:42,Queens:45,Staten Island:31,Westchester:35,Bronx:47,Nassau County:42,Rockland County:41,Brooklyn:52
+2018-05-10,Westchester:35,Bronx:47,Nassau County:42,Rockland County:41,Brooklyn:52,Manhattan:42,Queens:45,Staten Island:31
 2018-05-11,Queens:43,Brooklyn:48,Bronx:40,Manhattan:41,Staten Island:30,Nassau County:45,Connecticut:45,New Jersey:30,Westchester:47,Rockland County:45
 2018-05-14,Manhattan:44,Brooklyn:45,Queens:47,Staten Island:30,Connecticut:45,Bronx:43,Nassau County:48,Rockland County:55,Westchester:50,New Jersey:60
 2018-05-15,Brooklyn:48,Bronx:38,Manhattan:44,Queens:42,Staten Island:33,Westchester:39,Rockland County:30,New Jersey:52,Nassau County:48
@@ -673,102 +673,102 @@
 2018-05-17,Brooklyn:47,Queens:43,Manhattan:42,Rockland County:48,Staten Island:30,Bronx:40,Westchester:40,New Jersey:60,Nassau County:46,Connecticut:60
 2018-05-18,Bronx:46,Brooklyn:50,Manhattan:43,Staten Island:30,Queens:44,Nassau County:46,New Jersey:45,Westchester:30,Rockland County:45
 2018-05-21,Queens:52,Manhattan:43,Brooklyn:51,Bronx:44,Staten Island:31,Rockland County:40,Nassau County:48,Westchester:33,New Jersey:75
-2018-05-22,Brooklyn:45,Bronx:38,Manhattan:45,Staten Island:31,Queens:43,Nassau County:47,Westchester:41,New Jersey:63,Rockland County:60
-2018-05-23,Brooklyn:51,Manhattan:39,Queens:46,Bronx:47,Staten Island:28,New Jersey:48,Rockland County:60,Nassau County:43,Westchester:42
-2018-05-24,Brooklyn:42,Manhattan:38,Queens:42,Bronx:47,Rockland County:45,Nassau County:30,Staten Island:30,Westchester:51,New Jersey:56
-2018-05-25,Brooklyn:40,Manhattan:36,Queens:41,Staten Island:31,Westchester:24,Bronx:46,Nassau County:39,Rockland County:30,New Jersey:45
-2018-05-29,Manhattan:38,Brooklyn:49,Queens:45,Bronx:46,Nassau County:50,Staten Island:30,New Jersey:60,Westchester:43,Rockland County:52
-2018-05-30,Manhattan:37,Brooklyn:44,Queens:45,Bronx:47,Staten Island:30,Rockland County:60,Westchester:43,Nassau County:48,New Jersey:60
-2018-05-31,Bronx:46,Manhattan:36,Queens:47,Brooklyn:43,Staten Island:30,Westchester:40,Rockland County:45,Nassau County:47,New Jersey:80
-2018-06-01,Queens:47,Brooklyn:45,Manhattan:38,Staten Island:30,Bronx:42,Nassau County:50,Westchester:36,New Jersey:75,Rockland County:60
-2018-06-04,Bronx:46,Queens:42,Manhattan:41,Brooklyn:47,Staten Island:29,Westchester:44,New Jersey:60,Nassau County:40,Rockland County:30,Connecticut:60
-2018-06-05,Manhattan:43,Brooklyn:47,Queens:43,Staten Island:31,Bronx:41,Nassau County:40,New Jersey:60,Connecticut:60,Westchester:33,Rockland County:45
-2018-06-06,Manhattan:40,Queens:48,Nassau County:45,Brooklyn:48,Staten Island:31,Westchester:37,Bronx:48,Rockland County:37,New Jersey:45
-2018-06-07,Brooklyn:31,Manhattan:47,Staten Island:33,Bronx:47,New Jersey:40,Westchester:30,Rockland County:37,Queens:45
-2018-06-08,Manhattan:43,Bronx:51,Brooklyn:48,Queens:47,Staten Island:30,Westchester:47,Rockland County:40,New Jersey:65,Nassau County:40
+2018-05-22,Nassau County:47,Bronx:38,Brooklyn:45,Manhattan:45,Staten Island:31,Queens:43,Westchester:41,New Jersey:63,Rockland County:60
+2018-05-23,Westchester:42,Brooklyn:51,Manhattan:39,Queens:46,Bronx:47,Staten Island:28,New Jersey:48,Rockland County:60,Nassau County:43
+2018-05-24,Westchester:51,Bronx:47,Brooklyn:42,Manhattan:38,Queens:42,Rockland County:45,Nassau County:30,Staten Island:30,New Jersey:56
+2018-05-25,Nassau County:39,Brooklyn:40,Manhattan:36,Queens:41,Staten Island:31,Westchester:24,Bronx:46,Rockland County:30,New Jersey:45
+2018-05-29,Staten Island:30,Brooklyn:49,Manhattan:38,Queens:45,Bronx:46,Nassau County:50,New Jersey:60,Westchester:43,Rockland County:52
+2018-05-30,Staten Island:30,Manhattan:37,Brooklyn:44,Queens:45,Bronx:47,Rockland County:60,Westchester:43,Nassau County:48,New Jersey:60
+2018-05-31,Brooklyn:43,Bronx:46,Manhattan:36,Queens:47,Staten Island:30,Westchester:40,Rockland County:45,Nassau County:47,New Jersey:80
+2018-06-01,Queens:47,Brooklyn:45,Staten Island:30,Bronx:42,Nassau County:50,New Jersey:75,Rockland County:60,Westchester:36,Manhattan:38
+2018-06-04,Bronx:46,Manhattan:41,Brooklyn:47,Staten Island:29,Westchester:44,New Jersey:60,Nassau County:40,Rockland County:30,Queens:42,Connecticut:60
+2018-06-05,Manhattan:43,Brooklyn:47,Queens:43,Bronx:41,Nassau County:40,New Jersey:60,Connecticut:60,Westchester:33,Rockland County:45,Staten Island:31
+2018-06-06,Manhattan:40,Queens:48,Nassau County:45,Brooklyn:48,Staten Island:31,Bronx:48,Rockland County:37,New Jersey:45,Westchester:37
+2018-06-07,New Jersey:40,Staten Island:33,Brooklyn:31,Queens:45,Manhattan:47,Westchester:30,Rockland County:37,Bronx:47
+2018-06-08,Manhattan:43,Rockland County:40,Brooklyn:48,Bronx:51,Westchester:47,New Jersey:65,Queens:47,Staten Island:30,Nassau County:40
 2018-06-10,Bronx:15
-2018-06-11,Brooklyn:62,Bronx:34,Manhattan:47,Rockland County:30,Queens:52,Staten Island:45,Nassau County:45,Westchester:36
-2018-06-12,Bronx:48,Queens:44,Brooklyn:48,Manhattan:42,Staten Island:32,Westchester:43,Nassau County:40,Rockland County:45,New Jersey:52
-2018-06-13,Queens:41,Brooklyn:43,Manhattan:43,Bronx:41,Staten Island:30,New Jersey:50,Rockland County:37,Nassau County:42,Westchester:45
-2018-06-14,Nassau County:30,Brooklyn:46,Manhattan:41,Staten Island:31,Queens:47,Bronx:42,New Jersey:60,Westchester:45
-2018-06-15,Westchester:45,Manhattan:45,Bronx:38,Rockland County:45,Brooklyn:40,New Jersey:45,Queens:37
-2018-06-18,Westchester:57,Manhattan:40,Brooklyn:46,Nassau County:40,Bronx:46,Staten Island:31,New Jersey:45,Queens:42,Rockland County:45
-2018-06-19,Manhattan:48,Brooklyn:40,Queens:45,Staten Island:30,Bronx:15
-2018-06-25,Bronx:49,Queens:40,Staten Island:30,Manhattan:44,Rockland County:45,New Jersey:60,Brooklyn:43,Nassau County:52
-2018-09-04,Brooklyn:38,Bronx:46,Manhattan:41,Nassau County:35,New Jersey:45,Queens:39
-2018-09-05,Brooklyn:40,Bronx:35,Staten Island:33,Manhattan:44,Nassau County:62,Rockland County:60,Westchester:69,Queens:45
-2018-09-06,Bronx:35,Queens:42,New Jersey:45,Manhattan:43,Staten Island:32,Westchester:48,All Boroughs:31,Connecticut:30,Rockland County:60,Brooklyn:48
-2018-09-07,Bronx:36,Brooklyn:41,Staten Island:38,New Jersey:40,Nassau County:48,Rockland County:37,All Boroughs:37,Manhattan:42,Westchester:45,Queens:44
-2018-09-10,Bronx:20,Manhattan:40,Brooklyn:40,Queens:37,Staten Island:30,Westchester:40,New Jersey:15
-2018-09-11,Brooklyn:36,Manhattan:52,Bronx:25,Westchester:40
-2018-09-12,Queens:40,Bronx:36,Brooklyn:42,Staten Island:32,Nassau County:40,New Jersey:40,Westchester:32,All Boroughs:36,Connecticut:30,Manhattan:44
-2018-09-13,Brooklyn:40,Westchester:45,All Boroughs:25,Manhattan:45,Nassau County:27,Bronx:35,Queens:38,Rockland County:30,Staten Island:37,New Jersey:45
-2018-09-14,All Boroughs:30,Nassau County:75,Bronx:44,Brooklyn:41,Manhattan:47,Queens:46,Westchester:31,Staten Island:36,New Jersey:48,Rockland County:30
-2018-09-17,Queens:43,Staten Island:35,Nassau County:60,Bronx:34,Brooklyn:40,All Boroughs:30,Rockland County:30,Manhattan:45,Westchester:38,New Jersey:15
-2018-09-18,Staten Island:33,Nassau County:37,Bronx:36,Manhattan:46,Brooklyn:43,Queens:41,Westchester:45,New Jersey:30,Rockland County:30
-2018-09-19,Manhattan:30,Brooklyn:33,Bronx:40,Queens:45
-2018-09-20,Brooklyn:40,New Jersey:45,Nassau County:47,Staten Island:37,All Boroughs:15,Bronx:35,Manhattan:46,Queens:33,Westchester:39,Rockland County:30
-2018-09-21,Nassau County:55,All Boroughs:30,New Jersey:52,Bronx:47,Brooklyn:46,Westchester:30,Manhattan:43,Staten Island:51,Queens:39
+2018-06-11,Brooklyn:62,Nassau County:45,Bronx:34,Manhattan:47,Rockland County:30,Queens:52,Staten Island:45,Westchester:36
+2018-06-12,Brooklyn:48,Nassau County:40,New Jersey:52,Staten Island:32,Bronx:48,Queens:44,Manhattan:42,Westchester:43,Rockland County:45
+2018-06-13,Queens:41,New Jersey:50,Westchester:45,Brooklyn:43,Nassau County:42,Staten Island:30,Bronx:41,Manhattan:43,Rockland County:37
+2018-06-14,Westchester:45,Brooklyn:46,Bronx:42,New Jersey:60,Staten Island:31,Manhattan:41,Queens:47,Nassau County:30
+2018-06-15,Manhattan:45,Queens:37,New Jersey:45,Brooklyn:40,Bronx:38,Rockland County:45,Westchester:45
+2018-06-18,Queens:42,Rockland County:45,Bronx:46,New Jersey:45,Nassau County:40,Brooklyn:46,Manhattan:40,Staten Island:31,Westchester:57
+2018-06-19,Manhattan:48,Bronx:15,Brooklyn:40,Queens:45,Staten Island:30
+2018-06-25,Manhattan:44,New Jersey:60,Bronx:49,Staten Island:30,Queens:40,Brooklyn:43,Nassau County:52,Rockland County:45
+2018-09-04,Nassau County:35,Brooklyn:38,Manhattan:41,New Jersey:45,Bronx:46,Queens:39
+2018-09-05,Westchester:69,Queens:45,Nassau County:62,Bronx:35,Staten Island:33,Rockland County:60,Manhattan:44,Brooklyn:40
+2018-09-06,Bronx:35,Brooklyn:48,Westchester:48,New Jersey:45,Queens:42,Manhattan:43,Connecticut:30,All Boroughs:31,Rockland County:60,Staten Island:32
+2018-09-07,Westchester:45,Manhattan:42,All Boroughs:37,Queens:44,Rockland County:37,Bronx:36,Brooklyn:41,Nassau County:48,New Jersey:40,Staten Island:38
+2018-09-10,Brooklyn:40,Staten Island:30,Manhattan:40,Bronx:20,New Jersey:15,Queens:37,Westchester:40
+2018-09-11,Brooklyn:36,Bronx:25,Manhattan:52,Westchester:40
+2018-09-12,Manhattan:44,Staten Island:32,Nassau County:40,Connecticut:30,All Boroughs:36,Bronx:36,New Jersey:40,Brooklyn:42,Westchester:32,Queens:40
+2018-09-13,Brooklyn:40,Queens:38,Rockland County:30,Nassau County:27,All Boroughs:25,Staten Island:37,Westchester:45,Bronx:35,Manhattan:45,New Jersey:45
+2018-09-14,Bronx:44,Brooklyn:41,All Boroughs:30,Staten Island:36,Manhattan:47,Queens:46,Nassau County:75,Rockland County:30,Westchester:31,New Jersey:48
+2018-09-17,Nassau County:60,Brooklyn:40,Queens:43,New Jersey:15,Westchester:38,Bronx:34,All Boroughs:30,Staten Island:35,Manhattan:45,Rockland County:30
+2018-09-18,Westchester:45,Manhattan:46,Queens:41,New Jersey:30,Staten Island:33,Bronx:36,Nassau County:37,Brooklyn:43,Rockland County:30
+2018-09-19,Manhattan:30,Brooklyn:33,Queens:45,Bronx:40
+2018-09-20,Nassau County:47,All Boroughs:15,Westchester:39,Staten Island:37,Rockland County:30,New Jersey:45,Queens:33,Bronx:35,Brooklyn:40,Manhattan:46
+2018-09-21,Staten Island:51,Manhattan:43,Bronx:47,New Jersey:52,Brooklyn:46,All Boroughs:30,Queens:39,Nassau County:55,Westchester:30
 2018-09-23,Bronx:15
-2018-09-24,Manhattan:50,Bronx:39,Nassau County:48,Brooklyn:53,Westchester:30,Queens:40,All Boroughs:25,Rockland County:45,Staten Island:35
-2018-09-25,Queens:38,Connecticut:15,All Boroughs:22,Brooklyn:46,Staten Island:41,Rockland County:45,New Jersey:45,Manhattan:46,Nassau County:49,Westchester:31,Bronx:38
-2018-09-26,Brooklyn:47,Rockland County:45,Bronx:45,Manhattan:50,Staten Island:50,Nassau County:15,Westchester:46,Queens:41
-2018-09-27,New Jersey:45,Westchester:28,Staten Island:38,Manhattan:45,Bronx:44,Brooklyn:53,Queens:46,Nassau County:40
-2018-09-28,Nassau County:50,Brooklyn:48,Bronx:39,Queens:43,Manhattan:48,Staten Island:51,Westchester:49,Connecticut:15
-2018-10-01,Westchester:30,Staten Island:36,All Boroughs:15,Nassau County:42,Manhattan:49,Bronx:38,Queens:34,Brooklyn:48
-2018-10-02,Queens:42,All Boroughs:30,Brooklyn:60,Nassau County:56,Manhattan:50,Westchester:30,Bronx:34
-2018-10-03,Brooklyn:53,Bronx:30,Westchester:41,Nassau County:45,Staten Island:37,Manhattan:51,New Jersey:45,Queens:67
-2018-10-04,Westchester:60,Bronx:31,Manhattan:47,Staten Island:40,New Jersey:45,Queens:47,Connecticut:30,Rockland County:75,Nassau County:50,Brooklyn:44
-2018-10-05,All Boroughs:22,Manhattan:43,Westchester:60,Bronx:40,Staten Island:37,Queens:43,Nassau County:45,Rockland County:30,Brooklyn:39
-2018-10-09,New Jersey:52,Queens:44,Nassau County:30,Bronx:35,Staten Island:33,Brooklyn:53,Manhattan:48,All Boroughs:15,Westchester:33
-2018-10-10,Westchester:57,Queens:42,Manhattan:46,Nassau County:30,Brooklyn:48,Bronx:37,All Boroughs:15,New Jersey:45
-2018-10-11,Manhattan:48,Bronx:40,Westchester:34,New Jersey:60,Brooklyn:39,Staten Island:30,Rockland County:30,Nassau County:52,Queens:42
-2018-10-12,Queens:42,Westchester:42,Brooklyn:45,Manhattan:48,Nassau County:45,Bronx:44,Staten Island:30,New Jersey:30
+2018-09-24,Rockland County:45,All Boroughs:25,Nassau County:48,Westchester:30,Bronx:39,Queens:40,Staten Island:35,Brooklyn:53,Manhattan:50
+2018-09-25,Staten Island:41,All Boroughs:22,New Jersey:45,Connecticut:15,Westchester:31,Rockland County:45,Bronx:38,Brooklyn:46,Manhattan:46,Queens:38,Nassau County:49
+2018-09-26,Brooklyn:47,Manhattan:50,Queens:41,Nassau County:15,Bronx:45,Staten Island:50,Rockland County:45,Westchester:46
+2018-09-27,Queens:46,Bronx:44,Westchester:28,Nassau County:40,New Jersey:45,Manhattan:45,Staten Island:38,Brooklyn:53
+2018-09-28,Brooklyn:48,Queens:43,Manhattan:48,Bronx:39,Staten Island:51,Westchester:49,Nassau County:50,Connecticut:15
+2018-10-01,Nassau County:42,Brooklyn:48,Manhattan:49,Bronx:38,Queens:34,Staten Island:36,Westchester:30,All Boroughs:15
+2018-10-02,Brooklyn:60,Bronx:34,Manhattan:50,Queens:42,Nassau County:56,All Boroughs:30,Westchester:30
+2018-10-03,New Jersey:45,Westchester:41,Staten Island:37,Nassau County:45,Manhattan:51,Brooklyn:53,Bronx:30,Queens:67
+2018-10-04,Brooklyn:44,Bronx:31,Manhattan:47,Queens:47,New Jersey:45,Staten Island:40,Connecticut:30,Rockland County:75,Nassau County:50,Westchester:60
+2018-10-05,Brooklyn:39,Manhattan:43,Nassau County:45,Bronx:40,All Boroughs:22,Rockland County:30,Queens:43,Staten Island:37,Westchester:60
+2018-10-09,Manhattan:48,Brooklyn:53,New Jersey:52,Staten Island:33,Bronx:35,All Boroughs:15,Queens:44,Nassau County:30,Westchester:33
+2018-10-10,Brooklyn:48,Manhattan:46,New Jersey:45,Bronx:37,Queens:42,All Boroughs:15,Westchester:57,Nassau County:30
+2018-10-11,Manhattan:48,Bronx:40,Staten Island:30,Queens:42,Brooklyn:39,Nassau County:52,Westchester:34,New Jersey:60,Rockland County:30
+2018-10-12,Manhattan:48,Bronx:44,Brooklyn:45,Nassau County:45,Queens:42,Staten Island:30,Westchester:42,New Jersey:30
 2018-10-14,Brooklyn:45
-2018-10-15,Nassau County:54,Manhattan:46,Staten Island:41,New Jersey:55,Bronx:40,Queens:58,Brooklyn:40,Westchester:38
-2018-10-16,Connecticut:15,Nassau County:40,Bronx:42,Manhattan:45,Brooklyn:37,Staten Island:37,Queens:47,New Jersey:45,Westchester:35
+2018-10-15,Westchester:38,New Jersey:55,Queens:58,Brooklyn:40,Bronx:40,Manhattan:46,Staten Island:41,Nassau County:54
+2018-10-16,Bronx:42,Manhattan:45,Brooklyn:37,Staten Island:37,Queens:47,New Jersey:45,Westchester:35,Connecticut:15,Nassau County:40
 2018-10-17,Brooklyn:40,Bronx:39,Queens:55,Manhattan:48,Staten Island:40,Nassau County:41,Westchester:38,Rockland County:30
-2018-10-18,Staten Island:35,Nassau County:51,New Jersey:40,Bronx:45,Brooklyn:44,Manhattan:48,Queens:46,Westchester:38,Connecticut:30
+2018-10-18,Bronx:45,Brooklyn:44,Manhattan:48,Queens:46,Westchester:38,Connecticut:30,Staten Island:35,Nassau County:51,New Jersey:40
 2018-10-19,Bronx:44,Brooklyn:46,Manhattan:48,Queens:50,Staten Island:32,Westchester:34,Rockland County:67,Nassau County:50,Connecticut:30
 2018-10-21,Bronx:33,Queens:30,Brooklyn:45
 2018-10-22,Queens:50,Brooklyn:46,Bronx:42,Manhattan:48,Nassau County:56,Staten Island:38,Westchester:37,New Jersey:45,All Boroughs:15,Rockland County:30
-2018-10-23,Staten Island:33,All Boroughs:30,Rockland County:30,Bronx:41,Westchester:60,Brooklyn:44,Queens:48,Manhattan:47,Nassau County:45,New Jersey:45
+2018-10-23,Bronx:41,Westchester:60,Brooklyn:44,Queens:48,Manhattan:47,Nassau County:45,New Jersey:45,Staten Island:33,All Boroughs:30,Rockland County:30
 2018-10-24,Brooklyn:44,Manhattan:48,Staten Island:34,Bronx:44,Queens:47,Nassau County:45,Westchester:39,Connecticut:45,New Jersey:45
 2018-10-25,Manhattan:48,Brooklyn:43,Bronx:33,Nassau County:53,Queens:46,New Jersey:35,Westchester:41,Staten Island:34,All Boroughs:15
 2018-10-26,Bronx:38,Brooklyn:49,Queens:52,Manhattan:49,New Jersey:45,Nassau County:55,Westchester:38,Staten Island:37
-2018-10-28,Staten Island:45,Bronx:30
-2018-10-29,Manhattan:48,Queens:49,Bronx:45,Brooklyn:46,Staten Island:40,Westchester:44,Connecticut:90,Nassau County:55,Rockland County:90
-2018-10-30,Bronx:42,Brooklyn:46,Queens:45,Manhattan:48,Staten Island:37,Westchester:30,Nassau County:42,New Jersey:45,All Boroughs:15,Connecticut:45
-2018-10-31,Manhattan:47,Bronx:46,All Boroughs:15,Brooklyn:45,Queens:44,Staten Island:27,Nassau County:60,New Jersey:35,Westchester:43,Rockland County:90
-2018-11-01,Nassau County:42,Staten Island:25,Westchester:43,Manhattan:47,Bronx:42,Queens:40,Brooklyn:43
-2018-11-02,New Jersey:45,Brooklyn:45,Manhattan:47,Staten Island:35,Bronx:42,Queens:44,Westchester:47,Nassau County:51,Connecticut:45
+2018-10-28,Bronx:30,Staten Island:45
+2018-10-29,Nassau County:55,Brooklyn:46,Manhattan:48,Queens:49,Bronx:45,Staten Island:40,Westchester:44,Connecticut:90,Rockland County:90
+2018-10-30,Nassau County:42,Bronx:42,Brooklyn:46,Queens:45,Manhattan:48,Staten Island:37,Westchester:30,New Jersey:45,All Boroughs:15,Connecticut:45
+2018-10-31,Queens:44,Manhattan:47,Bronx:46,All Boroughs:15,Brooklyn:45,Staten Island:27,Nassau County:60,New Jersey:35,Westchester:43,Rockland County:90
+2018-11-01,Westchester:43,Queens:40,Manhattan:47,Bronx:42,Brooklyn:43,Nassau County:42,Staten Island:25
+2018-11-02,Queens:44,Westchester:47,Nassau County:51,Connecticut:45,New Jersey:45,Bronx:42,Brooklyn:45,Manhattan:47,Staten Island:35
 2018-11-04,Queens:30
-2018-11-05,Brooklyn:45,Bronx:38,Queens:48,Staten Island:28,Nassau County:44,Rockland County:25,Westchester:30,New Jersey:57,Connecticut:15,Manhattan:44
-2018-11-06,Brooklyn:39,Manhattan:44,Staten Island:30,Queens:45,Bronx:28,Westchester:30,Connecticut:30,Rockland County:45,Nassau County:37
-2018-11-07,Manhattan:44,Brooklyn:37,Bronx:40,Queens:39,Staten Island:32,Nassau County:41,Westchester:26,New Jersey:45,All Boroughs:15
-2018-11-08,Manhattan:42,Staten Island:26,Brooklyn:35,Bronx:45,New Jersey:45,Nassau County:25,Westchester:36,Rockland County:30,All Boroughs:15,Queens:33
-2018-11-09,Rockland County:90,Staten Island:30,Connecticut:30,Queens:36,Brooklyn:49,Westchester:42,Nassau County:40,Manhattan:43,Bronx:40,All Boroughs:15
+2018-11-05,Brooklyn:45,Manhattan:44,Queens:48,Staten Island:28,Rockland County:25,Westchester:30,New Jersey:57,Connecticut:15,Nassau County:44,Bronx:38
+2018-11-06,Nassau County:37,Brooklyn:39,Manhattan:44,Staten Island:30,Rockland County:45,Queens:45,Bronx:28,Westchester:30,Connecticut:30
+2018-11-07,Nassau County:41,Westchester:26,Bronx:40,Manhattan:44,Brooklyn:37,Queens:39,Staten Island:32,All Boroughs:15,New Jersey:45
+2018-11-08,Manhattan:42,Bronx:45,Rockland County:30,Queens:33,New Jersey:45,Nassau County:25,Brooklyn:35,All Boroughs:15,Staten Island:26,Westchester:36
+2018-11-09,Rockland County:90,Nassau County:40,Queens:36,Connecticut:30,Staten Island:30,Westchester:42,Brooklyn:49,All Boroughs:15,Manhattan:43,Bronx:40
 2018-11-12,Bronx:45
-2018-11-13,Westchester:38,Staten Island:35,Rockland County:37,Bronx:39,Manhattan:48,Queens:43,New Jersey:36,Nassau County:45,All Boroughs:15,Brooklyn:45,Connecticut:30
-2018-11-14,New Jersey:52,Brooklyn:41,Queens:36,Westchester:33,Manhattan:49,Nassau County:45,Staten Island:31,Bronx:43
-2018-11-15,Bronx:49,Westchester:48,Connecticut:60,Nassau County:56,Staten Island:38,Brooklyn:42,New Jersey:52,Manhattan:48,Rockland County:60,Queens:48
-2018-11-16,Connecticut:60,Bronx:55,New Jersey:42,Manhattan:54,Staten Island:43,Queens:46,Brooklyn:48,Nassau County:50
+2018-11-13,Queens:43,Bronx:39,Staten Island:35,Connecticut:30,Manhattan:48,All Boroughs:15,Westchester:38,New Jersey:36,Nassau County:45,Brooklyn:45,Rockland County:37
+2018-11-14,Brooklyn:41,Staten Island:31,Bronx:43,Manhattan:49,Nassau County:45,Queens:36,Westchester:33,New Jersey:52
+2018-11-15,Connecticut:60,Bronx:49,Queens:48,Nassau County:56,Rockland County:60,Manhattan:48,Staten Island:38,Westchester:48,Brooklyn:42,New Jersey:52
+2018-11-16,Brooklyn:48,Staten Island:43,Bronx:55,Queens:46,New Jersey:42,Manhattan:54,Nassau County:50,Connecticut:60
 2018-11-18,Brooklyn:90
-2018-11-19,Brooklyn:44,Manhattan:47,Westchester:32,Queens:46,Bronx:42,Staten Island:33,New Jersey:45,Nassau County:57
-2018-11-20,Staten Island:32,Manhattan:47,Nassau County:44,Westchester:38,Brooklyn:41,New Jersey:54,Queens:43,Bronx:46
-2018-11-21,Queens:41,Brooklyn:46,Bronx:45,Staten Island:40,New Jersey:60,Manhattan:48,Westchester:45,All Boroughs:15,Nassau County:36
+2018-11-19,Westchester:32,Bronx:42,Brooklyn:44,New Jersey:45,Staten Island:33,Queens:46,Manhattan:47,Nassau County:57
+2018-11-20,Brooklyn:41,Bronx:46,Queens:43,Staten Island:32,New Jersey:54,Westchester:38,Nassau County:44,Manhattan:47
+2018-11-21,Queens:41,Westchester:45,Nassau County:36,Brooklyn:46,All Boroughs:15,Manhattan:48,Staten Island:40,Bronx:45,New Jersey:60
 2018-11-23,Brooklyn:30
-2018-11-26,Nassau County:49,Manhattan:48,Westchester:49,Brooklyn:43,All Boroughs:15,Staten Island:31,Rockland County:15,Queens:40,Bronx:41,New Jersey:60
-2018-11-27,Queens:41,All Boroughs:15,Staten Island:30,Connecticut:45,Westchester:45,Rockland County:45,Brooklyn:44,New Jersey:48,Bronx:46,Manhattan:47,Nassau County:48
-2018-11-28,Brooklyn:43,Queens:41,Bronx:45,Manhattan:49,Staten Island:28,Nassau County:45,Westchester:40
-2018-11-29,Staten Island:33,Queens:50,Westchester:30,Nassau County:54,New Jersey:67,Rockland County:30,Brooklyn:42,Bronx:45,Manhattan:47
-2018-11-30,Bronx:44,Brooklyn:43,Manhattan:48,Queens:46,Westchester:35,Nassau County:56,New Jersey:45,Staten Island:32
-2018-12-03,Brooklyn:42,Bronx:39,Manhattan:47,Nassau County:49,Queens:42,Rockland County:55,New Jersey:45,Staten Island:30,All Boroughs:15,Westchester:38
+2018-11-26,Bronx:41,Brooklyn:43,Queens:40,New Jersey:60,Manhattan:48,Staten Island:31,All Boroughs:15,Nassau County:49,Rockland County:15,Westchester:49
+2018-11-27,Staten Island:30,Manhattan:47,Nassau County:48,Connecticut:45,Queens:41,All Boroughs:15,Rockland County:45,Brooklyn:44,New Jersey:48,Bronx:46,Westchester:45
+2018-11-28,Manhattan:49,Queens:41,Westchester:40,Bronx:45,Nassau County:45,Staten Island:28,Brooklyn:43
+2018-11-29,Manhattan:47,Nassau County:54,New Jersey:67,Rockland County:30,Queens:50,Brooklyn:42,Staten Island:33,Bronx:45,Westchester:30
+2018-11-30,Queens:46,Brooklyn:43,Manhattan:48,Staten Island:32,Westchester:35,Bronx:44,Nassau County:56,New Jersey:45
+2018-12-03,Staten Island:30,All Boroughs:15,Brooklyn:42,Westchester:38,Bronx:39,Manhattan:47,Nassau County:49,Queens:42,Rockland County:55,New Jersey:45
 2018-12-04,Bronx:41,Brooklyn:52
 2018-12-05,Brooklyn:48,Manhattan:35,Bronx:30
 2018-12-06,Bronx:41,Brooklyn:60,Manhattan:60
 2018-12-07,Manhattan:52,Bronx:33,Brooklyn:60
-2018-12-10,Bronx:63,Brooklyn:65,Queens:60
+2018-12-10,Queens:60,Bronx:63,Brooklyn:65
 2018-12-11,Brooklyn:37,Bronx:48,Manhattan:90
 2018-12-12,Bronx:67
 2018-12-13,Brooklyn:60,Bronx:45
@@ -780,71 +780,71 @@
 2018-12-21,Brooklyn:60,Bronx:67,Manhattan:45
 2018-12-26,Nassau County:60
 2019-01-02,Bronx:54,Brooklyn:52,Queens:60
-2019-01-03,Manhattan:44,Queens:60,Bronx:50,Brooklyn:38,Staten Island:30,Nassau County:45
+2019-01-03,Brooklyn:38,Staten Island:30,Nassau County:45,Manhattan:44,Queens:60,Bronx:50
 2019-01-04,Manhattan:49,Brooklyn:44,Bronx:54,New Jersey:45,Nassau County:52,Queens:43,All Boroughs:15,Staten Island:30,Westchester:25
 2019-01-06,Queens:30,Manhattan:45
 2019-01-07,Bronx:47,Manhattan:49,Brooklyn:42,Staten Island:42,Nassau County:45,Queens:44,Westchester:57,Rockland County:15
-2019-01-08,Westchester:39,Connecticut:30,Staten Island:35,Nassau County:38,Manhattan:48,Bronx:46,Brooklyn:40,Queens:39,New Jersey:45
+2019-01-08,Manhattan:48,Bronx:46,Brooklyn:40,Queens:39,New Jersey:45,Westchester:39,Connecticut:30,Staten Island:35,Nassau County:38
 2019-01-09,Manhattan:50,Queens:38,Staten Island:39,Brooklyn:41,Bronx:53,Nassau County:57,Westchester:45,New Jersey:45
 2019-01-10,Manhattan:48,Queens:41,Brooklyn:45,Westchester:42,Bronx:49,Staten Island:35,Nassau County:50,Rockland County:30,New Jersey:45
 2019-01-11,Manhattan:49,Brooklyn:42,Queens:36,Bronx:54,Westchester:75,Nassau County:48,New Jersey:45,Staten Island:30
-2019-01-14,Queens:45,Bronx:45,Manhattan:47,Brooklyn:45,Staten Island:39,Nassau County:40,Rockland County:30,Westchester:35,All Boroughs:15
+2019-01-14,All Boroughs:15,Queens:45,Bronx:45,Manhattan:47,Brooklyn:45,Staten Island:39,Nassau County:40,Rockland County:30,Westchester:35
 2019-01-15,New Jersey:45,Bronx:49,Brooklyn:38,Manhattan:47,Queens:38,All Boroughs:15,Nassau County:40,Staten Island:37,Rockland County:15,Westchester:48
 2019-01-16,Bronx:47,Brooklyn:39,Queens:38,Manhattan:46,Nassau County:52,Staten Island:37,New Jersey:45,Westchester:39
 2019-01-17,Manhattan:49,Queens:54,Brooklyn:39,Bronx:57,Staten Island:33,All Boroughs:15,Westchester:52,Nassau County:42
 2019-01-18,Manhattan:47,Bronx:54,Brooklyn:40,All Boroughs:15,Westchester:50,Nassau County:41,Queens:33,New Jersey:30,Staten Island:35
 2019-01-21,Bronx:15
-2019-01-22,Queens:40,Brooklyn:46,Staten Island:35,New Jersey:45,Manhattan:47,Bronx:45,All Boroughs:20,Nassau County:45,Rockland County:15,Westchester:90
-2019-01-23,New Jersey:45,Bronx:53,Manhattan:47,Queens:35,Brooklyn:40,Nassau County:39,Staten Island:33,Connecticut:30,Westchester:30
-2019-01-24,Brooklyn:40,Bronx:46,Manhattan:46,Queens:34,Nassau County:40,Staten Island:37,All Boroughs:15,Westchester:37,New Jersey:37
-2019-01-25,New Jersey:45,Bronx:55,Manhattan:48,Brooklyn:45,Queens:33,Nassau County:37,Westchester:45,All Boroughs:15,Staten Island:37
+2019-01-22,Brooklyn:46,Staten Island:35,New Jersey:45,Manhattan:47,Bronx:45,Queens:40,All Boroughs:20,Nassau County:45,Rockland County:15,Westchester:90
+2019-01-23,Manhattan:47,Queens:35,Brooklyn:40,Bronx:53,Nassau County:39,Staten Island:33,Connecticut:30,New Jersey:45,Westchester:30
+2019-01-24,Bronx:46,Manhattan:46,Brooklyn:40,Queens:34,Nassau County:40,Staten Island:37,All Boroughs:15,Westchester:37,New Jersey:37
+2019-01-25,Manhattan:48,Bronx:55,Brooklyn:45,Queens:33,Nassau County:37,New Jersey:45,Westchester:45,All Boroughs:15,Staten Island:37
 2019-01-27,Bronx:52
-2019-01-28,Westchester:68,Manhattan:48,Bronx:49,Brooklyn:44,Queens:38,Rockland County:45,New Jersey:52,Staten Island:27,Nassau County:39,Connecticut:15
-2019-01-29,Staten Island:33,Westchester:37,All Boroughs:15,Nassau County:49,Bronx:50,Manhattan:47,Brooklyn:43,Queens:40,New Jersey:41
-2019-01-30,Manhattan:48,Bronx:49,Queens:39,Brooklyn:43,Staten Island:41,Nassau County:45,Westchester:30,All Boroughs:15,New Jersey:45
-2019-01-31,All Boroughs:15,Bronx:51,Brooklyn:42,Staten Island:32,Westchester:47,Manhattan:49,Nassau County:51,Rockland County:30,Queens:59
-2019-02-01,Queens:48,Staten Island:35,Bronx:50,Westchester:35,Manhattan:48,New Jersey:52,Brooklyn:39,Nassau County:40
+2019-01-28,Manhattan:48,Bronx:49,Brooklyn:44,Queens:38,Rockland County:45,New Jersey:52,Staten Island:27,Westchester:68,Nassau County:39,Connecticut:15
+2019-01-29,Manhattan:47,Bronx:50,Brooklyn:43,Queens:40,New Jersey:41,Nassau County:49,Staten Island:33,Westchester:37,All Boroughs:15
+2019-01-30,Manhattan:48,Bronx:49,Queens:39,Brooklyn:43,New Jersey:45,Staten Island:41,Nassau County:45,Westchester:30,All Boroughs:15
+2019-01-31,Bronx:51,Brooklyn:42,Staten Island:32,Queens:59,Manhattan:49,Nassau County:51,Westchester:47,All Boroughs:15,Rockland County:30
+2019-02-01,Westchester:35,Brooklyn:39,Bronx:50,Manhattan:48,Queens:48,Nassau County:40,Staten Island:35,New Jersey:52
 2019-02-03,Manhattan:60
-2019-02-04,Westchester:40,Manhattan:47,New Jersey:53,Staten Island:34,Nassau County:42,Bronx:45,Brooklyn:39,Queens:36,Rockland County:45
-2019-02-05,Bronx:44,New Jersey:51,Staten Island:45,Brooklyn:45,Queens:48,Manhattan:47
-2019-02-06,Brooklyn:38,Nassau County:45,New Jersey:67,Westchester:21,Manhattan:48,Queens:47,Bronx:50,Staten Island:35
-2019-02-07,Queens:51,Westchester:25,All Boroughs:15,Staten Island:46,New Jersey:47,Bronx:45,Brooklyn:42,Manhattan:49,Nassau County:38
-2019-02-08,Brooklyn:40,Westchester:69,Nassau County:37,Manhattan:45,Staten Island:33,Queens:47,Bronx:52,All Boroughs:15,New Jersey:37,Rockland County:60
+2019-02-04,Rockland County:45,Westchester:40,Nassau County:42,Manhattan:47,Bronx:45,Brooklyn:39,New Jersey:53,Staten Island:34,Queens:36
+2019-02-05,Brooklyn:45,Bronx:44,Manhattan:47,New Jersey:51,Queens:48,Staten Island:45
+2019-02-06,Bronx:50,Manhattan:48,Queens:47,Nassau County:45,Staten Island:35,Westchester:21,New Jersey:67,Brooklyn:38
+2019-02-07,Bronx:45,Brooklyn:42,Manhattan:49,Queens:51,Staten Island:46,Nassau County:38,New Jersey:47,All Boroughs:15,Westchester:25
+2019-02-08,Queens:47,Bronx:52,Nassau County:37,Brooklyn:40,Westchester:69,New Jersey:37,All Boroughs:15,Rockland County:60,Staten Island:33,Manhattan:45
 2019-02-10,Bronx:15
-2019-02-11,Queens:43,Westchester:46,Nassau County:40,Staten Island:37,Manhattan:45,Brooklyn:42,Bronx:44,New Jersey:42,Rockland County:70
-2019-02-12,Queens:39,Staten Island:34,Manhattan:48,Brooklyn:38,Nassau County:42,Bronx:55
-2019-02-13,Queens:45,Bronx:50,Manhattan:46,New Jersey:45,Staten Island:33,Nassau County:45,Brooklyn:39,Westchester:45
-2019-02-14,Queens:43,Bronx:51,Manhattan:47,Westchester:49,Brooklyn:38,Rockland County:45,Nassau County:48,New Jersey:30,Staten Island:30
-2019-02-15,Bronx:52,Nassau County:43,Brooklyn:40,Queens:40,Staten Island:36,Westchester:22,All Boroughs:15,Manhattan:49
-2019-02-19,Brooklyn:20,Bronx:63,Queens:60
-2019-02-20,Brooklyn:40,Bronx:77,Manhattan:40
-2019-02-21,Manhattan:15,Queens:60,Brooklyn:37,Bronx:42
-2019-02-22,Brooklyn:30,Queens:60,Bronx:65,Manhattan:22
+2019-02-11,Bronx:44,Manhattan:45,Brooklyn:42,Rockland County:70,New Jersey:42,Staten Island:37,Westchester:46,Nassau County:40,Queens:43
+2019-02-12,Manhattan:48,Brooklyn:38,Queens:39,Bronx:55,Staten Island:34,Nassau County:42
+2019-02-13,Queens:45,Bronx:50,Manhattan:46,Brooklyn:39,Staten Island:33,Westchester:45,New Jersey:45,Nassau County:45
+2019-02-14,New Jersey:30,Brooklyn:38,Bronx:51,Queens:43,Rockland County:45,Staten Island:30,Westchester:49,Nassau County:48,Manhattan:47
+2019-02-15,Brooklyn:40,All Boroughs:15,Nassau County:43,Staten Island:36,Bronx:52,Queens:40,Manhattan:49,Westchester:22
+2019-02-19,Queens:60,Brooklyn:20,Bronx:63
+2019-02-20,Bronx:77,Manhattan:40,Brooklyn:40
+2019-02-21,Manhattan:15,Queens:60,Bronx:42,Brooklyn:37
+2019-02-22,Manhattan:22,Queens:60,Brooklyn:30,Bronx:65
 2019-02-24,Bronx:55
-2019-02-25,Westchester:33,Staten Island:35,Nassau County:49,Queens:55,Bronx:49,Manhattan:47,New Jersey:45,Brooklyn:45,Rockland County:45
-2019-02-26,Bronx:46,Nassau County:50,Manhattan:45,Connecticut:30,Queens:51,Staten Island:35,Brooklyn:42,New Jersey:52
-2019-02-27,Westchester:60,Manhattan:48,Queens:38,Bronx:51,Brooklyn:39,Nassau County:47,Staten Island:36,New Jersey:45
-2019-02-28,Brooklyn:42,Queens:49,Bronx:50,Staten Island:34,Manhattan:48,Nassau County:45,Rockland County:60,Westchester:22,New Jersey:15
-2019-03-01,New Jersey:60,Westchester:45,Rockland County:30,Queens:45,Manhattan:48,Bronx:49,Brooklyn:44,Staten Island:39,Nassau County:43
-2019-03-05,Manhattan:48,Brooklyn:40,New Jersey:48,Queens:46,Bronx:49,Nassau County:45,Staten Island:35,Westchester:34,Connecticut:30
-2019-03-06,Brooklyn:38,Manhattan:48,Bronx:55,Queens:43,Staten Island:33,Nassau County:36,New Jersey:30
-2019-03-07,Brooklyn:38,Bronx:46,Staten Island:41,Manhattan:40,Queens:39,Nassau County:45,Westchester:40,New Jersey:36
-2019-03-08,Westchester:72,Staten Island:45,New Jersey:45,Rockland County:45,Brooklyn:40,Manhattan:48,Bronx:48,Queens:37,Nassau County:40
+2019-02-25,Bronx:49,Nassau County:49,Manhattan:47,Staten Island:35,New Jersey:45,Queens:55,Brooklyn:45,Westchester:33,Rockland County:45
+2019-02-26,Nassau County:50,Bronx:46,Staten Island:35,New Jersey:52,Connecticut:30,Manhattan:45,Queens:51,Brooklyn:42
+2019-02-27,Manhattan:48,Nassau County:47,Staten Island:36,New Jersey:45,Westchester:60,Brooklyn:39,Queens:38,Bronx:51
+2019-02-28,Brooklyn:42,Manhattan:48,Rockland County:60,New Jersey:15,Westchester:22,Nassau County:45,Staten Island:34,Queens:49,Bronx:50
+2019-03-01,Staten Island:39,Nassau County:43,Brooklyn:44,Westchester:45,Bronx:49,Queens:45,Manhattan:48,Rockland County:30,New Jersey:60
+2019-03-05,Staten Island:35,Connecticut:30,Westchester:34,Brooklyn:40,Nassau County:45,New Jersey:48,Bronx:49,Manhattan:48,Queens:46
+2019-03-06,Queens:43,Manhattan:48,New Jersey:30,Bronx:55,Staten Island:33,Brooklyn:38,Nassau County:36
+2019-03-07,Staten Island:41,New Jersey:36,Queens:39,Manhattan:40,Bronx:46,Brooklyn:38,Westchester:40,Nassau County:45
+2019-03-08,Queens:37,Staten Island:45,Nassau County:40,Brooklyn:40,Manhattan:48,Bronx:48,Rockland County:45,Westchester:72,New Jersey:45
 2019-03-10,Queens:37
-2019-03-11,Brooklyn:42,Manhattan:49,Bronx:52,Queens:46,Staten Island:41,Nassau County:48,Westchester:45,Connecticut:45,New Jersey:15
-2019-03-12,Queens:42,Manhattan:47,Bronx:51,Brooklyn:41,Nassau County:41,Staten Island:34,Westchester:60,New Jersey:52
-2019-03-13,Manhattan:47,Brooklyn:38,Bronx:58,Queens:40,Nassau County:41,New Jersey:45,Staten Island:31,Westchester:60
-2019-03-14,Bronx:53,Brooklyn:37,Manhattan:51,Queens:40,Nassau County:30
-2019-03-15,Bronx:48,Queens:43,Brooklyn:41,Manhattan:48,Staten Island:36,Nassau County:40,Westchester:35,New Jersey:30,Connecticut:30
-2019-03-18,Bronx:50,Manhattan:50,Brooklyn:43,Queens:50,Nassau County:53,New Jersey:45,Staten Island:37,Westchester:30
-2019-03-19,Queens:58,Bronx:48,Brooklyn:42,Manhattan:48,New Jersey:45,Nassau County:45,Westchester:52,Staten Island:34
-2019-03-20,Staten Island:33,Queens:38,Westchester:37,New Jersey:45,Rockland County:90,Brooklyn:40,Manhattan:49,Bronx:42,Nassau County:45
+2019-03-11,Queens:46,Bronx:52,Connecticut:45,New Jersey:15,Brooklyn:42,Staten Island:41,Nassau County:48,Manhattan:49,Westchester:45
+2019-03-12,Staten Island:34,Westchester:60,Nassau County:41,Brooklyn:41,Queens:42,Manhattan:47,New Jersey:52,Bronx:51
+2019-03-13,Staten Island:31,Brooklyn:38,Queens:40,New Jersey:45,Bronx:58,Manhattan:47,Nassau County:41,Westchester:60
+2019-03-14,Bronx:53,Manhattan:51,Nassau County:30,Brooklyn:37,Queens:40
+2019-03-15,Staten Island:36,Queens:43,Manhattan:48,Nassau County:40,Connecticut:30,New Jersey:30,Brooklyn:41,Westchester:35,Bronx:48
+2019-03-18,Queens:50,Manhattan:50,Bronx:50,Westchester:30,Brooklyn:43,New Jersey:45,Staten Island:37,Nassau County:53
+2019-03-19,New Jersey:45,Staten Island:34,Brooklyn:42,Manhattan:48,Westchester:52,Nassau County:45,Queens:58,Bronx:48
+2019-03-20,New Jersey:45,Rockland County:90,Brooklyn:40,Manhattan:49,Bronx:42,Nassau County:45,Staten Island:33,Queens:38,Westchester:37
 2019-03-21,Brooklyn:43,Bronx:49,Queens:39,Manhattan:50,Staten Island:37,Nassau County:42,Connecticut:15,New Jersey:15,Westchester:30,All Boroughs:45
-2019-03-22,Queens:40,Manhattan:48,Bronx:41,Brooklyn:42,Nassau County:41,Westchester:63,Staten Island:33,New Jersey:45
+2019-03-22,Nassau County:41,Westchester:63,Staten Island:33,New Jersey:45,Queens:40,Manhattan:48,Bronx:41,Brooklyn:42
 2019-03-25,Manhattan:48,Queens:48,Bronx:48,Brooklyn:42,New Jersey:45,Staten Island:37,Nassau County:43,Connecticut:37,Westchester:35
 2019-03-26,Manhattan:48,Queens:46,New Jersey:46,Bronx:56,Brooklyn:39,Staten Island:34,Nassau County:42,Westchester:34,All Boroughs:15
 2019-03-27,Brooklyn:44,Queens:46,Manhattan:48,Bronx:46,Nassau County:36,Staten Island:30,New Jersey:45,Westchester:63
-2019-03-28,Queens:45,Bronx:53,Brooklyn:42,Manhattan:43,Staten Island:32,Nassau County:42,Westchester:52
+2019-03-28,Brooklyn:42,Manhattan:43,Staten Island:32,Nassau County:42,Westchester:52,Queens:45,Bronx:53
 2019-03-29,Brooklyn:46,Nassau County:39,Queens:54,Staten Island:36,All Boroughs:15,Manhattan:43,Bronx:50,Westchester:37
 2019-03-31,Bronx:45
 2019-04-01,Bronx:46,Brooklyn:42,Manhattan:44,Queens:47,Nassau County:42,Staten Island:36,New Jersey:37,Westchester:37
@@ -853,129 +853,129 @@
 2019-04-04,Bronx:44,Brooklyn:39,Manhattan:43,Queens:47,Staten Island:30,Westchester:26,Nassau County:38,All Boroughs:15,Rockland County:45
 2019-04-05,Bronx:45,Brooklyn:41,Manhattan:41,Staten Island:32,Queens:43,Nassau County:35,Westchester:38,All Boroughs:15,Connecticut:15,New Jersey:52,Rockland County:52
 2019-04-07,Bronx:30
-2019-04-08,Bronx:44,Brooklyn:40,Manhattan:41,New Jersey:45,Queens:47,All Boroughs:22,Staten Island:34,Nassau County:38,Westchester:30
-2019-04-09,Staten Island:31,New Jersey:45,Nassau County:37,Brooklyn:37,Bronx:48,Manhattan:43,Westchester:31,Queens:39
-2019-04-10,Staten Island:32,Queens:40,Bronx:48,Brooklyn:45,Manhattan:40,Westchester:41,Nassau County:31
-2019-04-11,Bronx:46,Manhattan:42,All Boroughs:15,Brooklyn:41,Staten Island:45,Westchester:28,New Jersey:37,Rockland County:30,Nassau County:34,Queens:37
-2019-04-12,Brooklyn:44,Manhattan:40,Queens:31,New Jersey:45,Bronx:36,Staten Island:30
+2019-04-08,Manhattan:41,New Jersey:45,Queens:47,All Boroughs:22,Staten Island:34,Nassau County:38,Westchester:30,Bronx:44,Brooklyn:40
+2019-04-09,Bronx:48,Brooklyn:37,Manhattan:43,Westchester:31,Queens:39,Nassau County:37,Staten Island:31,New Jersey:45
+2019-04-10,Staten Island:32,Queens:40,Bronx:48,Brooklyn:45,Manhattan:40,Nassau County:31,Westchester:41
+2019-04-11,Bronx:46,Manhattan:42,Queens:37,All Boroughs:15,Brooklyn:41,Staten Island:45,Nassau County:34,Westchester:28,New Jersey:37,Rockland County:30
+2019-04-12,Brooklyn:44,Manhattan:40,Queens:31,New Jersey:45,Staten Island:30,Bronx:36
 2019-04-15,Bronx:60,Manhattan:30,Brooklyn:36
 2019-04-16,Bronx:56,Brooklyn:45,Queens:15
-2019-04-17,Queens:45,Bronx:45,Brooklyn:60
+2019-04-17,Brooklyn:60,Queens:45,Bronx:45
 2019-04-18,Queens:30,Bronx:67,Manhattan:45
 2019-04-22,Bronx:45
 2019-04-24,Manhattan:15,Bronx:30
 2019-04-29,Bronx:45
 2019-04-30,Queens:30,Brooklyn:26,Bronx:15
 2019-05-01,Brooklyn:50,Bronx:45
-2019-05-02,Brooklyn:30,Bronx:75,Queens:45
+2019-05-02,Brooklyn:30,Queens:45,Bronx:75
 2019-05-03,Brooklyn:37,Westchester:30,Bronx:60
 2019-05-06,Bronx:40,Manhattan:30
 2019-05-07,Staten Island:30,Bronx:60
 2019-05-08,Brooklyn:60,Bronx:39,Nassau County:45
-2019-05-09,Westchester:15,Queens:45,Manhattan:45,Bronx:52
-2019-05-10,Brooklyn:60,Queens:60,Bronx:48
+2019-05-09,Bronx:52,Westchester:15,Queens:45,Manhattan:45
+2019-05-10,Bronx:48,Brooklyn:60,Queens:60
 2019-05-13,Bronx:48,Queens:60,Manhattan:45
 2019-05-14,Bronx:51,Brooklyn:55,Queens:60
 2019-05-15,Manhattan:30,Queens:45,Brooklyn:37,Bronx:52
-2019-05-16,All Boroughs:15,Brooklyn:34,Bronx:35,Westchester:37,Nassau County:27,Manhattan:42,Queens:39,Staten Island:30
-2019-05-17,Nassau County:42,Bronx:50,Brooklyn:42,Staten Island:31,New Jersey:45,All Boroughs:15,Manhattan:41,Queens:44,Westchester:37
+2019-05-16,Brooklyn:34,Nassau County:27,Manhattan:42,Bronx:35,Queens:39,Staten Island:30,Westchester:37,All Boroughs:15
+2019-05-17,Brooklyn:42,Bronx:50,Manhattan:41,Queens:44,Staten Island:31,Nassau County:42,New Jersey:45,Westchester:37,All Boroughs:15
 2019-05-19,Queens:15
-2019-05-20,Nassau County:43,Staten Island:36,Westchester:33,Manhattan:43,All Boroughs:15,New Jersey:55,Bronx:48,Queens:41,Brooklyn:42,Rockland County:30
-2019-05-21,Brooklyn:43,All Boroughs:15,Manhattan:42,Queens:41,Rockland County:45,Westchester:34,Bronx:47,Nassau County:35,New Jersey:60,Staten Island:38
-2019-05-22,Brooklyn:41,Bronx:48,Nassau County:50,New Jersey:30,Connecticut:60,Manhattan:41,Rockland County:52,Westchester:60,Queens:41,Staten Island:40
-2019-05-23,Brooklyn:43,Bronx:46,Rockland County:41,Westchester:34,Nassau County:33,New Jersey:36,Staten Island:38,Manhattan:42,Queens:40
-2019-05-24,All Boroughs:30,Queens:40,Nassau County:30,New Jersey:60,Staten Island:42,Bronx:47,Manhattan:42,Brooklyn:40
-2019-05-28,Westchester:24,Queens:35,Nassau County:42,Manhattan:39,Connecticut:30,Brooklyn:41,Bronx:50,Staten Island:41
-2019-05-29,Manhattan:39,Westchester:33,Nassau County:47,New Jersey:37,Brooklyn:43,Queens:40,Staten Island:32,Bronx:45
-2019-05-30,Brooklyn:40,Rockland County:60,Bronx:46,Queens:49,Staten Island:40,Manhattan:41,Nassau County:40,Westchester:28
-2019-05-31,Westchester:45,Staten Island:40,Queens:41,Brooklyn:41,Manhattan:43,Nassau County:38,Bronx:44
+2019-05-20,Queens:41,Brooklyn:42,Manhattan:43,All Boroughs:15,Bronx:48,Nassau County:43,New Jersey:55,Staten Island:36,Westchester:33,Rockland County:30
+2019-05-21,Manhattan:42,Brooklyn:43,All Boroughs:15,Bronx:47,Queens:41,Nassau County:35,New Jersey:60,Staten Island:38,Rockland County:45,Westchester:34
+2019-05-22,Manhattan:41,Bronx:48,Queens:41,Staten Island:40,Rockland County:52,Nassau County:50,Westchester:60,New Jersey:30,Connecticut:60,Brooklyn:41
+2019-05-23,Brooklyn:43,Manhattan:42,Queens:40,Staten Island:38,Bronx:46,Rockland County:41,Westchester:34,New Jersey:36,Nassau County:33
+2019-05-24,Manhattan:42,Brooklyn:40,Bronx:47,Queens:40,Staten Island:42,Nassau County:30,All Boroughs:30,New Jersey:60
+2019-05-28,Brooklyn:41,Bronx:50,Manhattan:39,Nassau County:42,Westchester:24,Queens:35,Staten Island:41,Connecticut:30
+2019-05-29,New Jersey:37,Manhattan:39,Bronx:45,Staten Island:32,Brooklyn:43,Queens:40,Nassau County:47,Westchester:33
+2019-05-30,Nassau County:40,Staten Island:40,Bronx:46,Brooklyn:40,Manhattan:41,Queens:49,Rockland County:60,Westchester:28
+2019-05-31,Staten Island:40,Bronx:44,Brooklyn:41,Manhattan:43,Nassau County:38,Queens:41,Westchester:45
 2019-06-02,Brooklyn:40
-2019-06-03,Bronx:51,Brooklyn:39,New Jersey:30,Westchester:30,Manhattan:47,Staten Island:40,Queens:39,Nassau County:42
-2019-06-04,Westchester:30,New Jersey:15,Queens:45,Bronx:66,Nassau County:35,Manhattan:43,Brooklyn:36
-2019-06-05,Manhattan:42,Nassau County:33,Queens:40,Brooklyn:37,All Boroughs:15,Bronx:48,Westchester:37,Staten Island:34
-2019-06-06,New Jersey:15,Bronx:60,Nassau County:30,Westchester:30,Manhattan:43,Queens:43,Brooklyn:41
-2019-06-07,Manhattan:43,Nassau County:43,Rockland County:45,Westchester:30,Queens:37,Brooklyn:41,Staten Island:40,Bronx:45
+2019-06-03,Westchester:30,Bronx:51,Brooklyn:39,Queens:39,Manhattan:47,Nassau County:42,New Jersey:30,Staten Island:40
+2019-06-04,Manhattan:43,Brooklyn:36,Queens:45,Bronx:66,Nassau County:35,Westchester:30,New Jersey:15
+2019-06-05,Brooklyn:37,Staten Island:34,Bronx:48,Queens:40,Nassau County:33,All Boroughs:15,Westchester:37,Manhattan:42
+2019-06-06,Queens:43,Brooklyn:41,Bronx:60,Manhattan:43,Westchester:30,Nassau County:30,New Jersey:15
+2019-06-07,Brooklyn:41,Queens:37,Nassau County:43,Manhattan:43,Staten Island:40,Westchester:30,Rockland County:45,Bronx:45
 2019-06-09,Bronx:30
-2019-06-10,Bronx:47,Westchester:52,Nassau County:39,Queens:38,Staten Island:39,Manhattan:41,Brooklyn:39
-2019-06-11,Nassau County:43,All Boroughs:15,Brooklyn:37,Bronx:50,Queens:45,New Jersey:30,Westchester:45,Staten Island:30,Rockland County:22,Manhattan:40
-2019-06-12,Bronx:44,Manhattan:42,Nassau County:45,All Boroughs:15,Queens:42,New Jersey:45,Rockland County:40,Staten Island:39,Westchester:28,Brooklyn:43
-2019-06-13,New Jersey:45,Westchester:57,All Boroughs:15,Staten Island:41,Connecticut:45,Bronx:57,Brooklyn:42,Manhattan:42,Queens:41,Nassau County:46
-2019-06-14,Brooklyn:38,Staten Island:32,Queens:38,Manhattan:41,Bronx:51,Westchester:40,Nassau County:45,All Boroughs:15,Rockland County:30
+2019-06-10,Brooklyn:39,Bronx:47,Manhattan:41,Queens:38,Staten Island:39,Nassau County:39,Westchester:52
+2019-06-11,Brooklyn:37,Bronx:50,Manhattan:40,Nassau County:43,Queens:45,New Jersey:30,Staten Island:30,Rockland County:22,All Boroughs:15,Westchester:45
+2019-06-12,All Boroughs:15,Brooklyn:43,Queens:42,Rockland County:40,Bronx:44,Westchester:28,Staten Island:39,Nassau County:45,New Jersey:45,Manhattan:42
+2019-06-13,All Boroughs:15,Bronx:57,Brooklyn:42,Manhattan:42,Nassau County:46,New Jersey:45,Westchester:57,Staten Island:41,Connecticut:45,Queens:41
+2019-06-14,Bronx:51,Rockland County:30,Westchester:40,Staten Island:32,Manhattan:41,Brooklyn:38,Queens:38,Nassau County:45,All Boroughs:15
 2019-06-16,Queens:45
-2019-06-17,Bronx:54,Queens:38,Brooklyn:43,Staten Island:41,Nassau County:40,All Boroughs:15,Westchester:33,Rockland County:15,Manhattan:42
-2019-06-18,Brooklyn:38,Bronx:54,Manhattan:42,Westchester:36,Nassau County:42,Queens:37,Staten Island:56,All Boroughs:15,Rockland County:30
-2019-06-19,Staten Island:36,Manhattan:43,Bronx:53,Brooklyn:36,All Boroughs:15,Queens:38,Westchester:30,Nassau County:40,Rockland County:45,New Jersey:30
-2019-06-20,All Boroughs:15,Nassau County:40,Westchester:40,New Jersey:60,Queens:36,Brooklyn:41,Bronx:58,Manhattan:45,Staten Island:56
-2019-06-21,Bronx:57,Queens:42,Brooklyn:42,Manhattan:47,Staten Island:53,Westchester:55,Nassau County:31,Rockland County:60
+2019-06-17,Queens:38,Nassau County:40,Westchester:33,Brooklyn:43,Manhattan:42,Bronx:54,Staten Island:41,Rockland County:15,All Boroughs:15
+2019-06-18,Queens:37,Staten Island:56,Manhattan:42,Bronx:54,Westchester:36,All Boroughs:15,Rockland County:30,Brooklyn:38,Nassau County:42
+2019-06-19,Nassau County:40,Brooklyn:36,New Jersey:30,Queens:38,Manhattan:43,All Boroughs:15,Staten Island:36,Bronx:53,Westchester:30,Rockland County:45
+2019-06-20,Brooklyn:41,Westchester:40,Bronx:58,Manhattan:45,Queens:36,Staten Island:56,All Boroughs:15,Nassau County:40,New Jersey:60
+2019-06-21,Bronx:57,Nassau County:31,Queens:42,Brooklyn:42,Staten Island:53,Manhattan:47,Westchester:55,Rockland County:60
 2019-06-23,All Boroughs:15
-2019-06-24,Brooklyn:42,Bronx:52,Queens:37,Manhattan:44,Rockland County:45,All Boroughs:15,Nassau County:52,Staten Island:48,Westchester:30
-2019-06-25,Queens:34,Brooklyn:46,Manhattan:43,Bronx:48,Staten Island:69,Nassau County:38,Westchester:50
-2019-06-26,Brooklyn:40,Bronx:53,Manhattan:45,Queens:47,Nassau County:45,Staten Island:30,Westchester:30
+2019-06-24,All Boroughs:15,Brooklyn:42,Bronx:52,Rockland County:45,Westchester:30,Queens:37,Manhattan:44,Nassau County:52,Staten Island:48
+2019-06-25,Brooklyn:46,Bronx:48,Nassau County:38,Staten Island:69,Westchester:50,Manhattan:43,Queens:34
+2019-06-26,Nassau County:45,Queens:47,Brooklyn:40,Manhattan:45,Westchester:30,Bronx:53,Staten Island:30
 2019-06-27,Brooklyn:45,Bronx:60
-2019-09-03,Brooklyn:44,Nassau County:37,Bronx:38,Westchester:33,Manhattan:40,Queens:48,New Jersey:45,Staten Island:45,All Boroughs:15
-2019-09-04,Nassau County:40,Brooklyn:45,Manhattan:50,Bronx:39,Rockland County:41,New Jersey:42,Staten Island:37,Westchester:34,All Boroughs:15,Queens:40
-2019-09-05,Rockland County:30,All Boroughs:45,Westchester:28,Bronx:39,Brooklyn:44,Manhattan:49,Queens:45,Nassau County:39,New Jersey:42,Staten Island:39
-2019-09-06,Queens:44,Bronx:37,Brooklyn:38,Staten Island:43,Manhattan:47,Westchester:31,Nassau County:38,New Jersey:37
-2019-09-08,Nassau County:45,Brooklyn:45
-2019-09-09,Brooklyn:39,Staten Island:36,Manhattan:45,Nassau County:40,Bronx:38,Queens:45,Westchester:36,All Boroughs:15,New Jersey:37
-2019-09-10,Queens:48,Bronx:41,Brooklyn:40,Manhattan:47,Rockland County:40,Westchester:39,Staten Island:37,All Boroughs:22,Nassau County:48,New Jersey:15
-2019-09-11,Bronx:41,Queens:53,Brooklyn:38,Manhattan:47,Nassau County:46,Staten Island:39,Westchester:36,New Jersey:26,All Boroughs:22
-2019-09-12,Brooklyn:40,Manhattan:46,Bronx:38,Queens:53,Staten Island:35,Westchester:38,New Jersey:30,Nassau County:48,All Boroughs:30
-2019-09-13,Queens:48,Bronx:34,Brooklyn:41,Manhattan:47,Nassau County:43,Westchester:48,Staten Island:46,All Boroughs:30,New Jersey:45
-2019-09-16,Brooklyn:38,Queens:45,Manhattan:48,Bronx:36,Staten Island:33,Westchester:50,Nassau County:38,Rockland County:15
-2019-09-17,Bronx:44,Brooklyn:62,Nassau County:60,Queens:61,Manhattan:50
-2019-09-18,Westchester:45,Brooklyn:38,Manhattan:47,New Jersey:42,Queens:48,Bronx:35,Nassau County:44,Staten Island:34
-2019-09-19,New Jersey:45,Manhattan:50,Bronx:37,Brooklyn:38,Queens:47,Staten Island:31,Nassau County:39,Westchester:61,Rockland County:45,All Boroughs:15
-2019-09-20,Manhattan:47,Bronx:37,Brooklyn:40,Queens:44,New Jersey:45,Nassau County:39,Westchester:34,Staten Island:35,All Boroughs:22
+2019-09-03,Manhattan:40,Queens:48,Brooklyn:44,Bronx:38,Staten Island:45,New Jersey:45,Nassau County:37,All Boroughs:15,Westchester:33
+2019-09-04,Bronx:39,Manhattan:50,All Boroughs:15,Brooklyn:45,New Jersey:42,Staten Island:37,Queens:40,Westchester:34,Nassau County:40,Rockland County:41
+2019-09-05,All Boroughs:45,Bronx:39,Westchester:28,New Jersey:42,Rockland County:30,Brooklyn:44,Manhattan:49,Staten Island:39,Nassau County:39,Queens:45
+2019-09-06,New Jersey:37,Brooklyn:38,Nassau County:38,Westchester:31,Bronx:37,Staten Island:43,Manhattan:47,Queens:44
+2019-09-08,Brooklyn:45,Nassau County:45
+2019-09-09,Manhattan:45,Queens:45,Nassau County:40,Bronx:38,Westchester:36,Staten Island:36,New Jersey:37,Brooklyn:39,All Boroughs:15
+2019-09-10,Staten Island:37,New Jersey:15,Queens:48,All Boroughs:22,Brooklyn:40,Manhattan:47,Rockland County:40,Westchester:39,Bronx:41,Nassau County:48
+2019-09-11,Manhattan:47,All Boroughs:22,Queens:53,Staten Island:39,Westchester:36,Bronx:41,New Jersey:26,Brooklyn:38,Nassau County:46
+2019-09-12,Queens:53,New Jersey:30,Brooklyn:40,Westchester:38,All Boroughs:30,Manhattan:46,Bronx:38,Staten Island:35,Nassau County:48
+2019-09-13,New Jersey:45,All Boroughs:30,Westchester:48,Brooklyn:41,Staten Island:46,Queens:48,Manhattan:47,Nassau County:43,Bronx:34
+2019-09-16,Brooklyn:38,Nassau County:38,Westchester:50,Manhattan:48,Staten Island:33,Queens:45,Rockland County:15,Bronx:36
+2019-09-17,Manhattan:50,Bronx:44,Brooklyn:62,Nassau County:60,Queens:61
+2019-09-18,Brooklyn:38,New Jersey:42,Manhattan:47,Queens:48,Westchester:45,Staten Island:34,Bronx:35,Nassau County:44
+2019-09-19,New Jersey:45,Rockland County:45,Manhattan:50,All Boroughs:15,Bronx:37,Brooklyn:38,Queens:47,Staten Island:31,Nassau County:39,Westchester:61
+2019-09-20,Brooklyn:40,Bronx:37,Queens:44,New Jersey:45,Nassau County:39,Manhattan:47,Westchester:34,Staten Island:35,All Boroughs:22
 2019-09-22,Manhattan:60,Queens:45
-2019-09-23,Brooklyn:39,Staten Island:35,Manhattan:47,Bronx:34,Queens:50,Nassau County:34,New Jersey:39,Westchester:32,All Boroughs:15
-2019-09-24,Brooklyn:38,Manhattan:46,Bronx:40,Nassau County:41,Staten Island:32,Queens:44,Westchester:30,New Jersey:90,Rockland County:22
-2019-09-25,Rockland County:15,All Boroughs:15,Brooklyn:36,Bronx:35,Nassau County:33,Manhattan:47,Queens:41,Staten Island:36,New Jersey:43,Westchester:52
-2019-09-26,Brooklyn:39,Bronx:38,Queens:43,Manhattan:46,Staten Island:36,Nassau County:38,All Boroughs:15,New Jersey:60,Rockland County:15,Westchester:51
-2019-09-27,Staten Island:36,Queens:43,Manhattan:49,Bronx:34,Nassau County:41,Westchester:35,New Jersey:39,Brooklyn:38,All Boroughs:15
+2019-09-23,Brooklyn:39,Queens:50,Nassau County:34,New Jersey:39,Staten Island:35,Westchester:32,All Boroughs:15,Manhattan:47,Bronx:34
+2019-09-24,Manhattan:46,Brooklyn:38,Bronx:40,Nassau County:41,Staten Island:32,Queens:44,Westchester:30,New Jersey:90,Rockland County:22
+2019-09-25,Brooklyn:36,Nassau County:33,Manhattan:47,Queens:41,Bronx:35,Staten Island:36,New Jersey:43,Westchester:52,All Boroughs:15,Rockland County:15
+2019-09-26,Westchester:51,All Boroughs:15,New Jersey:60,Rockland County:15,Brooklyn:39,Bronx:38,Queens:43,Manhattan:46,Staten Island:36,Nassau County:38
+2019-09-27,Brooklyn:38,Queens:43,Manhattan:49,Bronx:34,Staten Island:36,Nassau County:41,Westchester:35,New Jersey:39,All Boroughs:15
 2019-09-30,Brooklyn:40,Manhattan:37,Westchester:30,Bronx:37
-2019-10-01,Bronx:60,Manhattan:45,Brooklyn:27,Westchester:30,Nassau County:30
-2019-10-02,Queens:40,Manhattan:52,Bronx:34,Staten Island:33,New Jersey:45,All Boroughs:15,Rockland County:15,Brooklyn:40,Nassau County:42,Westchester:39
-2019-10-03,Bronx:35,Staten Island:31,Westchester:30,Manhattan:48,Brooklyn:40,New Jersey:45,Rockland County:30,Nassau County:46,Queens:40
-2019-10-04,Nassau County:43,Bronx:37,Queens:44,Brooklyn:40,Connecticut:30,Rockland County:60,Staten Island:36,Manhattan:49,Westchester:28,All Boroughs:15,New Jersey:45
+2019-10-01,Brooklyn:27,Manhattan:45,Bronx:60,Nassau County:30,Westchester:30
+2019-10-02,Manhattan:52,Brooklyn:40,Nassau County:42,Bronx:34,Staten Island:33,Queens:40,Rockland County:15,New Jersey:45,All Boroughs:15,Westchester:39
+2019-10-03,Queens:40,Bronx:35,Manhattan:48,Staten Island:31,Nassau County:46,Westchester:30,Brooklyn:40,New Jersey:45,Rockland County:30
+2019-10-04,Bronx:37,Queens:44,Nassau County:43,New Jersey:45,Brooklyn:40,Staten Island:36,Manhattan:49,Westchester:28,Connecticut:30,All Boroughs:15,Rockland County:60
 2019-10-06,Manhattan:40
-2019-10-07,All Boroughs:15,Bronx:35,Connecticut:30,Queens:47,Westchester:34,New Jersey:35,Nassau County:41,Staten Island:36,Brooklyn:38,Manhattan:50
-2019-10-08,New Jersey:37,Nassau County:41,Westchester:46,Brooklyn:38,Staten Island:40,All Boroughs:15,Queens:40,Manhattan:47,Bronx:34,Connecticut:60
-2019-10-09,Bronx:23,Brooklyn:42,Queens:48,Manhattan:52
-2019-10-10,Bronx:37,Queens:43,Staten Island:35,Manhattan:48,Westchester:36,Brooklyn:37,Nassau County:42,New Jersey:37
-2019-10-11,Queens:40,Bronx:36,Brooklyn:37,Staten Island:40,New Jersey:30,Nassau County:44,All Boroughs:15,Manhattan:49,Westchester:47,Rockland County:25
+2019-10-07,Bronx:35,Brooklyn:38,Manhattan:50,Nassau County:41,Queens:47,Staten Island:36,Westchester:34,Connecticut:30,New Jersey:35,All Boroughs:15
+2019-10-08,Queens:40,Nassau County:41,All Boroughs:15,Bronx:34,Brooklyn:38,Westchester:46,Staten Island:40,Connecticut:60,New Jersey:37,Manhattan:47
+2019-10-09,Brooklyn:42,Bronx:23,Queens:48,Manhattan:52
+2019-10-10,Manhattan:48,Queens:43,Bronx:37,Brooklyn:37,Staten Island:35,Nassau County:42,Westchester:36,New Jersey:37
+2019-10-11,Queens:40,Brooklyn:37,Bronx:36,Nassau County:44,Manhattan:49,New Jersey:30,Westchester:47,Staten Island:40,Rockland County:25,All Boroughs:15
 2019-10-14,Queens:45
-2019-10-15,Nassau County:44,Westchester:37,Brooklyn:34,Staten Island:38,Bronx:36,Manhattan:50,Queens:39,New Jersey:35
-2019-10-16,Bronx:36,All Boroughs:15,Queens:40,Staten Island:49,Nassau County:42,Westchester:36,Manhattan:48,New Jersey:37,Brooklyn:36
-2019-10-17,Bronx:40,Staten Island:39,All Boroughs:45,New Jersey:52,Westchester:45,Manhattan:48,Nassau County:41,Queens:37,Brooklyn:36
-2019-10-18,Queens:40,New Jersey:60,Nassau County:42,Manhattan:51,Staten Island:43,Bronx:34,All Boroughs:35,Westchester:46,Brooklyn:36
-2019-10-21,Connecticut:30,Staten Island:32,Bronx:33,Manhattan:49,Nassau County:42,Queens:37,Brooklyn:37,Westchester:43
-2019-10-22,All Boroughs:30,New Jersey:15,Queens:37,Manhattan:49,Brooklyn:34,Nassau County:42,Bronx:38,Westchester:42,Staten Island:31
-2019-10-23,Manhattan:49,Bronx:37,Brooklyn:38,Nassau County:43,Westchester:34,Queens:40,Staten Island:35,New Jersey:60
-2019-10-24,Westchester:55,Staten Island:35,All Boroughs:15,Brooklyn:37,Manhattan:49,Queens:37,Nassau County:41,Bronx:36,New Jersey:25
-2019-10-25,Brooklyn:36,Manhattan:49,Queens:45,Nassau County:40,Westchester:38,Bronx:40,Staten Island:40
+2019-10-15,Brooklyn:34,Manhattan:50,Nassau County:44,Queens:39,New Jersey:35,Bronx:36,Westchester:37,Staten Island:38
+2019-10-16,Bronx:36,New Jersey:37,Brooklyn:36,Nassau County:42,Staten Island:49,Manhattan:48,Westchester:36,Queens:40,All Boroughs:15
+2019-10-17,Brooklyn:36,Bronx:40,Manhattan:48,Queens:37,Nassau County:41,Staten Island:39,New Jersey:52,Westchester:45,All Boroughs:45
+2019-10-18,Staten Island:43,Nassau County:42,Queens:40,Bronx:34,Manhattan:51,Brooklyn:36,Westchester:46,All Boroughs:35,New Jersey:60
+2019-10-21,Manhattan:49,Brooklyn:37,Nassau County:42,Queens:37,Bronx:33,Staten Island:32,Westchester:43,Connecticut:30
+2019-10-22,Bronx:38,Queens:37,Manhattan:49,Brooklyn:34,Nassau County:42,Westchester:42,Staten Island:31,All Boroughs:30,New Jersey:15
+2019-10-23,Nassau County:43,New Jersey:60,Manhattan:49,Bronx:37,Brooklyn:38,Westchester:34,Queens:40,Staten Island:35
+2019-10-24,Nassau County:41,Brooklyn:37,Manhattan:49,Queens:37,Bronx:36,New Jersey:25,Westchester:55,Staten Island:35,All Boroughs:15
+2019-10-25,Queens:45,Staten Island:40,Brooklyn:36,Manhattan:49,Nassau County:40,Westchester:38,Bronx:40
 2019-10-27,Brooklyn:45,Bronx:30
-2019-10-28,Brooklyn:38,Bronx:39,Manhattan:49,Staten Island:30,Queens:42,Nassau County:41,New Jersey:32,Westchester:45,All Boroughs:38
-2019-10-29,Queens:41,Manhattan:48,All Boroughs:15,Bronx:38,Brooklyn:38,Nassau County:43,Westchester:33,Staten Island:40,New Jersey:30
-2019-10-30,Nassau County:44,Brooklyn:37,Bronx:34,Staten Island:32,Westchester:42,All Boroughs:15,New Jersey:90,Manhattan:44,Queens:44
-2019-10-31,Manhattan:45,Brooklyn:40,Nassau County:42,Queens:44,Bronx:37,Staten Island:32,New Jersey:30,Westchester:65,Connecticut:30,All Boroughs:22,Rockland County:45
-2019-11-01,Brooklyn:38,Nassau County:41,Bronx:37,Manhattan:47,Queens:40,Westchester:54,Connecticut:45,New Jersey:52,Staten Island:40
+2019-10-28,Bronx:39,Brooklyn:38,Manhattan:49,Staten Island:30,Queens:42,Nassau County:41,New Jersey:32,Westchester:45,All Boroughs:38
+2019-10-29,Queens:41,New Jersey:30,Brooklyn:38,Manhattan:48,All Boroughs:15,Bronx:38,Nassau County:43,Westchester:33,Staten Island:40
+2019-10-30,Manhattan:44,Queens:44,Nassau County:44,Bronx:34,Staten Island:32,Westchester:42,New Jersey:90,Brooklyn:37,All Boroughs:15
+2019-10-31,Brooklyn:40,Bronx:37,Westchester:65,Connecticut:30,Manhattan:45,Rockland County:45,Staten Island:32,New Jersey:30,Nassau County:42,Queens:44,All Boroughs:22
+2019-11-01,Brooklyn:38,Queens:40,Connecticut:45,Staten Island:40,Westchester:54,Bronx:37,Nassau County:41,New Jersey:52,Manhattan:47
 2019-11-03,Brooklyn:45,Westchester:45
-2019-11-04,Bronx:36,Nassau County:43,Brooklyn:38,New Jersey:26,Manhattan:46,Queens:37,Westchester:41,Staten Island:38
-2019-11-05,Brooklyn:43,Nassau County:41,Bronx:30,Rockland County:30,New Jersey:30,Manhattan:45,All Boroughs:30,Staten Island:30,Connecticut:60
-2019-11-06,Bronx:37,Brooklyn:37,Manhattan:47,Nassau County:41,Queens:38,Staten Island:26,New Jersey:42,Westchester:57
-2019-11-07,Bronx:37,Queens:41,Manhattan:48,Brooklyn:36,Westchester:53,Nassau County:41,Staten Island:28,New Jersey:45
-2019-11-08,Brooklyn:36,Nassau County:40,Queens:41,Manhattan:48,Staten Island:30,Westchester:75,New Jersey:15,All Boroughs:45,Bronx:36,Rockland County:60
+2019-11-04,Nassau County:43,Brooklyn:38,New Jersey:26,Queens:37,Westchester:41,Manhattan:46,Bronx:36,Staten Island:38
+2019-11-05,Nassau County:41,Rockland County:30,Manhattan:45,Staten Island:30,Connecticut:60,New Jersey:30,All Boroughs:30,Brooklyn:43,Bronx:30
+2019-11-06,Westchester:57,Bronx:37,Manhattan:47,Queens:38,Nassau County:41,Staten Island:26,Brooklyn:37,New Jersey:42
+2019-11-07,Bronx:37,Queens:41,Manhattan:48,Nassau County:41,Westchester:53,Brooklyn:36,New Jersey:45,Staten Island:28
+2019-11-08,All Boroughs:45,Bronx:36,Queens:41,New Jersey:15,Staten Island:30,Westchester:75,Manhattan:48,Rockland County:60,Brooklyn:36,Nassau County:40
 2019-11-11,Brooklyn:37
-2019-11-12,Brooklyn:40,Manhattan:46,Queens:40,Staten Island:33,Bronx:40,Connecticut:60,Westchester:65,New Jersey:37,Nassau County:39,All Boroughs:15
-2019-11-13,Brooklyn:39,Bronx:44,Staten Island:38,Nassau County:46,Manhattan:48,Westchester:66,New Jersey:48,Rockland County:30,Queens:40
-2019-11-14,Queens:41,Bronx:40,Brooklyn:39,Connecticut:30,Manhattan:48,Nassau County:41,Westchester:64,Rockland County:60,Staten Island:36
-2019-11-15,Bronx:40,Staten Island:42,Brooklyn:36,Westchester:47,Nassau County:35,Queens:42,Manhattan:47,Rockland County:20
-2019-11-18,Staten Island:15,Connecticut:30,Brooklyn:40,Bronx:43,Nassau County:48,New Jersey:36,Queens:44,Westchester:42,Manhattan:48,All Boroughs:30
-2019-11-19,Nassau County:42,Manhattan:47,Queens:41,Westchester:58,Staten Island:32,All Boroughs:15,New Jersey:45,Bronx:37,Brooklyn:38
-2019-11-20,Staten Island:38,Bronx:37,Queens:38,Brooklyn:39,Manhattan:46,Nassau County:42,New Jersey:41,Westchester:28
-2019-11-21,Staten Island:40,Manhattan:48,Bronx:40,Brooklyn:37,Nassau County:33,All Boroughs:45,Westchester:40,Queens:40,Rockland County:45
-2019-11-22,Westchester:41,Manhattan:48,Staten Island:32,Bronx:37,Connecticut:45,Nassau County:41,Queens:37,Brooklyn:38
+2019-11-12,Staten Island:33,New Jersey:37,Queens:40,All Boroughs:15,Westchester:65,Connecticut:60,Manhattan:46,Bronx:40,Brooklyn:40,Nassau County:39
+2019-11-13,Westchester:66,Manhattan:48,Rockland County:30,New Jersey:48,Bronx:44,Staten Island:38,Queens:40,Nassau County:46,Brooklyn:39
+2019-11-14,Manhattan:48,Queens:41,Westchester:64,Connecticut:30,Rockland County:60,Staten Island:36,Brooklyn:39,Bronx:40,Nassau County:41
+2019-11-15,Nassau County:35,Staten Island:42,Brooklyn:36,Bronx:40,Manhattan:47,Westchester:47,Rockland County:20,Queens:42
+2019-11-18,Queens:44,All Boroughs:30,Staten Island:15,Bronx:43,Manhattan:48,Nassau County:48,New Jersey:36,Brooklyn:40,Connecticut:30,Westchester:42
+2019-11-19,Queens:41,Westchester:58,Manhattan:47,Staten Island:32,New Jersey:45,Nassau County:42,Brooklyn:38,All Boroughs:15,Bronx:37
+2019-11-20,Staten Island:38,Westchester:28,Manhattan:46,Bronx:37,Brooklyn:39,New Jersey:41,Nassau County:42,Queens:38
+2019-11-21,Bronx:40,Queens:40,Manhattan:48,Brooklyn:37,Staten Island:40,Rockland County:45,All Boroughs:45,Nassau County:33,Westchester:40
+2019-11-22,Westchester:41,Staten Island:32,Connecticut:45,Nassau County:41,Bronx:37,Queens:37,Brooklyn:38,Manhattan:48
 2019-11-24,Brooklyn:45
-2019-11-25,Bronx:39,All Boroughs:27,Staten Island:25,Westchester:38,Nassau County:42,Manhattan:46,Brooklyn:37,Queens:39
-2019-11-26,Staten Island:36,Westchester:42,Brooklyn:36,New Jersey:45,Queens:40,Nassau County:36,Bronx:36,Rockland County:52,Manhattan:46
+2019-11-25,All Boroughs:27,Bronx:39,Nassau County:42,Brooklyn:37,Staten Island:25,Manhattan:46,Queens:39,Westchester:38
+2019-11-26,Staten Island:36,Queens:40,Brooklyn:36,New Jersey:45,Rockland County:52,Nassau County:36,Westchester:42,Bronx:36,Manhattan:46

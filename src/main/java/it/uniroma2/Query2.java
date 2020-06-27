@@ -19,25 +19,23 @@ public class Query2 {
 
     public static void main(String[] args) throws Exception {
 
-        // the host and the port to connect to
+        // the host and the inputPort to connect to
         final String hostname;
-        final int port, numDays;
+        final int inputPort, exportPort, numDays;
 
         try {
 
             final ParameterTool params = ParameterTool.fromArgs(args);
             hostname = params.has("hostname") ? params.get("hostname") : "localhost";
-            port = params.getInt("port");
+            inputPort = params.getInt("inputPort");
+            exportPort = params.getInt("exportPort");
             numDays = params.getInt("numDays");
 
         } catch (Exception e) {
 
-            System.err.println("No port specified. Please run 'SocketWindowWordCount " +
-                    "--hostname <hostname> --port <port> --numDays <numDays>', where hostname (localhost by default) " +
-                    "and port is the address of the text server");
-            System.err.println("To start a simple text server, run 'netcat -l <port>' and " +
-                    "type the input text into the command line");
-
+            System.err.println("Error passing arguments. Please run 'Query2 " +
+                    "--hostname <hostname> --inputPort <inputPort> --exportPort <exportPort> --numDays <numDays>', " +
+                    "where hostname (localhost by default)");
             return;
         }
 
@@ -47,7 +45,7 @@ public class Query2 {
         env.setParallelism(1);
 
         // get input data by connecting to the socket
-        DataStream<String> text = env.socketTextStream(hostname, port, "\n");
+        DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");
 
         DataStream<DelayReason> outputStreamOperator = text
 
@@ -84,7 +82,7 @@ public class Query2 {
                 .reduce(Utils::streamsUnion)
                 .map(Utils::delaReasonResultMapper);
 
-        result.writeToSocket(hostname, 9002, String::getBytes);;
+        result.writeToSocket(hostname, exportPort, String::getBytes);
 
         env.execute("Query2");
     }
