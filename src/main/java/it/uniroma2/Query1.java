@@ -48,7 +48,7 @@ public class Query1 {
 
         DataStream<String> result = text
 
-                .map(line -> csvParsingQuery1(line))
+                .map(Utils::csvParsingQuery1)
 
                 .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<BoroWithDelay>() {
                     @Override
