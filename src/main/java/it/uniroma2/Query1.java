@@ -1,30 +1,16 @@
 package it.uniroma2;
 
 import it.uniroma2.entity.BoroWithDelay;
-import it.uniroma2.entity.DelayReason;
 import it.uniroma2.utils.ProcessingWindowQuery1;
-import it.uniroma2.utils.ProcessingWindowQuery2;
 import it.uniroma2.utils.Utils;
-import org.apache.flink.api.common.functions.MapFunction;
-import org.apache.flink.api.common.functions.RichMapFunction;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.api.java.utils.ParameterTool;
-import org.apache.flink.configuration.Configuration;
-import org.apache.flink.dropwizard.metrics.DropwizardMeterWrapper;
-import org.apache.flink.metrics.Meter;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor;
-import org.apache.flink.streaming.api.functions.windowing.ProcessWindowFunction;
 import org.apache.flink.streaming.api.windowing.assigners.*;
 import org.apache.flink.streaming.api.windowing.time.Time;
-import org.apache.flink.streaming.api.windowing.windows.TimeWindow;
-import org.apache.flink.util.Collector;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import static it.uniroma2.utils.Utils.*;
 
