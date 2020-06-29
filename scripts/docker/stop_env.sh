@@ -1,1 +1,1 @@
-docker kill docker_taskmanager_1 docker_jobmanager_1 influxdb
+docker kill docker_taskmanager_1 docker_jobmanager_1 influxdb grafana

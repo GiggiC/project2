@@ -1,1 +1,2 @@
-(java -cp ../target/project2-1.0.jar it.uniroma2.utils.DataSourceQuery2 | nc -l 172.17.0.1 9092) | (nc -l 172.17.0.1 9002 | java -cp ../target/project2-1.0.jar it.uniroma2.utils.QueryResultsExporter query2_results.csv)
+(java -cp ../target/project2-1.0.jar it.uniroma2.utils.DataSourceQuery2 | nc -l -N 9092) &
+(nc -l -N 9002 | java -cp ../target/project2-1.0.jar it.uniroma2.utils.QueryResultsExporter query2_results.csv)

@@ -11,7 +11,6 @@ public class DataSourceQuery1 {
     public static void main(String[] args) {
 
         String csvFile = "/home/luigi/IdeaProjects/project2/data/dataset.csv";
-        String outputCsv = "/home/luigi/IdeaProjects/project2/data/outputCSVQuery1.csv";
         String line = "";
         String cvsSplitBy = ";";
 
@@ -19,13 +18,19 @@ public class DataSourceQuery1 {
         ArrayList<String> other = new ArrayList<>();
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+        int i = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
             while ((line = br.readLine()) != null) {
 
+                if (i % 3 == 0) {
+                    Thread.sleep(1);
+                }
+
+                i++;
                 String[] splittedLine = line.split(cvsSplitBy);
-                String result= "";
+                String result = "";
 
                 if (!splittedLine[9].isEmpty()) {
 
@@ -66,7 +71,7 @@ public class DataSourceQuery1 {
                 }
             }
 
-        } catch (IOException | ParseException e) {
+        } catch (IOException | ParseException | InterruptedException e) {
             e.printStackTrace();
         }
 
