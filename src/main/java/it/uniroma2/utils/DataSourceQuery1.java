@@ -8,9 +8,10 @@ import java.util.Date;
 
 public class DataSourceQuery1 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        String csvFile = "/home/luigi/IdeaProjects/project2/data/dataset.csv";
+        String csvFile = new File("data/dataset.csv").getAbsolutePath();
+        csvFile = csvFile.replaceAll("scripts/", "");
         String line = "";
         String cvsSplitBy = ";";
 
@@ -24,9 +25,7 @@ public class DataSourceQuery1 {
 
             while ((line = br.readLine()) != null) {
 
-                if (i % 3 == 0) {
-                    Thread.sleep(1);
-                }
+
 
                 i++;
                 String[] splittedLine = line.split(cvsSplitBy);
@@ -71,7 +70,7 @@ public class DataSourceQuery1 {
                 }
             }
 
-        } catch (IOException | ParseException | InterruptedException e) {
+        } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
 

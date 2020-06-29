@@ -10,8 +10,8 @@ public class DataSourceQuery2 {
 
     public static void main(String[] args) throws ParseException, IOException {
 
-        String csvFile = "/home/luigi/IdeaProjects/project2/data/dataset.csv";
-        String outputCsv = "/home/luigi/IdeaProjects/project2/data/outputCSVQuery2.csv";
+        String csvFile = new File("data/dataset.csv").getAbsolutePath();
+        csvFile = csvFile.replaceAll("scripts/", "");
         String line = "";
         String cvsSplitBy = ";";
 

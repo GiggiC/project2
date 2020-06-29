@@ -12,12 +12,15 @@ public class QueryResultsExporter {
         BufferedReader bufReader = new BufferedReader(isReader);
         String inputStr;
 
-        while ((inputStr = bufReader.readLine()) != null) {
+        String csvFile = new File("results/" + output).getAbsolutePath();
+        csvFile = csvFile.replaceAll("scripts/", "");
 
-            FileWriter fstream = new FileWriter("/home/luigi/IdeaProjects/project2/results/" + output, true);
-            BufferedWriter out = new BufferedWriter(fstream);
+        FileWriter fstream = new FileWriter(csvFile, true);
+        BufferedWriter out = new BufferedWriter(fstream);
+
+        while ((inputStr = bufReader.readLine()) != null)
             out.write(inputStr + "\n");
-            out.close();
-        }
+
+        out.close();
     }
 }
