@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class DataSourceQuery1 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         String csvFile = new File("data/dataset.csv").getAbsolutePath();
         csvFile = csvFile.replaceAll("scripts/", "");
@@ -19,15 +19,18 @@ public class DataSourceQuery1 {
         ArrayList<String> other = new ArrayList<>();
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+
         int i = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
             while ((line = br.readLine()) != null) {
 
-
+                if (i % 100 == 0)
+                    Thread.sleep(1);
 
                 i++;
+
                 String[] splittedLine = line.split(cvsSplitBy);
                 String result = "";
 
@@ -70,7 +73,7 @@ public class DataSourceQuery1 {
                 }
             }
 
-        } catch (IOException | ParseException e) {
+        } catch (IOException | ParseException | InterruptedException e) {
             e.printStackTrace();
         }
 
