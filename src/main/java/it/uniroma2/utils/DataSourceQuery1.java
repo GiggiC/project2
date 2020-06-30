@@ -26,7 +26,7 @@ public class DataSourceQuery1 {
 
             while ((line = br.readLine()) != null) {
 
-                if (i % 100 == 0)
+                if (i % 50 == 0)
                     Thread.sleep(1);
 
                 i++;

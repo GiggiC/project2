@@ -12,8 +12,6 @@ import org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExt
 import org.apache.flink.streaming.api.windowing.assigners.*;
 import org.apache.flink.streaming.api.windowing.time.Time;
 
-import static it.uniroma2.utils.Utils.*;
-
 @SuppressWarnings("serial")
 public class Query1 {
 
@@ -27,21 +25,22 @@ public class Query1 {
 
             final ParameterTool params = ParameterTool.fromArgs(args);
             hostname = params.has("hostname") ? params.get("hostname") : "localhost";
-            inputPort = params.getInt("inputPort");
-            exportPort = params.getInt("exportPort");
+            inputPort = params.has("inputPort") ? params.getInt("inputPort") : 9091;
+            exportPort = params.has("exportPort") ? params.getInt("exportPort") : 9001;
             numDays = params.getInt("numDays");
 
         } catch (Exception e) {
 
             System.err.println("Error passing arguments. Please run 'Query1 " +
                     "--hostname <hostname> --inputPort <inputPort> --exportPort <exportPort> --numDays <numDays>', " +
-                    "where hostname (localhost by default)");
+                    "where hostname (localhost by default), inputPort (9091 by default), exportPort (9001 by default)");
             return;
         }
 
         // get the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
+        //env.setParallelism(1);
 
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");

@@ -3,7 +3,6 @@ package it.uniroma2.utils;
 import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 
 public class DataSourceQuery2 {
@@ -12,10 +11,9 @@ public class DataSourceQuery2 {
 
         String csvFile = new File("data/dataset.csv").getAbsolutePath();
         csvFile = csvFile.replaceAll("scripts/", "");
-        String line = "";
+        String line;
         String cvsSplitBy = ";";
 
-        ArrayList<String> arrayList = new ArrayList<>();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         SimpleDateFormat output1 = new SimpleDateFormat("HH:mm:ss");
 
@@ -31,7 +29,7 @@ public class DataSourceQuery2 {
 
             while ((line = br.readLine()) != null) {
 
-                if (i % 100 == 0)
+                if (i % 50 == 0)
                     Thread.sleep(1);
 
                 i++;

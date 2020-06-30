@@ -27,22 +27,22 @@ public class Query2 {
 
             final ParameterTool params = ParameterTool.fromArgs(args);
             hostname = params.has("hostname") ? params.get("hostname") : "localhost";
-            inputPort = params.getInt("inputPort");
-            exportPort = params.getInt("exportPort");
+            inputPort = params.has("inputPort") ? params.getInt("inputPort") : 9092;
+            exportPort = params.has("exportPort") ? params.getInt("exportPort") : 9002;
             numDays = params.getInt("numDays");
 
         } catch (Exception e) {
 
-            System.err.println("Error passing arguments. Please run 'Query2 " +
+            System.err.println("Error passing arguments. Please run 'Query1 " +
                     "--hostname <hostname> --inputPort <inputPort> --exportPort <exportPort> --numDays <numDays>', " +
-                    "where hostname (localhost by default)");
+                    "where hostname (localhost by default), inputPort (9092 by default), exportPort (9002 by default)");
             return;
         }
 
         // get the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-        env.setParallelism(1);
+        //env.setParallelism(1);
 
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");

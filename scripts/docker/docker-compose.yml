@@ -1,5 +1,7 @@
 version: "2.1"
+
 services:
+
   jobmanager:
     image: ${FLINK_DOCKER_IMAGE_NAME:-flink}
     expose:

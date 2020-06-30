@@ -28,7 +28,7 @@
 2016-03-03,(AM),Heavy Traffic:584,Other:246,Mechanical Problem:85,(PM),Other:52,Heavy Traffic:50,Mechanical Problem:39
 2016-03-10,(AM),Heavy Traffic:818,Other:242,Mechanical Problem:71,(PM),Heavy Traffic:122,Other:52,Late return from Field Trip:22
 2016-03-17,(AM),Heavy Traffic:670,Other:274,Mechanical Problem:74,(PM),Heavy Traffic:69,Other:31,Late return from Field Trip:31
-2016-03-24,(AM),Heavy Traffic:459,Other:186,Mechanical Problem:57,(PM),Heavy Traffic:57,Other:33,Mechanical Problem:33
+2016-03-24,(AM),Heavy Traffic:459,Other:186,Mechanical Problem:57,(PM),Heavy Traffic:57,Mechanical Problem:33,Other:33
 2016-03-31,(AM),Heavy Traffic:763,Other:247,Mechanical Problem:94,(PM),Heavy Traffic:75,Mechanical Problem:41,Late return from Field Trip:39
 2016-04-07,(AM),Heavy Traffic:816,Other:203,Mechanical Problem:71,(PM),Heavy Traffic:108,Late return from Field Trip:68,Mechanical Problem:43
 2016-04-14,(AM),Heavy Traffic:642,Other:267,Mechanical Problem:78,(PM),Heavy Traffic:138,Late return from Field Trip:75,Other:64
@@ -41,8 +41,8 @@
 2016-06-02,(AM),Heavy Traffic:687,Other:207,Mechanical Problem:102,(PM),Late return from Field Trip:167,Heavy Traffic:158,Other:68
 2016-06-09,(AM),Heavy Traffic:408,Other:106,Mechanical Problem:67,(PM),Heavy Traffic:57,Late return from Field Trip:43,Mechanical Problem:38
 2016-06-16,(AM),Heavy Traffic:454,Other:111,Mechanical Problem:83,(PM),Heavy Traffic:91,Mechanical Problem:44,Other:36
-2016-06-23,(AM),Heavy Traffic:181,Other:60,Mechanical Problem:41,(PM),Heavy Traffic:63,Other:19,Mechanical Problem:19
-2016-06-30,(AM),Heavy Traffic:111,Other:22,Mechanical Problem:14,(PM),Mechanical Problem:9,Other:6,Heavy Traffic:6
+2016-06-23,(AM),Heavy Traffic:181,Other:60,Mechanical Problem:41,(PM),Heavy Traffic:63,Mechanical Problem:19,Other:19
+2016-06-30,(AM),Heavy Traffic:111,Other:22,Mechanical Problem:14,(PM),Mechanical Problem:9,Heavy Traffic:6,Other:6
 2016-07-07,(AM),Heavy Traffic:437,Other:151,Mechanical Problem:47,(PM),Heavy Traffic:62,Won`t Start:31,Other:22
 2016-07-14,(AM),Heavy Traffic:417,Other:110,Mechanical Problem:61,(PM),Heavy Traffic:85,Other:34,Mechanical Problem:28
 2016-07-21,(AM),Heavy Traffic:378,Other:92,Mechanical Problem:77,(PM),Heavy Traffic:49,Other:29,Mechanical Problem:21
@@ -100,7 +100,7 @@
 2017-07-20,(AM),Heavy Traffic:356,Other:127,Mechanical Problem:36,(PM),Other:35,Heavy Traffic:31,Mechanical Problem:25
 2017-07-27,(AM),Heavy Traffic:325,Other:102,Mechanical Problem:45,(PM),Heavy Traffic:50,Mechanical Problem:25,Other:23
 2017-08-03,(AM),Heavy Traffic:136,Other:67,Mechanical Problem:25,(PM),Heavy Traffic:28,Won`t Start:18,Mechanical Problem:14
-2017-08-31,(AM),Heavy Traffic:106,Other:28,Mechanical Problem:9,(PM),Heavy Traffic:5,Other:3,Mechanical Problem:1
+2017-08-31,(AM),Heavy Traffic:106,Other:28,Mechanical Problem:9,(PM),Heavy Traffic:5,Other:3,Flat Tire:1
 2017-09-07,(AM),Heavy Traffic:1285,Other:159,Mechanical Problem:123,(PM),Heavy Traffic:128,Mechanical Problem:45,Other:34
 2017-09-14,(AM),Heavy Traffic:1403,Other:193,Mechanical Problem:136,(PM),Heavy Traffic:266,Mechanical Problem:63,Other:34
 2017-09-21,(AM),Heavy Traffic:934,Other:172,Mechanical Problem:100,(PM),Heavy Traffic:221,Mechanical Problem:48,Other:37
@@ -117,7 +117,7 @@
 2017-12-07,(AM),Heavy Traffic:1371,Mechanical Problem:280,Other:230,(PM),Heavy Traffic:261,Other:96,Mechanical Problem:72
 2017-12-14,(AM),Heavy Traffic:2103,Mechanical Problem:355,Other:305,(PM),Heavy Traffic:273,Mechanical Problem:105,Other:103
 2017-12-21,(AM),Heavy Traffic:438,Other:91,Mechanical Problem:82,(PM),Heavy Traffic:152,Other:33,Mechanical Problem:29
-2017-12-28,(AM),Heavy Traffic:387,Mechanical Problem:146,Won`t Start:95,(PM),Heavy Traffic:69,Mechanical Problem:34,Other:34
+2017-12-28,(AM),Heavy Traffic:387,Mechanical Problem:146,Won`t Start:95,(PM),Heavy Traffic:69,Other:34,Mechanical Problem:34
 2018-01-04,(AM),Heavy Traffic:1085,Weather Conditions:396,Mechanical Problem:330,(PM),Heavy Traffic:161,Mechanical Problem:64,Other:59
 2018-01-11,(AM),Heavy Traffic:933,Other:209,Mechanical Problem:174,(PM),Heavy Traffic:135,Other:50,Mechanical Problem:36
 2018-01-18,(AM),Heavy Traffic:1313,Other:331,Mechanical Problem:207,(PM),Heavy Traffic:287,Mechanical Problem:102,Other:57
@@ -149,7 +149,7 @@
 2018-09-20,(AM),Heavy Traffic:1633,Other:220,Mechanical Problem:169,(PM),Heavy Traffic:417,Mechanical Problem:48,Other:43
 2018-09-27,(AM),Heavy Traffic:683,Mechanical Problem:82,Other:70,(PM),Heavy Traffic:202,Other:39,Mechanical Problem:39
 2018-10-04,(AM),Heavy Traffic:464,Mechanical Problem:72,Other:70,(PM),Heavy Traffic:197,Mechanical Problem:29,Other:26
-2018-10-11,(AM),Heavy Traffic:1392,Mechanical Problem:198,Other:198,(PM),Heavy Traffic:491,Mechanical Problem:95,Other:68
+2018-10-11,(AM),Heavy Traffic:1392,Other:198,Mechanical Problem:198,(PM),Heavy Traffic:491,Mechanical Problem:95,Other:68
 2018-10-18,(AM),Heavy Traffic:2249,Other:312,Mechanical Problem:257,(PM),Heavy Traffic:757,Mechanical Problem:148,Other:103
 2018-10-25,(AM),Heavy Traffic:1754,Other:330,Mechanical Problem:224,(PM),Heavy Traffic:603,Mechanical Problem:103,Late return from Field Trip:91
 2018-11-01,(AM),Heavy Traffic:2026,Other:343,Mechanical Problem:250,(PM),Heavy Traffic:724,Mechanical Problem:88,Other:86
@@ -159,7 +159,7 @@
 2018-11-29,(AM),Heavy Traffic:1450,Other:233,Mechanical Problem:193,(PM),Heavy Traffic:516,Other:77,Mechanical Problem:63
 2018-12-06,(AM),Heavy Traffic:16,Other:8,Flat Tire:4,(PM),Heavy Traffic:5,Other:4,Mechanical Problem:3
 2018-12-13,(AM),Other:12,Heavy Traffic:10,Mechanical Problem:5,(PM),Mechanical Problem:2,Other:2,Heavy Traffic:2
-2018-12-20,(AM),Heavy Traffic:11,Mechanical Problem:5,Other:2,(PM),Mechanical Problem:1,Other:1
+2018-12-20,(AM),Heavy Traffic:11,Mechanical Problem:5,Other:2,(PM),Other:1,Mechanical Problem:1
 2018-12-27,(AM),Heavy Traffic:5,Other:3,Won`t Start:1,(PM),Won`t Start:1
 2019-01-03,(AM),Heavy Traffic:1061,Other:187,Mechanical Problem:139,(PM),Heavy Traffic:420,Other:77,Mechanical Problem:51
 2019-01-10,(AM),Heavy Traffic:1285,Other:230,Mechanical Problem:170,(PM),Heavy Traffic:459,Other:90,Mechanical Problem:39
@@ -178,7 +178,7 @@
 2019-04-11,(AM),Heavy Traffic:320,Other:77,Mechanical Problem:44,(PM),Heavy Traffic:72,Other:15,Mechanical Problem:13
 2019-04-18,(AM),Heavy Traffic:4,Other:2,(PM),Heavy Traffic:1
 2019-04-25,(AM),Heavy Traffic:7,Other:5,(PM),Heavy Traffic:3,Won`t Start:1,Late return from Field Trip:1
-2019-05-02,(AM),Heavy Traffic:18,Other:7,Won`t Start:2,(PM),Mechanical Problem:3,Flat Tire:2,Other:2
+2019-05-02,(AM),Heavy Traffic:18,Other:7,Won`t Start:2,(PM),Mechanical Problem:3,Other:2,Won`t Start:2
 2019-05-09,(AM),Heavy Traffic:17,Other:13,Flat Tire:6,(PM),Heavy Traffic:4,Flat Tire:2,Other:2
 2019-05-16,(AM),Heavy Traffic:1108,Other:256,Mechanical Problem:148,(PM),Heavy Traffic:426,Late return from Field Trip:147,Other:100
 2019-05-23,(AM),Heavy Traffic:1195,Other:226,Mechanical Problem:134,(PM),Heavy Traffic:296,Late return from Field Trip:111,Other:42
@@ -186,7 +186,7 @@
 2019-06-06,(AM),Heavy Traffic:909,Other:289,Mechanical Problem:175,(PM),Heavy Traffic:318,Late return from Field Trip:77,Other:63
 2019-06-13,(AM),Heavy Traffic:1132,Other:365,Mechanical Problem:179,(PM),Heavy Traffic:313,Other:128,Mechanical Problem:71
 2019-06-20,(AM),Heavy Traffic:848,Other:286,Mechanical Problem:109,(PM),Heavy Traffic:227,Other:66,Mechanical Problem:46
-2019-06-27,(AM),Heavy Traffic:6,Mechanical Problem:1,Other:1,(PM),Other:1,Heavy Traffic:1
+2019-06-27,(AM),Heavy Traffic:6,Mechanical Problem:1,Other:1,(PM),Heavy Traffic:1,Other:1
 2019-08-29,(AM),Heavy Traffic:236,Other:44,Mechanical Problem:39,(PM),Heavy Traffic:23,Mechanical Problem:6,Other:4
 2019-09-05,(AM),Heavy Traffic:2869,Other:519,Mechanical Problem:345,(PM),Heavy Traffic:402,Mechanical Problem:190,Other:126
 2019-09-12,(AM),Heavy Traffic:1999,Other:288,Mechanical Problem:238,(PM),Heavy Traffic:401,Mechanical Problem:103,Other:72
