@@ -24,7 +24,7 @@ public class DataSourceQuery1 {
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null) {//TODO
 
                 if (i % 50 == 0)
                     Thread.sleep(1);

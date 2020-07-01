@@ -18,7 +18,7 @@ public class DataSourceQuery2 {
         SimpleDateFormat output1 = new SimpleDateFormat("HH:mm:ss");
 
         Date firstIntervalStart = output1.parse("5:00:00");
-        Date firstIntervalEnd = output1.parse("12:00:00");
+        Date firstIntervalEnd = output1.parse("12:00:00");//TODO
 
         Date secondIntervalStart = output1.parse("12:00:00");
         Date secondIntervalEnd = output1.parse("19:00:00");
