@@ -11,6 +11,10 @@ import java.util.Date;
 
 public class Utils {
 
+    /**
+     * @param line string to parse
+     * @return parsed entity
+     */
     public static BoroWithDelay csvParsingQuery1(String line) {
 
         String[] splittedLine = line.split(",");
@@ -27,6 +31,11 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param a boro a keyed by boro
+     * @param b boro b keyed by boro
+     * @return reduced entity with total count, delay and average
+     */
     public static BoroWithDelay computeAverage(BoroWithDelay a, BoroWithDelay b) {
 
         BoroWithDelay result = new BoroWithDelay();
@@ -41,6 +50,11 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param a boro a keyed by date
+     * @param b boro b keyed by date
+     * @return reduced entity with query result
+     */
     public static BoroWithDelay inlineDate(BoroWithDelay a, BoroWithDelay b) {
 
         ArrayList<Tuple2<String, Double>> list = new ArrayList<>();
@@ -54,6 +68,10 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param boroWithDelay query result line
+     * @return formatted csv query result
+     */
     public static String boroResultMapper(BoroWithDelay boroWithDelay) {
 
         String result = formatDate(boroWithDelay.getOutputDate());
@@ -64,6 +82,10 @@ public class Utils {
         return result + "\n";
     }
 
+    /**
+     * @param line string to parse
+     * @return parsed entity
+     */
     public static DelayReason csvParsingQuery2(String line) {
 
         String[] splittedLine = line.split(",");
@@ -88,6 +110,11 @@ public class Utils {
 
     }
 
+    /**
+     * @param a delayReason a keyed by reason
+     * @param b delayReason b keyed by reason
+     * @return reduced entity with total count
+     */
     public static DelayReason delayReasonCount(DelayReason a, DelayReason b, int interval) {
 
         ArrayList<Tuple2<String, Integer>> list = new ArrayList<>();
@@ -109,6 +136,12 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param a delayReason a keyed by date
+     * @param b delayReason b keyed by date
+     * @param interval AM or PM
+     * @return reduced entity with sorted ranked list per date
+     */
     public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b, int interval) {
 
         DelayReason result = new DelayReason();
@@ -127,6 +160,7 @@ public class Utils {
             list.addAll(b.getRankedListPM());
         }
 
+        //reduce occurrences of same delay reasons
         for (int i = 0; i < list.size(); i++) {
 
             for (int j = 0; j < list.size(); j++) {
@@ -142,8 +176,19 @@ public class Utils {
         TupleComparator comparator = new TupleComparator();
         list.sort(comparator);
 
+        //reduce delay reasons with equal number of occurrences
+        for (int i = 0; i < list.size() - 1; i++) {
+
+            if (list.get(i)._2.equals(list.get(i + 1)._2)) {
+
+                list.set(i, new Tuple2<>(list.get(i)._1 + "-" + list.get(i + 1)._1, list.get(i)._2));
+                list.remove(i + 1);
+            }
+        }
+
         if (list.size() > 2)
             list.subList(3, list.size()).clear();
+
 
         if (interval == 1) {
 
@@ -159,6 +204,11 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param a delayReason a
+     * @param b delayReason b
+     * @return entity with AM and PM info
+     */
     public static DelayReason streamsUnion(DelayReason a, DelayReason b) {
 
         DelayReason result = new DelayReason();
@@ -178,6 +228,10 @@ public class Utils {
         return result;
     }
 
+    /**
+     * @param delayReason query result line
+     * @return formatted csv query result
+     */
     public static String delaReasonResultMapper(DelayReason delayReason) {
 
         String formattedDate = formatDate(delayReason.getOutputDate());
@@ -187,19 +241,23 @@ public class Utils {
 
         if (delayReason.getRankedListAM() != null) {
 
-            for (Tuple2<String, Integer> item: delayReason.getRankedListAM())
+            for (Tuple2<String, Integer> item : delayReason.getRankedListAM())
                 resultAM = resultAM + item._1 + ":" + item._2 + ",";
         }
 
         if (delayReason.getRankedListPM() != null) {
 
-            for (Tuple2<String, Integer> item: delayReason.getRankedListPM())
+            for (Tuple2<String, Integer> item : delayReason.getRankedListPM())
                 resultPM = resultPM + "," + item._1 + ":" + item._2;
         }
 
         return formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM + "\n";
     }
 
+    /**
+     * @param date date to format
+     * @return formatted output csv date
+     */
     public static String formatDate(String date) {
 
         Date outDate = new Date(Long.parseLong(date));
