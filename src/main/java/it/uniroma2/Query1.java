@@ -40,7 +40,7 @@ public class Query1 {
         // get the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-        //env.setParallelism(1);
+        env.setParallelism(1);
 
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");
@@ -56,7 +56,7 @@ public class Query1 {
                     }
                 })
 
-                .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.boro)
+                .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.boroDelayAverageList.get(0)._1)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce(Utils::computeAverage, new ProcessingWindowQuery1())
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)

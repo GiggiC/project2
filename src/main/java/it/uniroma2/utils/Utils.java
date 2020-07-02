@@ -4,8 +4,6 @@ import it.uniroma2.entity.BoroWithDelay;
 import it.uniroma2.entity.DelayReason;
 import scala.Tuple2;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -17,12 +15,14 @@ public class Utils {
 
         String[] splittedLine = line.split(",");
 
+        ArrayList<Tuple2<String, Double>> list = new ArrayList<>();
+        list.add(new Tuple2<>(splittedLine[1], Double.parseDouble(splittedLine[2])));
+
         BoroWithDelay result = new BoroWithDelay();
         result.setEventTime(Long.parseLong(splittedLine[0]));
-        result.setBoro(splittedLine[1]);
         result.setCount(1);
-        result.setDelay(Long.parseLong((splittedLine[2])));
-        result.setAverage(splittedLine[2]);
+        result.setDelay(Long.parseLong(splittedLine[2]));
+        result.setBoroDelayAverageList(list);
 
         return result;
     }
@@ -31,52 +31,37 @@ public class Utils {
 
         BoroWithDelay result = new BoroWithDelay();
         result.setOutputDate(a.getOutputDate());
-        result.setEventTime(a.getEventTime());
-        result.setBoro(a.getBoro());
         result.setCount(a.getCount() + b.getCount());
         result.setDelay(a.getDelay() + b.getDelay());
-        result.setAverage(String.valueOf(result.getDelay() / result.getCount()));
+        //result.setBoro(a.getBoro());
+        //result.setAverage((double) result.getDelay() / result.getCount());
+
+        ArrayList<Tuple2<String, Double>> list = new ArrayList<>();
+        list.add(new Tuple2<>(a.getBoroDelayAverageList().get(0)._1, (double) result.getDelay() / result.getCount()));
+        result.setBoroDelayAverageList(list);
 
         return result;
     }
 
     public static BoroWithDelay inlineDate(BoroWithDelay a, BoroWithDelay b) {
 
+        ArrayList<Tuple2<String, Double>> list = new ArrayList<>();
+        list.addAll(a.getBoroDelayAverageList());
+        list.addAll(b.getBoroDelayAverageList());
+
         BoroWithDelay result = new BoroWithDelay();
         result.setOutputDate(a.getOutputDate());
-        result.setBoro(a.getBoro() + "," + b.getBoro());
-        result.setAverage(a.getAverage() + "," + b.getAverage());
+        result.setBoroDelayAverageList(list);
 
         return result;
     }
 
     public static String boroResultMapper(BoroWithDelay boroWithDelay) {
 
-        Date outDate = new Date(Long.parseLong(boroWithDelay.getOutputDate()));
+        String result = formatDate(boroWithDelay.getOutputDate());
 
-        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
-        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-        Date outDateString = null;
-
-        try {
-
-            outDateString = formatnow.parse(String.valueOf(outDate));
-
-        } catch (ParseException e) {
-
-            e.printStackTrace();
-        }
-
-        String formattedDate = outFormat.format(outDateString);
-
-        String[] splittedBoro = boroWithDelay.getBoro().split(",");
-        String[] splittedAverage = boroWithDelay.getAverage().split(",");
-
-        String result = formattedDate;
-
-        for (int i = 0; i < splittedBoro.length; i++)
-            result = result + "," + splittedBoro[i] + ":" + splittedAverage[i];
+        for (Tuple2<String, Double> item: boroWithDelay.getBoroDelayAverageList())
+            result = result + "," + item._1 + ":" + item._2;
 
         return result + "\n";
     }
@@ -107,9 +92,9 @@ public class Utils {
 
     public static DelayReason delayReasonCount(DelayReason a, DelayReason b) {
 
-        ArrayList<Tuple2<String, Integer>> result = new ArrayList<>();
-        result.add(new Tuple2<>(a.getRankedList().get(0)._1, a.getRankedList().get(0)._2 + b.getRankedList().get(0)._2));
-        a.setRankedList(result);
+        ArrayList<Tuple2<String, Integer>> list = new ArrayList<>();
+        list.add(new Tuple2<>(a.getRankedList().get(0)._1, a.getRankedList().get(0)._2 + b.getRankedList().get(0)._2));
+        a.setRankedList(list);
 
         return a;
     }
@@ -167,23 +152,7 @@ public class Utils {
 
     public static String delaReasonResultMapper(DelayReason delayReason) {
 
-        Date outDate = new Date(Long.parseLong(delayReason.getOutputDate()));
-
-        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
-        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-        Date outDateString = null;
-
-        try {
-
-            outDateString = formatnow.parse(String.valueOf(outDate));
-
-        } catch (ParseException e) {
-
-            e.printStackTrace();
-        }
-
-        String formattedDate = outFormat.format(outDateString);
+        String formattedDate = formatDate(delayReason.getOutputDate());
 
         String resultAM = "";
         String resultPM = "";
@@ -201,5 +170,26 @@ public class Utils {
         }
 
         return formattedDate + ",(AM)," + resultAM + "(PM)" + resultPM + "\n";
+    }
+
+    public static String formatDate(String date) {
+
+        Date outDate = new Date(Long.parseLong(date));
+
+        SimpleDateFormat formatnow = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZ yyyy");
+        SimpleDateFormat outFormat = new SimpleDateFormat("yyyy-MM-dd");
+
+        Date outDateString = null;
+
+        try {
+
+            outDateString = formatnow.parse(String.valueOf(outDate));
+
+        } catch (ParseException e) {
+
+            e.printStackTrace();
+        }
+
+        return outFormat.format(outDateString);
     }
 }
