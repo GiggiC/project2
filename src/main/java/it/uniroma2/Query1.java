@@ -59,8 +59,7 @@ public class Query1 {
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.boroDelayAverageList.get(0)._1)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce(Utils::computeAverage, new ProcessingWindowQuery1())
-                .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.outputDate)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+                .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce(Utils::inlineDate)
                 .map(Utils::boroResultMapper);
 

@@ -1,23 +1,30 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
+# Project 2 - SABD
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Go to scripts folder
 
 ```bash
-pip install foobar
+sh compile.sh
 ```
 
-## Usage
+## Local Usage
 
 ```bash
-pip install foobar
+sh dataset_replay_and_results_storing.sh <queryNum> <numDays>
 ```
+Launch Query1 or Query2 with parameter -> --numDays numDays
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Cluster Usage
 
-Please make sure to update tests as appropriate.
+```bash
+sh start-env.sh
+sh dataset_replay_and_results_storing.sh <queryNum> <numDays>
+```
+Upload project2-1.0.jar from scripts folder to flink container by UI from http://localhost:8081 
 
+Launch Query1 or Query2 with parameters -> --hostname hostname --numDays numDays
+
+```bash
+sh stop-env.sh
+```

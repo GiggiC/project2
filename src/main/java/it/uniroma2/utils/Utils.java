@@ -173,6 +173,7 @@ public class Utils {
             }
         }
 
+        //custom comparator to sort tuple by delay reason occurrences
         TupleComparator comparator = new TupleComparator();
         list.sort(comparator);
 
@@ -188,7 +189,6 @@ public class Utils {
 
         if (list.size() > 2)
             list.subList(3, list.size()).clear();
-
 
         if (interval == 1) {
 
