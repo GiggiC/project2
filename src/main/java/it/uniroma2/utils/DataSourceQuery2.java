@@ -29,11 +29,6 @@ public class DataSourceQuery2 {
 
             while ((line = br.readLine()) != null) {
 
-                if (i % 50 == 0)
-                    Thread.sleep(1);
-
-                i++;
-
                 String[] splittedLine = line.split(cvsSplitBy);
                 Date d = sdf.parse(splittedLine[7]);
                 long formattedTime = d.getTime();
@@ -56,7 +51,7 @@ public class DataSourceQuery2 {
                 }
             }
 
-        } catch (IOException | ParseException | InterruptedException e) {
+        } catch (IOException | ParseException e) {
 
             e.printStackTrace();
         }

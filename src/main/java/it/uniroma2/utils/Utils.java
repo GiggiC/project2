@@ -33,8 +33,6 @@ public class Utils {
         result.setOutputDate(a.getOutputDate());
         result.setCount(a.getCount() + b.getCount());
         result.setDelay(a.getDelay() + b.getDelay());
-        //result.setBoro(a.getBoro());
-        //result.setAverage((double) result.getDelay() / result.getCount());
 
         ArrayList<Tuple2<String, Double>> list = new ArrayList<>();
         list.add(new Tuple2<>(a.getBoroDelayAverageList().get(0)._1, (double) result.getDelay() / result.getCount()));
@@ -60,7 +58,7 @@ public class Utils {
 
         String result = formatDate(boroWithDelay.getOutputDate());
 
-        for (Tuple2<String, Double> item: boroWithDelay.getBoroDelayAverageList())
+        for (Tuple2<String, Double> item : boroWithDelay.getBoroDelayAverageList())
             result = result + "," + item._1 + ":" + item._2;
 
         return result + "\n";
@@ -76,78 +74,108 @@ public class Utils {
         DelayReason result = new DelayReason();
         result.setEventTime(Long.parseLong(splittedLine[1]));
         result.setInterval(Integer.parseInt(splittedLine[2]));
-        result.setRankedList(list);
 
         if (result.getInterval() == 1) {
 
-            result.setRankedListAM(result.getRankedList());
-            return result;
-        }
+            result.setRankedListAM(list);
 
-        result.setRankedListPM(result.getRankedList());
+        } else {
+
+            result.setRankedListPM(list);
+        }
 
         return result;
 
     }
 
-    public static DelayReason delayReasonCount(DelayReason a, DelayReason b) {
+    public static DelayReason delayReasonCount(DelayReason a, DelayReason b, int interval) {
 
         ArrayList<Tuple2<String, Integer>> list = new ArrayList<>();
-        list.add(new Tuple2<>(a.getRankedList().get(0)._1, a.getRankedList().get(0)._2 + b.getRankedList().get(0)._2));
-        a.setRankedList(list);
+        DelayReason result = new DelayReason();
 
-        return a;
+        if (interval == 1) {
+
+            list.add(new Tuple2<>(a.getRankedListAM().get(0)._1, a.getRankedListAM().get(0)._2 + b.getRankedListAM().get(0)._2));
+            result.setRankedListAM(list);
+            result.setInterval(1);
+
+        } else {
+
+            list.add(new Tuple2<>(a.getRankedListPM().get(0)._1, a.getRankedListPM().get(0)._2 + b.getRankedListPM().get(0)._2));
+            result.setRankedListPM(list);
+            result.setInterval(2);
+        }
+
+        return result;
     }
 
     public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b, int interval) {
 
-        a.getRankedList().addAll(b.getRankedList());
+        DelayReason result = new DelayReason();
+        result.setOutputDate(a.getOutputDate());
 
-        for (int i = 0; i < a.getRankedList().size(); i++) {
+        ArrayList<Tuple2<String, Integer>> list = new ArrayList<>();
 
-            for (int j = 0; j < a.getRankedList().size(); j++) {
+        if (interval == 1) {
 
-                if (a.getRankedList().get(i)._1.equals(a.getRankedList().get(j)._1) && i != j) {
+            list.addAll(a.getRankedListAM());
+            list.addAll(b.getRankedListAM());
 
-                    a.getRankedList().set(i, new Tuple2<>(a.getRankedList().get(i)._1, a.getRankedList().get(i)._2 + a.getRankedList().get(j)._2));
-                    a.getRankedList().remove(j);
+        } else {
+
+            list.addAll(a.getRankedListPM());
+            list.addAll(b.getRankedListPM());
+        }
+
+        for (int i = 0; i < list.size(); i++) {
+
+            for (int j = 0; j < list.size(); j++) {
+
+                if (list.get(i)._1.equals(list.get(j)._1) && i != j) {
+
+                    list.set(i, new Tuple2<>(list.get(i)._1, list.get(i)._2 + list.get(j)._2));
+                    list.remove(j);
                 }
             }
         }
 
         TupleComparator comparator = new TupleComparator();
-        a.getRankedList().sort(comparator);
+        list.sort(comparator);
 
-        if (a.getRankedList().size() > 2)
-            a.getRankedList().subList(3, a.getRankedList().size()).clear();
+        if (list.size() > 2)
+            list.subList(3, list.size()).clear();
 
         if (interval == 1) {
 
-            a.setRankedListAM(a.getRankedList());
-            return a;
+            result.setRankedListAM(list);
+            result.setInterval(1);
+
+        } else {
+
+            result.setRankedListPM(list);
+            result.setInterval(2);
         }
 
-        a.setRankedListPM(a.getRankedList());
-
-        return a;
+        return result;
     }
 
     public static DelayReason streamsUnion(DelayReason a, DelayReason b) {
 
-        DelayReason delayReason = new DelayReason();
-        delayReason.setOutputDate(a.getOutputDate());
+        DelayReason result = new DelayReason();
+        result.setOutputDate(a.getOutputDate());
 
         if (a.getInterval() == 1) {
 
-            delayReason.setRankedListAM(a.getRankedList());
-            delayReason.setRankedListPM(b.getRankedList());
-            return delayReason;
+            result.setRankedListAM(a.getRankedListAM());
+            result.setRankedListPM(b.getRankedListPM());
+
+        } else {
+
+            result.setRankedListAM(b.getRankedListAM());
+            result.setRankedListPM(a.getRankedListPM());
         }
 
-        delayReason.setRankedListAM(b.getRankedList());
-        delayReason.setRankedListPM(a.getRankedList());
-
-        return delayReason;
+        return result;
     }
 
     public static String delaReasonResultMapper(DelayReason delayReason) {
@@ -159,13 +187,13 @@ public class Utils {
 
         if (delayReason.getRankedListAM() != null) {
 
-            for (Tuple2<String, Integer> item : delayReason.getRankedListAM())
+            for (Tuple2<String, Integer> item: delayReason.getRankedListAM())
                 resultAM = resultAM + item._1 + ":" + item._2 + ",";
         }
 
         if (delayReason.getRankedListPM() != null) {
 
-            for (Tuple2<String, Integer> item : delayReason.getRankedListPM())
+            for (Tuple2<String, Integer> item: delayReason.getRankedListPM())
                 resultPM = resultPM + "," + item._1 + ":" + item._2;
         }
 

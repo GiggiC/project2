@@ -42,7 +42,7 @@ public class Query2 {
         // get the execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
-        //env.setParallelism(1);
+        env.setParallelism(1);
 
         // get input data by connecting to the socket
         DataStream<String> text = env.socketTextStream(hostname, inputPort, "\n");
@@ -60,9 +60,9 @@ public class Query2 {
         DataStream<DelayReason> outputStreamOperatorInterval1 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 1)
-                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedList.get(0)._1)
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListAM.get(0)._1)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce(Utils::delayReasonCount, new ProcessingWindowQuery2())
+                .reduce((a, b) -> delayReasonCount(a, b, 1), new ProcessingWindowQuery2())
                 .keyBy(delayReason -> delayReason.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> multipleIntervalReducer(a, b, 1));
@@ -70,9 +70,9 @@ public class Query2 {
         DataStream<DelayReason> outputStreamOperatorInterval2 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 2)
-                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedList.get(0)._1)
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListPM.get(0)._1)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce(Utils::delayReasonCount, new ProcessingWindowQuery2())
+                .reduce((a, b) -> delayReasonCount(a, b, 2), new ProcessingWindowQuery2())
                 .keyBy(delayReason -> delayReason.outputDate)
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce((a, b) -> multipleIntervalReducer(a, b, 2));

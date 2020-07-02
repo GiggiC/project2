@@ -12,10 +12,9 @@ public class DelayReason {
 
     public String outputDate;
     public long eventTime;
-    public ArrayList<Tuple2<String, Integer>> rankedList;
+    public int interval;
     public ArrayList<Tuple2<String, Integer>> rankedListAM;
     public ArrayList<Tuple2<String, Integer>> rankedListPM;
-    public int interval;
 
     public DelayReason() {}
 
@@ -43,14 +42,6 @@ public class DelayReason {
         this.interval = interval;
     }
 
-    public ArrayList<Tuple2<String, Integer>> getRankedList() {
-        return rankedList;
-    }
-
-    public void setRankedList(ArrayList<Tuple2<String, Integer>> rankedList) {
-        this.rankedList = rankedList;
-    }
-
     public ArrayList<Tuple2<String, Integer>> getRankedListAM() {
         return rankedListAM;
     }
@@ -66,5 +57,4 @@ public class DelayReason {
     public void setRankedListPM(ArrayList<Tuple2<String, Integer>> rankedListPM) {
         this.rankedListPM = rankedListPM;
     }
-
 }
