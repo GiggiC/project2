@@ -10,6 +10,8 @@ sh compile.sh
 
 ## Local Usage
 
+To replay dataset and write results:
+
 ```bash
 sh dataset_replay_and_results_storing.sh <queryNum> <numDays>
 ```
@@ -20,6 +22,8 @@ Launch Query1 or Query2 with parameter -> --numDays numDays
 <br>--exportPort
 
 ## Cluster Usage
+
+To start environment, replay dataset and write results:
 
 ```bash
 sh start-env.sh
