@@ -13,8 +13,11 @@ public class DelayReason {
     public String outputDate;
     public long eventTime;
     public int interval;
-    public ArrayList<Tuple2<String, Integer>> rankedListAM;
+
+    //tuple<delayReason, count>
     public ArrayList<Tuple2<String, Integer>> rankedListPM;
+    //tuple<delayReason, count>
+    public ArrayList<Tuple2<String, Integer>> rankedListAM;
 
     public DelayReason() {}
 

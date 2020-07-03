@@ -4,12 +4,13 @@ import java.io.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 public class DataSourceQuery2 {
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws InterruptedException {
 
-        String csvFile = new File("data/dataset.csv").getAbsolutePath();
+        String csvFile = new File("data/bus-breakdown-and-delays.csv").getAbsolutePath();
         csvFile = csvFile.replaceAll("scripts/", "");
         String line;
         String cvsSplitBy = ";";
@@ -17,17 +18,22 @@ public class DataSourceQuery2 {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
         SimpleDateFormat output1 = new SimpleDateFormat("HH:mm:ss");
 
-        Date firstIntervalStart = output1.parse("5:00:00");
-        Date firstIntervalEnd = output1.parse("11:59:00");
-
-        Date secondIntervalStart = output1.parse("12:00:00");
-        Date secondIntervalEnd = output1.parse("19:00:00");
-
         int i = 0;
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
 
+            Date firstIntervalStart = output1.parse("5:00:00");
+            Date firstIntervalEnd = output1.parse("11:59:00");
+
+            Date secondIntervalStart = output1.parse("12:00:00");
+            Date secondIntervalEnd = output1.parse("19:00:00");
+
             while ((line = br.readLine()) != null) {
+
+                /*if (i % 50 == 0)
+                    Thread.sleep(1);
+
+                i++;*/
 
                 String[] splittedLine = line.split(cvsSplitBy);
                 Date d = sdf.parse(splittedLine[7]);

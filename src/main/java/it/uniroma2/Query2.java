@@ -19,7 +19,6 @@ public class Query2 {
 
     public static void main(String[] args) throws Exception {
 
-        // the host and the inputPort to connect to
         final String hostname;
         final int inputPort, exportPort, numDays;
 
@@ -50,6 +49,8 @@ public class Query2 {
         DataStream<DelayReason> outputStreamOperator = text
 
                 .map(Utils::csvParsingQuery2)
+
+                //timestamp assigning by event time (to move tumbling window)
                 .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<DelayReason>() {
                     @Override
                     public long extractAscendingTimestamp(DelayReason delayReason) {
@@ -57,31 +58,61 @@ public class Query2 {
                     }
                 });
 
+        //from here the stream is splitted by interval (AM and PM)
+
+        //AM stream
         DataStream<DelayReason> outputStreamOperatorInterval1 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 1)
-                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListAM.get(0)._1)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> delayReasonCount(a, b, 1), new ProcessingWindowQuery2())
-                .keyBy(delayReason -> delayReason.outputDate)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> multipleIntervalReducer(a, b, 1));
 
+                //select delay reason as key
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListAM.get(0)._1)
+
+                //set tumbling window with numDays parameter
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //count occurrences of same delay reasons
+                .reduce((a, b) -> delayReasonCount(a, b, 1), new ProcessingWindowQuery2())
+
+                //select date as key
+                .keyBy(delayReason -> delayReason.outputDate)
+
+                //set tumbling window with numDays parameter
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //reduce entities with same date
+                .reduce((a, b) -> dateReducer(a, b, 1));
+
+        //PM stream
         DataStream<DelayReason> outputStreamOperatorInterval2 = outputStreamOperator
 
                 .filter(delayReason -> delayReason.interval == 2)
-                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListPM.get(0)._1)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> delayReasonCount(a, b, 2), new ProcessingWindowQuery2())
-                .keyBy(delayReason -> delayReason.outputDate)
-                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
-                .reduce((a, b) -> multipleIntervalReducer(a, b, 2));
 
+                //select delay reason as key
+                .keyBy((KeySelector<DelayReason, Object>) delayReason -> delayReason.rankedListPM.get(0)._1)
+
+                //set tumbling window with numDays parameter
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //count occurrences of same delay reasons
+                .reduce((a, b) -> delayReasonCount(a, b, 2), new ProcessingWindowQuery2())
+
+                //select date as key
+                .keyBy(delayReason -> delayReason.outputDate)
+
+                //set tumbling window with numDays parameter
+                .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //reduce entities with same date
+                .reduce((a, b) -> dateReducer(a, b, 2));
+
+        //streams union and results formatting
         DataStream<String> result = outputStreamOperatorInterval1.union(outputStreamOperatorInterval2)
                 .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
                 .reduce(Utils::streamsUnion)
                 .map(Utils::delaReasonResultMapper);
 
+        //write results to socket
         result.writeToSocket(hostname, exportPort, String::getBytes);
 
         env.execute("Query2");

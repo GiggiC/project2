@@ -8,6 +8,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.TimeZone;
 
 public class Utils {
 
@@ -39,7 +40,6 @@ public class Utils {
     public static BoroWithDelay computeAverage(BoroWithDelay a, BoroWithDelay b) {
 
         BoroWithDelay result = new BoroWithDelay();
-        result.setOutputDate(a.getOutputDate());
         result.setCount(a.getCount() + b.getCount());
         result.setDelay(a.getDelay() + b.getDelay());
 
@@ -142,7 +142,7 @@ public class Utils {
      * @param interval AM or PM
      * @return reduced entity with sorted ranked list per date
      */
-    public static DelayReason multipleIntervalReducer(DelayReason a, DelayReason b, int interval) {
+    public static DelayReason dateReducer(DelayReason a, DelayReason b, int interval) {
 
         DelayReason result = new DelayReason();
         result.setOutputDate(a.getOutputDate());

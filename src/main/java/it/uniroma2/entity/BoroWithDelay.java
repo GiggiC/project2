@@ -11,6 +11,8 @@ public class BoroWithDelay implements Serializable {
     public long eventTime;
     public long count;
     public long delay;
+
+    //tuple<boro, average>
     public ArrayList<Tuple2<String, Double>> boroDelayAverageList;
 
     public BoroWithDelay() {}

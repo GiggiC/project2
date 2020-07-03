@@ -17,7 +17,6 @@ public class Query1 {
 
     public static void main(String[] args) throws Exception {
 
-        // the host and the inputPort to connect to
         final String hostname;
         final int inputPort, exportPort, numDays;
 
@@ -49,6 +48,7 @@ public class Query1 {
 
                 .map(Utils::csvParsingQuery1)
 
+                //timestamp assigning by event time (to move tumbling window)
                 .assignTimestampsAndWatermarks(new AscendingTimestampExtractor<BoroWithDelay>() {
                     @Override
                     public long extractAscendingTimestamp(BoroWithDelay boroWithDelay) {
@@ -56,13 +56,21 @@ public class Query1 {
                     }
                 })
 
+                //select boro as key
                 .keyBy((KeySelector<BoroWithDelay, String>) boroWithDelay -> boroWithDelay.boroDelayAverageList.get(0)._1)
+
+                //set tumbling window with numDays parameter
                 .window(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //compute average of entity with same boro
                 .reduce(Utils::computeAverage, new ProcessingWindowQuery1())
                 .windowAll(TumblingEventTimeWindows.of(Time.days(numDays)))
+
+                //reduce entities with same date and results formatting
                 .reduce(Utils::inlineDate)
                 .map(Utils::boroResultMapper);
 
+        //write results to socket
         result.writeToSocket(hostname, exportPort, String::getBytes);
 
         env.execute("Query1");
