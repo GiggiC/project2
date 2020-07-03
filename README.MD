@@ -37,3 +37,5 @@ Launch Query1 or Query2 with parameter -> --hostname hostname --numDays numDays
 ```bash
 sh stop-env.sh
 ```
+## Parallelism
+To get orderd csv lines set parallelism to 1
